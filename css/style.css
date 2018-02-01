@@ -319,7 +319,7 @@ padding: 3px 0;
 .edu-grid-master{
 
 background:#52edc7;
-padding: 15px 0;
+padding: 15px 10px;
 }
 .edu-grid-master h3{
 font-family: 'Lato', sans-serif;
@@ -350,7 +350,7 @@ font-weight:300;
 }
 .edu-border{
 border:1px solid #e2e2e2;
-margin-top: 40px;
+margin-top: 50px;
 border-radius: 6px;
 border-bottom: 2px solid #c3c3c3;
 }
