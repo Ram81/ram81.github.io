@@ -152,9 +152,11 @@ border:2px solid #000;
 }
 .banner-left{
 float:left;
+width: 32%;
 }
 .banner-right{
 float:right;
+width: 68%;
 }
 .border {
   background: #52edc7;
@@ -1793,7 +1795,6 @@ border:none;
 	.my-skill-back {
 	  min-height: 82px;
 	}
-
 }
 @media(max-width:1366px){
 	.about-back {
@@ -1854,6 +1855,7 @@ border:none;
 	.footer-top {
 	  min-height: 147px;
 	}
+
 }
 @media(max-width:1024px){
 	.top-nav {
@@ -2917,11 +2919,11 @@ border:none;
 	}
 	.banner-left {
 	  float: left;
-	  width: 28%;
+	  width: 30%;
 	}
 	.banner-right {
 	  float: right;
-	  width: 68%;
+	  width: 70%;
 	}
 	.banner-right h1 {
 	  font-size: 20px;
