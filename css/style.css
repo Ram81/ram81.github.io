@@ -999,6 +999,7 @@ background: #1abc9c;
 }
 .blog-data-info {
 	margin: 15px 0px;
+	text-align: justify;
 }
 .blog-info h3{
   margin: 0;
