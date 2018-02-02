@@ -995,7 +995,10 @@ margin-top:50px;
 /*-- blog --*/
 .blog{
 padding:60px 0;
-
+background: #1abc9c;
+}
+.blog-data-info {
+	margin: 15px 0px;
 }
 .blog-info h3{
   margin: 0;
