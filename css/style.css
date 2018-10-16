@@ -86,6 +86,7 @@ p{
 #about{
 	font-size: 1.25em;
 	margin-bottom: 20px;
+    text-align: justify;
 }
 
 .fa-col-1{
