@@ -1,5 +1,2 @@
-# Portfolio site developed using HTML, CSS and Bootstrap.
+# Portfolio.
 With references from W3Layouts.
-
-# Note
-Revamping of whole site in progress.
