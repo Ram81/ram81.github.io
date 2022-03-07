@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://embodiedqa.org/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="keywords" content="habitat-web, objectnav, imitation learning">
+
+  <title>Habitat-Web</title>
+  <meta name="description" content="Moving towards AI agents that can navigate in virtual environments and answer natural language questions ---">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="./static/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./static/main.2f91a3.css" media="screen,projection">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="" style="">
+
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://ram81.github.io/projects/habitat-web.html">Habitat-Web</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="https://ram81.github.io/projects/habitat-web.html">Overview</a>
+          </li>
+          <li>
+            <a href="https://ram81.github.io/projects/habitat-web.html#people">People</a>
+          </li>
+          <li>
+            <a href="https://ram81.github.io/projects/habitat-web.html#data">Data</a>
+          </li>
+          <li>
+            <a href="https://github.com/Ram81/habitat-web">Code</a>
+          </li>
+          <!-- <li>
+            <a href="/#/bibtex">Bibtex</a>
+          </li>
+          <li>
+            <a href="/#/acknowledgements">Acknowledgements</a>
+          </li> -->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://research.fb.com/">
+              <img style="height:15px;" src="./static/habitat-web/imgs/fair.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://gatech.edu/">
+              <img style="height:20px;" src="./static/habitat-web/imgs/gt.jpg">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="page-content">
+        <p><br></p>
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
+      </div>
+
+      <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+        Ram Ramrakhya, Eric Undersander, Dhruv Batra and Abhishek Das<br>
+      </div>
+      <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+        CVPR 2022 [<a href="https://ram81.github.io/projects/habitat-web.html#bib">Bibtex</a>] [<a href="https://ram81.github.io/projects/habitat-web.html">PDF</a>]
+        [<a href="https://github.com/Ram81/habitat-web">Code</a>]
+      </div>
+    </div>
+
+    <div class="row">
+      <br>
+      <div class="col-xs-12">
+        <img src="./static/habitat-web/imgs/teaser_isometric.png">
+      </div>
+      <div class="col-xs-12">
+        <br>
+        <p>
+          We present a large-scale study of imitating human demonstrations on tasks that
+          require a virtual robot to search for objects in new environments -- (1) ObjectGoal Navigation
+          (e.g. find & go to a chair) and (2) PickPlace (e.g. find mug, pick mug,
+          find counter, place mug on counter). Towards this we collect a large scale dataset of
+          70k human demonstrations for ObjectNav and 12k human demonstrations for PickPlace tasks
+          using our web infrastructure [Habitat-Web](https://github.com/Ram81/habitat-web).
+          We use this data to answer the question - how does large-scale imitation learning (IL)
+          compare to large-scale reinforcement learning (RL)? On ObjectNav we find that
+          IL using only 70k human demonstrations outperforms RL using 240k agent gathered
+          trajecotries by 3.3% on success and 1.1% on SPL. On PickPlace, the comparison is even
+          starker - IL agent achieves ~18% success on episodes with new object-receptacle
+          locations while RL agent fails to get beyond 0% success. More importantly,
+          we find that IL-trained agents learn efficient object-search behavior from humans
+          - it peeks into rooms, checks corners for small objects, etc.
+        </p>
+      </div>
+
+      <div class="col-xs-12">
+        <span style="color:#e74c3c;font-weight:400;">Mar 2022</span> — <a target="_blank" href="https://github.com/Ram81/habitat-imitation-baselines">PyTorch code for training imitation learning baselines in Habitat</a> is now available!
+      </div>
+      <div class="col-xs-12">
+        <span style="color:#e74c3c;font-weight:400;">Mar 2022</span> — <a target="_blank" href="https://github.com/Ram81/habitat-web">Code for Habitat-Web infrastructure to collect human demonstrations</a> is now available!
+      </div>
+      <div class="col-xs-12">
+        <span style="color:#e74c3c;font-weight:400;">Mar 2022</span> — <a target="_blank" href="">ObjectNav-HD and PickPlace-HD dataset version 1</a> are now available!
+      </div>
+    </div>
+    <br/>
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Short Presentation</h2>
+            <br/>
+        </div>
+        <br/>
+        <div class="col-xs-12">
+          <center><iframe src="http://www.youtube.com/embed/ZA0WIkofUjY" width="800" height="450"></iframe></center>
+        </div>
+    </div>
+    <br/>
+    <hr>
+
+    <div class="row" id="data">
+      <div class="col-xs-12">
+        <h2>Data</h2>
+      </div>
+    </div>
+    <p><a name="/data"></a></p>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Paper and Bibtex</h2>
+      </div>
+    </div>
+    <p><a name="/bibtex"></a></p>
+    <div class="row">
+      <div class="col-xs-4">
+        <a href="./static/habitat-web/docs/habitat-web.pdf"></a>
+      </div>
+      <div class="col-xs-8">
+        <div class="paper">
+            <pre>
+<!--         -->@inproceedings{rramrakhya2022,
+<!--         -->  title={Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale},
+<!--         -->  author={Ram Ramrakhya and Eric Undersander and Dhruv Batra and Abhishek Das},
+<!--         -->  year={2022},
+<!--         -->  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+<!--         -->}
+            </pre>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" id="people">
+      <div class="col-xs-12">
+        <h2>People</h2>
+      </div>
+    </div>
+    <p><a name="/people"></a></p>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Acknowledgements</h2>
+      </div>
+    </div>
+    <p><a name="/acknowledgements"></a></p>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>
+          
+        </p>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+    <script type="text/javascript" src="./static/jquery.min.js"></script>
+    <script type="text/javascript" src="./static/bootstrap.min.js"></script>
+</body>
+</html>
