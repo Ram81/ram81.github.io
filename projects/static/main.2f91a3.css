@@ -195,3 +195,20 @@ pre {
   width: 100%;
   height: 100%;
 }
+
+affiliation {
+  font-size: 13px;
+}
+
+.people-name {
+  margin: 5px 0 10px;
+}
+
+.people-pic {
+  /* max-width: 100%;
+  height: 125px;*/
+  
+  width:  130px;
+  height: 150px;
+  object-fit: cover;
+}
