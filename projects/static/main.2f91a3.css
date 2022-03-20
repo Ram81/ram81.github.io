@@ -196,7 +196,7 @@ pre {
   height: 100%;
 }
 
-affiliation {
+.affiliation {
   font-size: 13px;
 }
 
@@ -211,4 +211,11 @@ affiliation {
   width:  130px;
   height: 150px;
   object-fit: cover;
+}
+
+.paper {
+  font-family: monospace;
+  font-size: 14px;
+  border: 0px;
+  background-color: #ffffff;
 }
