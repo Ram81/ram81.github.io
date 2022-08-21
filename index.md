@@ -6,7 +6,7 @@ permalink:  /
 
 <div class="row">
     <div class="col-sm-6 col-xs-12">
-        <img src="/img/cover2.jpg">
+        <img src="/img/cover.jpg">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         MS CS Student<br>
