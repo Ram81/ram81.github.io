@@ -68,7 +68,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
     <div class="col-xs-2">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.png"></a>
+            <a target="_blank" href="//glance.com"><img src="/img/logos/glance.png"></a>
         </div>
         <div class="logo-desc">
             Glance<br>
@@ -102,6 +102,7 @@ This summer of 2022, I interned at Mitsubishi Electric Research Laborateries, wo
 In my first year of MS at Georgia Tech I was awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 
 Prior to joining grad school, I also spent 3 years working as a Software Development Engineer, most recently working in the engineering team at [Glance](https://www.glance.com/).
+
 ---
 
 <a name="/publications"></a>
@@ -120,7 +121,7 @@ Prior to joining grad school, I also spent 3 years working as a Software Develop
         <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
     </span>
 </p>
-<img src="/img/habitat/habitat-web.gif">
+<img src="/img/habitat-web/habitat-web.gif">
 <hr>
 
 
@@ -148,14 +149,14 @@ Prior to joining grad school, I also spent 3 years working as a Software Develop
 <img src="/img/fabrik/fabrik_demo.gif">
 <hr>
 
-# Open-Source Projects
+# Projects
 
 <div class="row">
     <div class="col-sm-12">
         <h2 class="talkt" style="font-weight:300;"><a target="_blank" href="http://eval.ai">EvalAI</a></h2>
         <p class="talkd">
            <span>Leading open source platform for evaluating and benchmarking AI models. We have hosted <span class="fw-400">200+ AI challenges</span> with <span class="fw-400">18,000+  users</span>, who have created <span class="fw-400">180,000+ submissions</span>. More than <span class="fw-400">30 organizations</span> from industry and academia use it for hosting their AI challenges.  The project is open source with <span class="fw-400">130+ contributors, </span> and <span class="fw-400"> 2M+ yearly pageviews</span>. Some of the organizations using it are <span class="fw-400">Google Research, Facebook AI Research, DeepMind, Amazon, eBay Research, Mapillary Research, etc.</span> and research labs from <span class="fw-400">MIT, Stanford, Carnegie Mellon University, Georgia Tech, Virginia Tech, UMBC, University of Pittsburg, Draper, University of Adelaide, IIT-Madras, Nankai University, etc. </span> also use it to host large AI challenges like <a href="https://twitter.com/AmazonScience/status/1478543349871255553" target="_blank">AlexaPrize</a> on it. It's forked versions are used by large organizations such as <a href="https://health.aiaudit.org/" target="_blank">World Health Organization</a>, <a href="https://data-challenges.fz-juelich.de/about" target="_blank">Forschungszentrum Jülich</a> <span style="font-size: 0.85em">(one of the largest interdisciplinary research centres in Europe)</span>, etc. for hosting their challenges instead of reinventing the wheel.</span>
-            <a target="_blank" href="http://eval.ai"><img style="margin-top: 10px;" src="/img/eval/evalai.png"></a>
+            <a target="_blank" href="http://eval.ai"><img style="margin-top: 10px;" src="/img/evalai/evalai.png"></a>
         </p>
     </div>
     <div class="col-sm-12">
