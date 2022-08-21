@@ -59,7 +59,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
+            <a target="_blank" href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
         </div>
         <div class="logo-desc">
             Pune Institute of Computer Technology<br>
