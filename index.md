@@ -48,7 +48,7 @@ permalink:  /
 
 # Bio
 
-I am a second year MS student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/).
+I am a second year MS student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborate with [Erik Wijmans](https://wijmans.xyz/) and [Eric Undersander](https://www.linkedin.com/in/ericu/).
 
 Broadly, I am interested at the intersection of Computer Vision, Robotics and Reinforcement Learning. My long-term research goal is to develop robots that exhibit intelligent behavior to accomplish goals in diverse real-world environments. Towards this goal, my current research focuses on leveraging large-scale human demonstrations to learn complex navigation and interaction skills.
 
@@ -131,7 +131,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/ovrl"></a>
 <h2 class="pubt">Offline Visual Representation Learning for Embodied Navigation</h2>
 <p class="pubd">
-    <span class="authors">Karmesh Yadav, Ram Ramrakhya, Arjun Majumdar,Vincent-Pierre Berges, Sachit Kuhar, Dhruv Batra, Aleksei Baevski,Oleksandr Makysmet</span><br>
+    <span class="authors">Karmesh Yadav, Ram Ramrakhya, Arjun Majumdar, Vincent-Pierre Berges, Sachit Kuhar, Dhruv Batra, Aleksei Baevski, Oleksandr Makysmet</span><br>
     <span class="conf">Under Review</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/pdf/2204.13226.pdf">Paper</a>
