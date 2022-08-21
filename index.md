@@ -58,7 +58,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a href="//iitr.ac.in"><img src="static/img/pict_logo.png"></a>
+            <a href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
         </div>
         <div class="logo-desc">
             Pune Institute of Computer Technology<br>
@@ -88,7 +88,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a target="_blank" href="//research.fb.com/category/facebook-ai-research/"><img style="width:160px;" src="/img/logos/fair3.png"></a>
+            <a target="_blank" href="//merl.com"><img style="width:160px;" src="/img/logos/merl.png"></a>
         </div>
         <div class="logo-desc">
             Mitsubishi Electric Research Laborateries<br>
