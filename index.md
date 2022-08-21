@@ -98,7 +98,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
     </div>
 </div>
 
-This summer of 2022, I interned at Mitsubishi Electric Research Laborateries, working with Anoop Cherian on building embodied agents for navigation and interaction in simulated environments that leverage 3D scene graphs for effective scene understanding.
+This summer of 2022, I interned at Mitsubishi Electric Research Laborateries, working with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en) on building embodied agents for navigation and interaction in simulated environments that leverage 3D scene graphs for effective scene understanding.
 
 In my first year of MS at Georgia Tech I was awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 
