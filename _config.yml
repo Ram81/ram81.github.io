@@ -1,0 +1,9 @@
+encoding: utf-8
+name: Ram Ramrakhya
+url: http://ram81.github.io
+author:
+  name: Ram Ramrakhya
+  email: ram.ramrakhya@gatech.edu
+description: MS CS Student at Georgia Tech.
+permalink: /posts/:title/
+include: ['_pages']

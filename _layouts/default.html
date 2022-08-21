@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="author" content="{{ site.author.name }}">
+        <meta name="keywords" content="yoda, ram81, ram ramrakhya, jekyll, hacker, developer, iit roorkee, deep learning, computer vision, neural networks, georgia tech, machine learning">
+        {% if page.excerpt %}
+        <meta name="description" content="{{ page.excerpt }}">
+        {% else %}
+        <meta name="description" content="{{ site.description }}">
+        {% endif %}
+        <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.url }}/atom.xml" />
+        <!--Open Graph Related Stuff-->
+        <meta property="fb:app_id" content="1666933880208467"/>
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+        {% if page.excerpt %}
+        <meta name='og:description' content='{{ page.excerpt }}'/>
+        {% else %}
+        <meta name='og:description' content='{{ site.description }}'/>
+        {% endif %}
+        {% if page.date %}
+        <meta property="og:type" content="article"/>
+        <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}'/>
+        <meta property="article:publisher" content="https://www.facebook.com/ram81"/>
+        <meta property="article:author" content="ram81"/>
+        {% endif %}
+        <meta property="og:site_name" content="{{ site.name }}"/>
+        {% if page.logo %}
+        <meta property="og:image" content="{{ site.url }}{{ page.logo }}"/>
+        <meta property="og:image:url" content="{{ site.url }}{{ page.logo }}"/>
+        {% else %}
+        <meta property="og:image" content="http://ram81.github.io/img/cover.jpg"/>
+        <meta property="og:image:url" content="http://ram81.github.io/img/cover.jpg"/>
+        {% endif %}
+
+        <!--Twitter Card Stuff-->
+        <meta name='twitter:card' content='summary_large_image'/>
+        {% if page.title %}
+        <meta name='twitter:title' content='{{ page.title }}'/>
+        {% else %}
+        <meta name='twitter:title' content='{{ site.name }}'/>
+        {% endif %}
+        {% if page.logo %}
+        <meta name='twitter:image' content='{{ site.url }}{{ page.logo }}'/>
+        {% else %}
+        <meta name='twitter:image' content='http://ram81.github.io/img/cover.jpg'/>
+        {% endif %}
+        <meta name='twitter:creator' content='@ram81'/>
+        <meta name='twitter:site' content='@ram81'/>
+        <meta name='twitter:url' content='{{ site.url }}{{ page.url }}'/>
+        {% if page.excerpt %}
+        <meta name='twitter:description' content='{{ page.excerpt }}'/>
+        {% else %}
+        <meta name='twitter:description' content='{{ site.description }}'/>
+        {% endif %}
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main_1603233531.css">
+        <!--[if IE 7]>
+            <html class="ie7">
+            <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <!--[if IE 8]><html class="ie8"> <![endif]-->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+        <link rel="shortcut icon" href="/ico/favicon-96x96.png">
+        <link rel="manifest" href="/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--Authorship-->
+        <link rel="me" href="//plus.google.com/u/0/100610196494221761914/">
+        <link rel="me" href="//facebook.com/ram81">
+
+        <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        <!-- Header
+            ================================================== -->
+        <div class="top-strip"></div>
+        <div class="container">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 id="name-block"><a href="/">Ram Ramrakhya</b></a></h1>
+                    </div>
+                    <div class="col-xs-12">
+                        <ul class="nav-bar">
+                            <li><a href="/#/bio">Bio</a></li>
+                            <li><a target="_blank" href="docs/Resume.pdf">CV</a></li>
+                            <li><a href="/#/publications">Publications</a></li>
+                            <li><a target="_blank" href="//github.com/ram81">GitHub</a></li>
+                            <li><a target="_blank" href="https://scholar.google.co.in/citations?user=5CWDP9QAAAAJ&hl=en">Google Scholar</a></li>
+                            <li><a target="_blank" href="//twitter.com/RamRamrakhya">Twitter</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/ram-ramrakhya-617410118/">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page-content">
+                {{ content }}
+            </div>
+        </div>
+
+
+        <!-- Footer
+            ================================================== -->
+
+        <!-- Javascripts
+            ================================================= -->
+
+        <!-- Analytics
+        ================================================== -->
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-42127951-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </body>
+</html>
