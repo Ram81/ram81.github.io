@@ -65,7 +65,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
             2015 - 2018
         </div>
     </div>
-    <div class="col-xs-2">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a target="_blank" href="//glance.com"><img src="/img/logos/glance.png"></a>
@@ -75,7 +75,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
             2018 - 2021
         </div>
     </div>
-    <div class="col-xs-2">
+    <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
             <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.png"></a>
