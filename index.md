@@ -21,6 +21,7 @@ permalink:  /
 # News
 
 
+- [May 2022] Interning at [Mitsubishi Electric Research Laboratories](https://merl.com)
 - [Apr 2022] Our paper [Offline Visual Representation Learning for Embodied Navigation](https://arxiv.org/pdf/2204.13226.pdf) is out on arXiv!
 - [Apr 2022] Awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients)</a>.
 - [Mar 2022] Our paper [Habitat-Web](https://arxiv.org/abs/2204.03514) accepted at CVPR, 2022!
@@ -31,10 +32,10 @@ permalink:  /
 - [Apr 2020] Served as a [Google Summer of Code 2020 Mentor](https://summerofcode.withgoogle.com/archive/2020/projects/5966605818789888/) with CloudCV.
 - [Nov 2019] Served as a [Google Code In 2019 Organization Administrator](https://summerofcode.withgoogle.com/archive/2019/organizations/4813273243844608/#projects) with CloudCV.
 - [Oct 2019] [Fabrik](https://arxiv.org/abs/1810.11649) accepted at [AI systems workshop  at SOSP conference](http://learningsys.org/sosp19/index.html).
-- [Aug 2019] Joined as a Software Development Engineer 2 at Glance.
+- [Aug 2019] Started as a Software Development Engineer 2 at Glance.
 - [Apr 2019] Served as a [Google Summer of Code mentor](https://summerofcode.withgoogle.com/archive/2019/projects/5630848051707904/) with CloudCV.
 - [Nov 2018] Served as a [Google Code In 2018 Mentor](http://gci.cloudcv.org/2018/) with CloudCV.
-- [Jul 2018] Joined as a Software Development Engineer at Inmobi.
+- [Jul 2018] Started as a Software Development Engineer at Inmobi.
 - [May 2018] Selected as a [Google Summer of Code student](https://summerofcode.withgoogle.com/archive/2018/projects/5247657211592704/) with CloudCV.
 
 <div id="read-more-button">
@@ -142,7 +143,7 @@ Prior to joining grad school, I also spent 3 years working as a Software Develop
 <p class="pubd">
     <span class="authors">Utsav Garg, Viraj Prabhu, Deshraj Yadav, Ram Ramrakhya, Harsh Agarwal, Dhruv Batra</span><br>
     <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2106.09575">Paper</a>
+        <a target="_blank" href="https://arxiv.org/abs/1810.11649">Paper</a>
         <a target="_blank" href="https://github.com/Cloud-CV/Fabrik">Code</a>
     </span>
 </p>
