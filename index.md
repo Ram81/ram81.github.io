@@ -23,7 +23,7 @@ permalink:  /
 
 - [May 2022] Interning at [Mitsubishi Electric Research Laboratories](https://merl.com)
 - [Apr 2022] Our paper [Offline Visual Representation Learning for Embodied Navigation](https://arxiv.org/pdf/2204.13226.pdf) is out on arXiv!
-- [Apr 2022] Awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients)</a>.
+- [Apr 2022] Awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 - [Mar 2022] Our paper [Habitat-Web](https://arxiv.org/abs/2204.03514) accepted at CVPR, 2022!
 - [Aug 2021] Joined Georgia Tech for Masters in Computer Science.
 - [Jun 2021] Runners-up of the [Habitat](https://aihabitat.org/challenge/2021/) challenge organized at [CVPR 2021](https://embodied-ai.org/)! Presentation available [here]().
@@ -100,11 +100,9 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
 
 This summer of 2022, I interned at Mitsubishi Electric Research Laborateries, working with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en) on building embodied agents for navigation and interaction in simulated environments that leverage 3D scene graphs for effective scene understanding.
 
-In my first year of MS at Georgia Tech I was awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
+Prior to joining grad school, I spent 3 years working as a Software Development Engineer, most recently working in the engineering team at [Glance](https://www.glance.com/).
 
-Prior to joining grad school, I also spent 3 years working as a Software Development Engineer, most recently working in the engineering team at [Glance](https://www.glance.com/).
-
-If you have any questions / want to collaborate / discuss research, feel free to send me an email at <a href="mailto:ram.ramrakhya@gatech.edu">ram.ramrakhya@gatech.edu</a>.</p>
+If you have any questions / want to collaborate / discuss research, feel free to send me an email at <a href="mailto:ram.ramrakhya@gatech.edu">ram.ramrakhya@gatech.edu</a>.
 
 ---
 
