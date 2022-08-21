@@ -79,7 +79,7 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.png"></a>
+            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.jpeg"></a>
         </div>
         <div class="logo-desc">
             Georgia Tech<br>
