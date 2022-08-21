@@ -11,7 +11,7 @@ permalink:  /
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
         MS CS Student<br>
         Georgia Institute of Technology<br>
-        ram.ramrakhya at gatech dot edu
+        <a target="_blank" href="mailto:ram.ramrakhya@gatech.edu">ram.ramrakhya at gatech dot edu</a>
     </div>
 </div>
 <hr>
@@ -103,6 +103,8 @@ This summer of 2022, I interned at Mitsubishi Electric Research Laborateries, wo
 In my first year of MS at Georgia Tech I was awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 
 Prior to joining grad school, I also spent 3 years working as a Software Development Engineer, most recently working in the engineering team at [Glance](https://www.glance.com/).
+
+If you have any questions / want to collaborate / discuss research, feel free to send me an email at <a href="mailto:ram.ramrakhya@gatech.edu">ram.ramrakhya@gatech.edu</a>.</p>
 
 ---
 
