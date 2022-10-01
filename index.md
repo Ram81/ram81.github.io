@@ -52,30 +52,10 @@ I am a second year MS student in the department of Computer Science at [Georgia 
 
 Broadly, I am interested at the intersection of Computer Vision, Robotics and Reinforcement Learning. My long-term research goal is to develop robots that exhibit intelligent behavior to accomplish goals in diverse real-world environments. Towards this goal, my current research focuses on leveraging large-scale human demonstrations to learn complex navigation and interaction skills.
 
-Previously, I spent a year working as a Research Intern in [Machine Learning and Perception Lab](http://mlp.cc.gatech.edu/">) at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Devi Parikh](https://www.cc.gatech.edu/~parikh/). I also lead an open source organization, [CloudCV](https://cloudcv.org/), where we are building several open-source softwares for reproducible AI research.
+Previously, I spent a year working as a Research Intern in [Computer Vision and Machine Learning Perception Lab](http://mlp.cc.gatech.edu/) at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Devi Parikh](https://www.cc.gatech.edu/~parikh/). I also lead an open source organization, [CloudCV](https://cloudcv.org/), where we are building several open-source softwares for reproducible AI research.
 
 
 <div class="row" id="timeline-logos">
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
-        </div>
-        <div class="logo-desc">
-            Pune Institute of Computer Technology<br>
-            2015 - 2018
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//glance.com"><img src="/img/logos/glance.png"></a>
-        </div>
-        <div class="logo-desc">
-            Glance<br>
-            2018 - 2021
-        </div>
-    </div>
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
@@ -94,6 +74,26 @@ Previously, I spent a year working as a Research Intern in [Machine Learning and
         <div class="logo-desc">
             Mitsubishi Electric Research Laborateries<br>
             Summer 2022
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="//glance.com"><img src="/img/logos/glance.png"></a>
+        </div>
+        <div class="logo-desc">
+            Glance<br>
+            2018 - 2021
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
+        </div>
+        <div class="logo-desc">
+            Pune Institute of Computer Technology<br>
+            2015 - 2018
         </div>
     </div>
 </div>
