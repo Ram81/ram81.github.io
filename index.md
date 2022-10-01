@@ -142,6 +142,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Fabrik: An Online Collaborative Neural Network Editor</h2>
 <p class="pubd">
     <span class="authors">Utsav Garg, Viraj Prabhu, Deshraj Yadav, Ram Ramrakhya, Harsh Agarwal, Dhruv Batra</span><br>
+    <span class="conf">Workshop on AI Systems, SOSP'2019</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1810.11649">Paper</a>
         <a target="_blank" href="https://github.com/Cloud-CV/Fabrik">Code</a>
