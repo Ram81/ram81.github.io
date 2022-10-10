@@ -120,7 +120,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
         <a target="_blank" href="https://aihabitat.org/datasets/hm3d-semantics/">Website</a>
     </span>
 </p>
-<img src="/img/habitat-web/habitat-web.gif">
+<img src="/img/hm3d-semantics/hm3d_semantics_turntable.gif">
 <hr>
 
 
@@ -136,7 +136,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
         <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
     </span>
 </p>
-<img src="/img/hm3d-semantics/hm3d_semantics_turntable.gif">
+<img src="/img/habitat-web/habitat-web.gif">
 <hr>
 
 
