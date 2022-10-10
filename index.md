@@ -110,6 +110,20 @@ If you have any questions / want to collaborate / discuss research, feel free to
 
 # Publications
 
+<a name="/hm3d-semantics"></a>
+<h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
+<p class="pubd">
+    <span class="authors">Karmesh Yadav*, Ram Ramrakhya*, Santhosh Kumar Ramakrishnan*, Alexander William Clegg, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Manolis Savva, Dhruv Batra, Devendra Singh Chaplot</span><br>
+    <span class="conf">Coming Soon</span>
+    <span class="links">
+        <a target="_blank" href="">Paper</a>
+        <a target="_blank" href="https://aihabitat.org/datasets/hm3d-semantics/">Website</a>
+    </span>
+</p>
+<img src="/img/habitat-web/habitat-web.gif">
+<hr>
+
+
 <a name="/habitat-web"></a>
 <h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
 <p class="pubd">
@@ -122,7 +136,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
         <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
     </span>
 </p>
-<img src="/img/habitat-web/habitat-web.gif">
+<img src="/img/hm3d-semantics/hm3d_semantics_turntable.gif">
 <hr>
 
 
