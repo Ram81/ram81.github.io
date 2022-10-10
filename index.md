@@ -113,7 +113,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/hm3d-semantics"></a>
 <h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
 <p class="pubd">
-    <span class="authors">Karmesh Yadav*, <b>Ram Ramrakhya*</b>, Santhosh Kumar Ramakrishnan*, Alexander William Clegg, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Manolis Savva, Dhruv Batra, Devendra Singh Chaplot</span><br>
+    <span class="authors">Karmesh Yadav*, <span class="fw-550">Ram Ramrakhya</span>, Santhosh Kumar Ramakrishnan*, Alexander William Clegg, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Manolis Savva, Dhruv Batra, Devendra Singh Chaplot</span><br>
     <span class="conf">Coming Soon</span>
     <span class="links">
         <a target="_blank" href="">Paper</a>
@@ -127,7 +127,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/habitat-web"></a>
 <h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
 <p class="pubd">
-    <span class="authors"><b>Ram Ramrakhya</b>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
     <span class="conf">CVPR 2022</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
@@ -143,7 +143,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/ovrl"></a>
 <h2 class="pubt">Offline Visual Representation Learning for Embodied Navigation</h2>
 <p class="pubd">
-    <span class="authors">Karmesh Yadav, <b>Ram Ramrakhya</b>, Arjun Majumdar, Vincent-Pierre Berges, Sachit Kuhar, Dhruv Batra, Aleksei Baevski, Oleksandr Makysmet</span><br>
+    <span class="authors">Karmesh Yadav, <span class="fw-550">Ram Ramrakhya</span>, Arjun Majumdar, Vincent-Pierre Berges, Sachit Kuhar, Dhruv Batra, Aleksei Baevski, Oleksandr Makysmet</span><br>
     <span class="conf">Under Review</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/pdf/2204.13226.pdf">Paper</a>
@@ -155,7 +155,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/fabrik"></a>
 <h2 class="pubt">Fabrik: An Online Collaborative Neural Network Editor</h2>
 <p class="pubd">
-    <span class="authors">Utsav Garg, Viraj Prabhu, Deshraj Yadav, <b>Ram Ramrakhya</b>, Harsh Agarwal, Dhruv Batra</span><br>
+    <span class="authors">Utsav Garg, Viraj Prabhu, Deshraj Yadav, <span class="fw-550">Ram Ramrakhya</span>, Harsh Agarwal, Dhruv Batra</span><br>
     <span class="conf">Workshop on AI Systems, SOSP'2019</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/1810.11649">Paper</a>
