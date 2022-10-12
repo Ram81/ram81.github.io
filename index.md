@@ -114,9 +114,9 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
 <p class="pubd">
     <span class="authors">Karmesh Yadav*, <span class="fw-550">Ram Ramrakhya*</span>, Santhosh Kumar Ramakrishnan*, Alexander William Clegg, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Manolis Savva, Dhruv Batra, Devendra Singh Chaplot</span><br>
-    <span class="conf">Coming Soon</span>
+    <span class="conf">arXiv preprint</span>
     <span class="links">
-        <a target="_blank" href="">Paper</a>
+        <a target="_blank" href="https://arxiv.org/abs/2210.05633">Paper</a>
         <a target="_blank" href="https://aihabitat.org/datasets/hm3d-semantics/">Website</a>
     </span>
 </p>
