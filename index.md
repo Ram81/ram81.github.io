@@ -21,8 +21,9 @@ permalink:  /
 # News
 
 
+- [May 2022] Preprint of our paper [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) is out on arXiv!
 - [May 2022] Interning at [Mitsubishi Electric Research Laboratories](https://merl.com)
-- [Apr 2022] Our paper [Offline Visual Representation Learning for Embodied Navigation](https://arxiv.org/pdf/2204.13226.pdf) is out on arXiv!
+- [Apr 2022] Preprint of our paper [Offline Visual Representation Learning for Embodied Navigation](https://arxiv.org/pdf/2204.13226.pdf) is out on arXiv!
 - [Apr 2022] Awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 - [Mar 2022] Our paper [Habitat-Web](https://arxiv.org/abs/2204.03514) accepted at CVPR, 2022!
 - [Aug 2021] Joined Georgia Tech for Masters in Computer Science.
@@ -113,7 +114,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/hm3d-semantics"></a>
 <h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
 <p class="pubd">
-    <span class="authors">Karmesh Yadav*, <span class="fw-550">Ram Ramrakhya*</span>, Santhosh Kumar Ramakrishnan*, Alexander William Clegg, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Manolis Savva, Dhruv Batra, Devendra Singh Chaplot</span><br>
+    <span class="authors">Karmesh Yadav*, <span class="fw-550">Ram Ramrakhya*</span>, Santhosh Kumar Ramakrishnan*, Theo Gervet, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Dhruv Batra, Manolis Savva, Alexander William Clegg+, Devendra Singh Chaplot+</span><br>
     <span class="conf">arXiv preprint</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2210.05633">Paper</a>
