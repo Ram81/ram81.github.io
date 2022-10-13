@@ -21,13 +21,14 @@ permalink:  /
 # News
 
 
-- [May 2022] Preprint of our paper [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) is out on arXiv!
+- [Oct 2022] Preprint of our paper [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) is out on arXiv!
+- [Oct 2022] Runners-up of the [Habitat Challenge 2022](https://aihabitat.org/challenge/2022/) organized at [CVPR 2022](https://embodied-ai.org/)!
 - [May 2022] Interning at [Mitsubishi Electric Research Laboratories](https://merl.com)
 - [Apr 2022] Preprint of our paper [Offline Visual Representation Learning for Embodied Navigation](https://arxiv.org/pdf/2204.13226.pdf) is out on arXiv!
 - [Apr 2022] Awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 - [Mar 2022] Our paper [Habitat-Web](https://arxiv.org/abs/2204.03514) accepted at CVPR, 2022!
 - [Aug 2021] Joined Georgia Tech for Masters in Computer Science.
-- [Jun 2021] Runners-up of the [Habitat](https://aihabitat.org/challenge/2021/) challenge organized at [CVPR 2021](https://embodied-ai.org/)! Presentation available [here]().
+- [Jun 2021] Runners-up of the [Habitat Challenge 2021](https://aihabitat.org/challenge/2021/) organized at [CVPR 2021](https://embodied-ai.org/)! Presentation available [here](https://www.youtube.com/watch?v=40cbSZefjjY&feature=emb_imp_woyt).
 - [Oct 2020] Represented [CloudCV](https://cloudcv.org/) at Google Summer of Code Mentor Summit 2020.
 - [Jun 2020] Joined as a Research Intern at [Machine Learning and Perception Lab](https://mlp.cc.gatech.edu/) at Georgia Tech to work with [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) & [Prof. Devi Parikh](https://www.cc.gatech.edu/~parikh/).
 - [Apr 2020] Served as a [Google Summer of Code 2020 Mentor](https://summerofcode.withgoogle.com/archive/2020/projects/5966605818789888/) with CloudCV.
