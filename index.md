@@ -112,6 +112,19 @@ If you have any questions / want to collaborate / discuss research, feel free to
 
 # Publications
 
+
+<a name="/pirlnav"></a>
+<h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
+    <span class="conf">Under Review</span>
+    <span class="links">
+        <a target="_blank" href="">Paper (Coming Soon)</a>
+    </span>
+</p>
+<img src="/img/hm3d-semantics/hm3d_semantics_turntable.gif">
+<hr>
+
 <a name="/hm3d-semantics"></a>
 <h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
 <p class="pubd">
