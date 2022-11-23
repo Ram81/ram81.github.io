@@ -129,13 +129,13 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
 <p class="pubd">
     <span class="authors">Karmesh Yadav*, <span class="fw-550">Ram Ramrakhya*</span>, Santhosh Kumar Ramakrishnan*, Theo Gervet, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Dhruv Batra, Manolis Savva, Alexander William Clegg^, Devendra Singh Chaplot^</span><br>
-    <span class="conf">arXiv preprint</span>
+    <span class="conf">Under Review</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2210.05633">Paper</a>
         <a target="_blank" href="https://aihabitat.org/datasets/hm3d-semantics/">Website</a>
     </span>
 </p>
-<img src="/img/hm3d-semantics/hm3d_semantics_turntable.gif">
+<img src="/img/prilnav/prilnav.png">
 <hr>
 
 
@@ -159,7 +159,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Offline Visual Representation Learning for Embodied Navigation</h2>
 <p class="pubd">
     <span class="authors">Karmesh Yadav, <span class="fw-550">Ram Ramrakhya</span>, Arjun Majumdar, Vincent-Pierre Berges, Sachit Kuhar, Dhruv Batra, Aleksei Baevski, Oleksandr Makysmet</span><br>
-    <span class="conf">Under Review</span>
+    <span class="conf">arXiv preprint</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/pdf/2204.13226.pdf">Paper</a>
     </span>
