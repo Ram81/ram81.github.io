@@ -147,7 +147,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
         <a target="_blank" href="">Paper (Coming Soon)</a>
     </span>
 </p>
-<img src="/img/ovrl-v2/teaser.png">
+<img src="/img/ovrl-v2/teaser.jpg">
 <hr>
 
 <a name="/habitat-web"></a>
