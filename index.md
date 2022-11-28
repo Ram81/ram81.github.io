@@ -138,6 +138,17 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <img src="/img/hm3d-semantics/hm3d_semantics_turntable.gif">
 <hr>
 
+<a name="/ovrl_v2"></a>
+<h2 class="pubt">OVRL-v2: Semantic Navigation without Semantic Mapping or Detection</h2>
+<p class="pubd">
+    <span class="authors">Karmesh Yadav, Arjun Majumdar, <span class="fw-550">Ram Ramrakhya</span>, Aleksei Baevski, Zsolt Kira, Oleksandr Makysmets, Dhruv Batra</span><br>
+    <span class="conf">Under Review</span>
+    <span class="links">
+        <a target="_blank" href="">Paper (Coming Soon)</a>
+    </span>
+</p>
+<img src="/img/ovrl-v2/teaser.png">
+<hr>
 
 <a name="/habitat-web"></a>
 <h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
