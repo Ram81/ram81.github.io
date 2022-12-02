@@ -119,7 +119,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
     <span class="conf">Under Review</span>
     <span class="links">
-        <a target="_blank" href="">Paper (Coming Soon)</a>
+        <a target="_blank" href="docs/papers/pirlnav.pdf">Paper</a>
     </span>
 </p>
 <img src="/img/pirlnav/pirlnav.png">
@@ -144,7 +144,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
     <span class="authors">Karmesh Yadav*, Arjun Majumdar*, <span class="fw-550">Ram Ramrakhya</span>, Aleksei Baevski, Zsolt Kira, Oleksandr Makysmets, Dhruv Batra</span><br>
     <span class="conf">Under Review</span>
     <span class="links">
-        <a target="_blank" href="">Paper (Coming Soon)</a>
+        <a target="_blank" href="docs/papers/ovrl_v2.pdf">Paper</a>
     </span>
 </p>
 <img src="/img/ovrl-v2/teaser.jpg">
