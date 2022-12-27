@@ -112,6 +112,20 @@ If you have any questions / want to collaborate / discuss research, feel free to
 
 # Publications
 
+<a name="/habitat-web"></a>
+<h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
+    <span class="conf">CVPR 2022</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/habitat-web">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/habitat-web.html">Website</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
+    </span>
+</p>
+<img src="/img/habitat-web/habitat-web.gif">
+<hr>
 
 <a name="/pirlnav"></a>
 <h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
@@ -149,22 +163,6 @@ If you have any questions / want to collaborate / discuss research, feel free to
 </p>
 <img src="/img/ovrl-v2/teaser.jpg">
 <hr>
-
-<a name="/habitat-web"></a>
-<h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
-<p class="pubd">
-    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
-    <span class="conf">CVPR 2022</span>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
-        <a target="_blank" href="https://github.com/Ram81/habitat-web">Code</a>
-        <a target="_blank" href="https://ram81.github.io/projects/habitat-web.html">Website</a>
-        <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
-    </span>
-</p>
-<img src="/img/habitat-web/habitat-web.gif">
-<hr>
-
 
 <a name="/ovrl"></a>
 <h2 class="pubt">Offline Visual Representation Learning for Embodied Navigation</h2>
