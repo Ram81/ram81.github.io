@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://embodiedqa.org/ -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="keywords" content="pirlnav, objectnav, imitation learning, rl finetuning">
+
+  <title>PIRLNav</title>
+  <meta name="description"
+    content="Moving towards AI agents that can navigate in virtual environments and answer natural language questions ---">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="./static/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./static/main.2f91a3.css" media="screen,projection">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="" style="">
+
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://ram81.github.io/projects/pirlnav.html">PIRLNav</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#overview">Overview</a>
+          </li>
+          <li>
+            <a href="#people">People</a>
+          </li>
+          <li>
+            <a href="#bibtex">Bibtex</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/Ram81/pirlnav">Code</a>
+          </li>
+          <!--<li>
+            <a href="/#/acknowledgements">Acknowledgements</a>
+          </li> -->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://gatech.edu/">
+              <img style="height:30px;" src="./static/habitat-web/imgs/gt.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="https://research.fb.com/">
+              <img style="height:30px;" src="./static/habitat-web/imgs/meta.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="overview">
+    <div class="page-content">
+      <p><br></p>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
+        </div>
+
+        <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+          <a target="_blank" href="http://ram81.github.io/">Ram Ramrakhya</a>, <a target="_blank"
+            href="https://www.cc.gatech.edu/~dbatra/">Dhruv Batra</a>, <a target="_blank"
+            href="https://wijmans.xyz/">Erik Wijmans</a>, and <a target="_blank"
+            href="https://abhishekdas.com/">Abhishek Das</a><br>
+        </div>
+        <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+          <!--Published at <a target="_blank" href="https://cvpr2022.thecvf.com/">CVPR 2022</a>-->
+          [<a href="#bibtex">Bibtex</a>] [<a href="" target="_blank">PDF</a>]
+          [<a target="_blank" href="https://github.com/Ram81/pirlnav">Code</a>]
+        </div>
+      </div>
+
+      <div class="row">
+        <br>
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-sm-8">
+              <img src="./static/pirlnav/imgs/teaser.png">
+            </div>
+          </div>
+          <br>
+          <div style="padding-top: 20px;">
+            <p style="text-align: center;">Scaling laws of IL→RL for ObjectNav</p>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <br>
+          <p>
+            We study ObjectGoal Navigation - where a virtual robot situated in a new environment is asked to navigate to
+            an object. Prior work has shown that imitation learning (IL) on a dataset of human demonstrations achieves
+            promising results. However, this has limitations – 1) IL policies generalize poorly to new states, since the
+            training mimics actions not their consequences, and 2) collecting demonstrations is expensive. On the other
+            hand, reinforcement learning (RL) is trivially scalable, but requires careful reward engineering to achieve
+            desirable behavior. We present a two-stage learning scheme for IL pretraining on human demonstrations
+            followed by RL-finetuning. This leads to a PIRLNav policy that advances the state-of-the-art on ObjectNav
+            from 60.0% success rate to 65.0% (+5.0% absolute). Using this IL→RL training recipe, we present a rigorous
+            empirical analysis of design choices. First, we investigate whether human demonstrations can be replaced
+            with ‘free’ (automatically generated) sources of demonstrations, e.g. shortest paths (SP) or task-agnostic
+            frontier exploration (FE) trajectories. We find that IL→RL on human demonstrations outperforms IL→RL on SP
+            and FE trajectories, even when controlled for the same IL-pretraining success on TRAIN, and even on a subset
+            of VAL episodes where IL-pretraining success favors the SP or FE policies. Next, we study how RL-finetuning
+            performance scales with the size of the IL pretraining dataset. We find that as we increase the size of the
+            IL-pretraining dataset and get to high IL accuracies, the improvements from RL-finetuning are smaller, and
+            that 90% of the performance of our best IL→RL policy can be achieved with less than half the number of IL
+            demonstrations. Finally, we analyze failure modes of our ObjectNav policies, and present guidelines for
+            further improving them.
+          </p>
+          <p>Read more in the <a href="" target="_blank">paper</a>.</p>
+        </div>
+
+      </div>
+      <br />
+
+      <!-- <div class="row">
+        <div class="col-xs-12">
+          <h2>Short Presentation</h2>
+          <hr>
+          <br />
+        </div>
+        <br />
+        <div class="col-xs-12">
+          <center><iframe src="https://www.youtube.com/embed/oeteCENMZDA" width="800" height="450"></iframe></center>
+        </div>
+      </div>
+      <br />
+      <br /> -->
+
+      <div class="row" id="bibtex">
+        <div class="col-xs-12">
+          <h2>Paper</h2>
+          <hr>
+          <br />
+        </div>
+        <div class="col-xs-2">
+          <center><img style="height: 120px;width: 100px;" src="./static/habitat-web/imgs/habitat-web-thumbnail.png">
+          </center>
+
+          <div style="padding-top: 20px;">
+            <p style="text-align: center;"><a target="_blank" href="">[Paper]</a></p>
+          </div>
+        </div>
+        <div class="col-xs-10">
+          <div class="paper">
+            <pre class="paper">
+<!--         -->@article{rramrakhya2023,
+<!--         -->  title={PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav},
+<!--         -->  author={Ram Ramrakhya and Dhruv Batra and Erik Wijmans and Abhishek Das},
+<!--         -->  year={2022},
+<!--         -->}
+            </pre>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Code and Data</h2>
+          <hr />
+        </div>
+        <div class="col-xs-12">
+          1. <span style="color:#e74c3c;font-weight:400;">Demonstrations dataset</span> — <a target="_blank"
+            href="https://github.com/Ram81/pirlnav#data">ObjectNav-HD, ObjectNav-SP, and ObjectNav-FE dataset</a>
+        </div>
+        <div class="col-xs-12">
+          2. <span style="color:#e74c3c;font-weight:400;">PIRLNav</span> — <a target="_blank"
+            href="https://github.com/Ram81/pirlnav">Code for training policies using IL and RL in habitat</a>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row" id="people">
+        <div class="col-xs-12">
+          <h2>People</h2>
+          <hr>
+          <br />
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6"></div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://ram81.github.io/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/rramrakhya.jpeg">
+          </a>
+          <div class="people-name">
+            <a href="https://ram81.github.io/">Ram Ramrakhya</a><br>
+            <affiliation>Georgia Tech</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://faculty.cc.gatech.edu/~dbatra/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/dhruv.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://faculty.cc.gatech.edu/~dbatra/">Dhruv Batra</a><br>
+            <affiliation>Meta AI, Georgia Tech</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://wijmans.xyz/">
+            <img class="people-pic" src="">
+          </a>
+          <div class="people-name">
+            <a href="https://wijmans.xyz/">Erik Wijmans</a><br>
+            <affiliation>Georgia Tech</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://abhishekdas.com/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/abhishekdas.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://abhishekdas.com/">Abhishek Das</a><br>
+            <affiliation>Meta AI</affiliation>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Acknowledgements</h2>
+          <hr>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="col-xs-12">
+          <p>
+            We thank Devi Parikh for help with idea conceptualization.
+            The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. The views and conclusions
+            contained herein are those of the authors and should not be interpreted as necessarily representing the
+            official policies or endorsements, either expressed or implied, of the U.S. Government, or any sponsor.
+          </p>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+  <br />
+
+  <script type="text/javascript" src="./static/jquery.min.js"></script>
+  <script type="text/javascript" src="./static/bootstrap.min.js"></script>
+</body>
+
+</html>
