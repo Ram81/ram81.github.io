@@ -133,7 +133,9 @@ If you have any questions / want to collaborate / discuss research, feel free to
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
     <span class="conf">Under Review</span>
     <span class="links">
-        <a target="_blank" href="docs/papers/pirlnav.pdf">Paper</a>
+        <a target="_blank" href="https://arxiv.org/abs/2301.07302">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/pirlnav">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/pirlnav.html">Website</a>
     </span>
 </p>
 <img src="/img/pirlnav/pirlnav.png">
