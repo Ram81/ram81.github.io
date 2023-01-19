@@ -21,6 +21,7 @@ permalink:  /
 # News
 
 
+- [Jan 2023] Preprint of our paper [PIRLNav](https://arxiv.org/abs/2301.07302) is out on arXiv!
 - [Oct 2022] Preprint of our paper [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) is out on arXiv!
 - [Oct 2022] Runners-up of the [Habitat Challenge 2022](https://aihabitat.org/challenge/2022/) organized at [CVPR 2022](https://embodied-ai.org/)!
 - [May 2022] Interning at [Mitsubishi Electric Research Laboratories](https://merl.com)
