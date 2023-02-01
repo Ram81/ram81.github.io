@@ -23,7 +23,7 @@ permalink:  /
 
 - [Jan 2023] Preprint of our paper [PIRLNav](https://arxiv.org/abs/2301.07302) is out on arXiv!
 - [Oct 2022] Preprint of our paper [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) is out on arXiv!
-- [Oct 2022] Runners-up of the [Habitat Challenge 2022](https://aihabitat.org/challenge/2022/) organized at [CVPR 2022](https://embodied-ai.org/)!
+- [Oct 2022] Runners-up of the [Habitat Challenge 2022](https://aihabitat.org/challenge/2022/) organized at [CVPR 2022](https://embodied-ai.org/)! Presentation available [here](https://www.youtube.com/watch?v=vSOM1s6B_GE&t=1s)
 - [May 2022] Interning at [Mitsubishi Electric Research Laboratories](https://merl.com)
 - [Apr 2022] Preprint of our paper [Offline Visual Representation Learning for Embodied Navigation](https://arxiv.org/pdf/2204.13226.pdf) is out on arXiv!
 - [Apr 2022] Awarded the [College of Computing Outstanding MS Research Award 2022](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
@@ -113,21 +113,6 @@ If you have any questions / want to collaborate / discuss research, feel free to
 
 # Publications
 
-<a name="/habitat-web"></a>
-<h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
-<p class="pubd">
-    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
-    <span class="conf">CVPR 2022</span>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
-        <a target="_blank" href="https://github.com/Ram81/habitat-web">Code</a>
-        <a target="_blank" href="https://ram81.github.io/projects/habitat-web.html">Website</a>
-        <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
-    </span>
-</p>
-<img src="/img/habitat-web/habitat-web.gif">
-<hr>
-
 <a name="/pirlnav"></a>
 <h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
 <p class="pubd">
@@ -165,6 +150,21 @@ If you have any questions / want to collaborate / discuss research, feel free to
     </span>
 </p>
 <img src="/img/ovrl-v2/teaser.jpg">
+<hr>
+
+<a name="/habitat-web"></a>
+<h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
+    <span class="conf">CVPR 2022</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/habitat-web">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/habitat-web.html">Website</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
+    </span>
+</p>
+<img src="/img/habitat-web/habitat-web.gif">
 <hr>
 
 <a name="/ovrl"></a>
