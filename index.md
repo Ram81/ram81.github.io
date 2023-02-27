@@ -21,6 +21,7 @@ permalink:  /
 # News
 
 
+- [Feb 2023] 2 papers ([PIRLNav](https://arxiv.org/abs/2301.07302) and [HM3DSem](https://arxiv.org/abs/2210.05633)) accepted at CVPR, 2023!
 - [Jan 2023] Preprint of our paper [PIRLNav](https://arxiv.org/abs/2301.07302) is out on arXiv!
 - [Oct 2022] Preprint of our paper [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/abs/2210.05633) is out on arXiv!
 - [Oct 2022] Runners-up of the [Habitat Challenge 2022](https://aihabitat.org/challenge/2022/) organized at [CVPR 2022](https://embodied-ai.org/)! Presentation available [here](https://www.youtube.com/watch?v=vSOM1s6B_GE&t=1s)
@@ -117,7 +118,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
-    <span class="conf">Under Review</span>
+    <span class="conf">CVPR, 2023</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2301.07302">Paper</a>
         <a target="_blank" href="https://github.com/Ram81/pirlnav">Code</a>
@@ -131,7 +132,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
 <p class="pubd">
     <span class="authors">Karmesh Yadav*, <span class="fw-550">Ram Ramrakhya*</span>, Santhosh Kumar Ramakrishnan*, Theo Gervet, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Dhruv Batra, Manolis Savva, Alexander William Clegg^, Devendra Singh Chaplot^</span><br>
-    <span class="conf">Under Review</span>
+    <span class="conf">CVPR, 2023</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2210.05633">Paper</a>
         <a target="_blank" href="https://aihabitat.org/datasets/hm3d-semantics/">Website</a>
