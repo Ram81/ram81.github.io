@@ -118,7 +118,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
-    <span class="conf">CVPR, 2023</span>
+    <span class="conf">CVPR 2023, RRL workshop at ICLR 2023</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2301.07302">Paper</a>
         <a target="_blank" href="https://github.com/Ram81/pirlnav">Code</a>
@@ -132,7 +132,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Habitat-Matterport 3D Semantics Dataset</h2>
 <p class="pubd">
     <span class="authors">Karmesh Yadav*, <span class="fw-550">Ram Ramrakhya*</span>, Santhosh Kumar Ramakrishnan*, Theo Gervet, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Dhruv Batra, Manolis Savva, Alexander William Clegg^, Devendra Singh Chaplot^</span><br>
-    <span class="conf">CVPR, 2023</span>
+    <span class="conf">CVPR 2023</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2210.05633">Paper</a>
         <a target="_blank" href="https://aihabitat.org/datasets/hm3d-semantics/">Website</a>
@@ -157,7 +157,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
-    <span class="conf">CVPR 2022</span>
+    <span class="conf">CVPR 2022, EmbodiedAI workshop at CVPR 2022, Overlooked Aspects of IL workshop at RSS 2022</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
         <a target="_blank" href="https://github.com/Ram81/habitat-web">Code</a>
@@ -172,7 +172,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Offline Visual Representation Learning for Embodied Navigation</h2>
 <p class="pubd">
     <span class="authors">Karmesh Yadav, <span class="fw-550">Ram Ramrakhya</span>, Arjun Majumdar, Vincent-Pierre Berges, Sachit Kuhar, Dhruv Batra, Aleksei Baevski, Oleksandr Makysmet</span><br>
-    <span class="conf">arXiv preprint</span>
+    <span class="conf">RRL workshop at ICLR 2023</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/pdf/2204.13226.pdf">Paper</a>
     </span>
