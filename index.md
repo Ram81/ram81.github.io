@@ -142,12 +142,12 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <hr>
 
 <a name="/ovrl_v2"></a>
-<h2 class="pubt">OVRL-v2: Semantic Navigation without Semantic Mapping or Detection</h2>
+<h2 class="pubt">OVRL-V2: A simple state-of-art baseline for ImageNav and ObjectNav</h2>
 <p class="pubd">
-    <span class="authors">Karmesh Yadav*, Arjun Majumdar*, <span class="fw-550">Ram Ramrakhya</span>, Aleksei Baevski, Zsolt Kira, Oleksandr Makysmets, Dhruv Batra</span><br>
+    <span class="authors">Karmesh Yadav*, Arjun Majumdar*, <span class="fw-550">Ram Ramrakhya</span>, Naoki Yokoyama, Aleksei Baevski, Zsolt Kira, Oleksandr Makysmets, Dhruv Batra</span><br>
     <span class="conf">Under Review</span>
     <span class="links">
-        <a target="_blank" href="docs/papers/ovrl_v2.pdf">Paper</a>
+        <a target="_blank" href="https://arxiv.org/abs/2303.07798">Paper</a>
     </span>
 </p>
 <img src="/img/ovrl-v2/teaser.jpg">
