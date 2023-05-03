@@ -34,7 +34,10 @@ function sampleObservations(records) {
 
     for (let record in records) {
         var category = records[record]["object_category"];
-        observationsMap[category] = records[record]["object_goals"];
+        observationsMap[category] = {
+            "instructions": records[record]["instructions"],
+            "object_goals": records[record]["object_goals"]
+        }
     }
     return observationsMap;
 }
@@ -57,7 +60,7 @@ function getParameterByName(name, url = window.location.href) {
 };
 
 function getObservationPath(path) {
-    return "https://habitat-on-web.s3.amazonaws.com/ovon/object_goals/" + path;
+    return "https://habitat-on-web.s3.amazonaws.com/ovon/language_goals/" + path;
 }
 
 function drawList(observationsMap) {
@@ -72,13 +75,22 @@ function drawList(observationsMap) {
         col.innerHTML = "<span> " + category + " </span>"
         row.appendChild(col);
 
-        for (let idx in observationsMap[category]) {
+        var col = document.createElement("div");
+        col.className = "col-md-4";
+
+        col.innerHTML = "";
+        for (let idx in observationsMap[category]["instructions"]) {
+            col.innerHTML += "<span> " + observationsMap[category]["instructions"][idx] + " </span> <br>";
+        }
+        row.appendChild(col);
+
+        for (let idx in observationsMap[category]["object_goals"]) {
             if (idx > 2) {
                 break;
             }
             var col = document.createElement("div");
-            col.className = "col-md-3";
-            var obsPath = getObservationPath(observationsMap[category][idx]);
+            col.className = "col-md-5";
+            var obsPath = getObservationPath(observationsMap[category]["object_goals"][idx]);
             var img = getImageElement(obsPath);
             col.appendChild(img);
             row.appendChild(col);
@@ -93,7 +105,7 @@ function drawList(observationsMap) {
 function getImageElement(path) {
     var img = document.createElement("img");
     img.src = path;
-    img.width = 300;
+    img.width = 500;
     img.height = 300;
     return img;
 }
@@ -126,7 +138,7 @@ function load() {
         console.log(jsonData)
         observationsMap = sampleObservations(jsonData);
         drawList(observationsMap);
-    }, "https://habitat-on-web.s3.amazonaws.com/ovon/object_goals/object_goals.json");
+    }, "https://habitat-on-web.s3.amazonaws.com/ovon/language_goals/language_goals.json");
 }
 
 window.onload = load;
