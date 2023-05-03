@@ -69,11 +69,14 @@ function drawList(observationsMap) {
         row.className = "row";
 
         var col = document.createElement("div");
-        col.className = "col-md-3";
+        col.className = "col-md-1";
         col.innerHTML = "<span> " + category + " </span>"
         row.appendChild(col);
 
         for (let idx in observationsMap[category]) {
+            if (idx > 2) {
+                break;
+            }
             var col = document.createElement("div");
             col.className = "col-md-3";
             var obsPath = getObservationPath(observationsMap[category][idx]);
@@ -82,6 +85,8 @@ function drawList(observationsMap) {
             row.appendChild(col);
         }
         page.appendChild(row);
+
+        page.appendChild(document.createElement("hr"))
     }
 }
 
