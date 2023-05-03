@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Habitat on Web</title>
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+  <link rel="icon" href="/static/favicon.ico" />
+</head>
+
+<body>
+  <div class="container" id="main-container">
+    <div style="text-align:center;padding-bottom: 10px; padding-top: 10px;">
+      <input type="button" id="previous" onclick="previousPage()" value="previous" />
+      <input type="button" id="next" onclick="nextPage()" value="next" />
+    </div>
+    <div style="text-align:center;padding-bottom: 10px; padding-top: 10px;" id="pageNum">
+      Page: 1/1
+    </div>
+    <div style="text-align:center;padding-bottom: 10px; padding-top: 10px;">
+      <select name="scenes" id="sceneList" onChange="getHits();updateInstructionList();loadList();">
+      </select>
+      <select name="instructions" id="instructionList" onChange="loadList()">
+      </select>
+    </div>
+
+  </div>
+
+  <script src="js/monitoring.js"></script>
+</body>
+
+</html>
