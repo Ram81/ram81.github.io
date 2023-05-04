@@ -76,7 +76,7 @@ function drawList(observationsMap) {
         row.appendChild(col);
 
         var col = document.createElement("div");
-        col.className = "col-md-4";
+        col.className = "col-md-3";
 
         col.innerHTML = "";
         for (let idx in observationsMap[category]["instructions"]) {
@@ -89,7 +89,7 @@ function drawList(observationsMap) {
                 break;
             }
             var col = document.createElement("div");
-            col.className = "col-md-5";
+            col.className = "col-md-4";
             var obsPath = getObservationPath(observationsMap[category]["object_goals"][idx]);
             var img = getImageElement(obsPath);
             col.appendChild(img);
