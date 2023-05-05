@@ -439,8 +439,8 @@ span.conf {
 }
 
 .profile {
-  max-width: "306px";
-  max-height: "369px";
+  max-width: 306px;
+  max-height: 369px;
 }
 
 /* Syntax highlighting styles */
