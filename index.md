@@ -21,6 +21,8 @@ permalink:  /
 # News
 
 - [May 2023] Started as a Research Intern at [Allen Institute of AI (AI2)](https://allenai.org/)!
+- [Apr 2023] Accepted Georgia Tech CS PhD program offer!
+- [Mar 2023] Recived CS PhD program admits from Stanford, Georgia Tech, UT Austin and Simon Fraser University!
 - [Mar 2023] Our work [HM3DSem](https://arxiv.org/abs/2210.05633) is accepted as highlight paper (top 2.5% of submissions) at CVPR 2023!
 - [Feb 2023] 2 papers ([PIRLNav](https://arxiv.org/abs/2301.07302) and [HM3DSem](https://arxiv.org/abs/2210.05633)) accepted at CVPR, 2023!
 - [Jan 2023] Preprint of our paper [PIRLNav](https://arxiv.org/abs/2301.07302) is out on arXiv!
