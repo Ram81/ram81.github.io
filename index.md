@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [May 2023] Started as a Research Intern at [Allen Institute of AI (AI2)](https://allenai.org/)!
 - [Mar 2023] Our work [HM3DSem](https://arxiv.org/abs/2210.05633) is accepted as highlight paper (top 2.5% of submissions) at CVPR 2023!
 - [Feb 2023] 2 papers ([PIRLNav](https://arxiv.org/abs/2301.07302) and [HM3DSem](https://arxiv.org/abs/2210.05633)) accepted at CVPR, 2023!
 - [Jan 2023] Preprint of our paper [PIRLNav](https://arxiv.org/abs/2301.07302) is out on arXiv!
@@ -63,11 +64,11 @@ Previously, I spent a year working as a Research Intern in [Computer Vision and 
     <div class="col-xs-3">
         <div class="logo-wrap">
             <span class="helper"></span>
-            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.jpeg"></a>
+            <a target="_blank" href="//allenai.org"><img src="/img/logos/ai2.png"></a>
         </div>
         <div class="logo-desc">
-            Georgia Tech<br>
-            2021 - Present
+            Allen Insitute of AI (AI2)<br>
+            Summer 2023
         </div>
     </div>
     <div class="col-xs-3">
@@ -78,6 +79,16 @@ Previously, I spent a year working as a Research Intern in [Computer Vision and 
         <div class="logo-desc">
             Mitsubishi Electric Research Laborateries<br>
             Summer 2022
+        </div>
+    </div>
+    <div class="col-xs-3">
+        <div class="logo-wrap">
+            <span class="helper"></span>
+            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.jpeg"></a>
+        </div>
+        <div class="logo-desc">
+            Georgia Tech<br>
+            2021 - 2023
         </div>
     </div>
     <div class="col-xs-3">
