@@ -63,54 +63,60 @@ Previously, I spent a year working as a Research Intern in [Computer Vision and 
 
 
 <div class="row" id="timeline-logos">
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//allenai.org"><img src="/img/logos/ai2.png"></a>
+    <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//allenai.org"><img src="/img/logos/ai2.png"></a>
+            </div>
+            <div class="logo-desc">
+                Allen Insitute of AI (AI2)<br>
+                Summer 2023
+            </div>
         </div>
-        <div class="logo-desc">
-            Allen Insitute of AI (AI2)<br>
-            Summer 2023
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//merl.com"><img style="width:160px;" src="/img/logos/merl.png"></a>
+            </div>
+            <div class="logo-desc">
+                Mitsubishi Electric Research Laborateries<br>
+                Summer 2022
+            </div>
         </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//merl.com"><img style="width:160px;" src="/img/logos/merl.png"></a>
-        </div>
-        <div class="logo-desc">
-            Mitsubishi Electric Research Laborateries<br>
-            Summer 2022
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.jpeg"></a>
-        </div>
-        <div class="logo-desc">
-            Georgia Tech<br>
-            2021 - 2023
-        </div>
-    </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//glance.com"><img src="/img/logos/glance.png"></a>
-        </div>
-        <div class="logo-desc">
-            Glance<br>
-            2018 - 2021
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//gatech.edu"><img src="/img/logos/gatech.jpeg"></a>
+            </div>
+            <div class="logo-desc">
+                Georgia Tech<br>
+                2021 - 2023
+            </div>
         </div>
     </div>
-    <div class="col-xs-3">
-        <div class="logo-wrap">
-            <span class="helper"></span>
-            <a target="_blank" href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
+    <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//glance.com"><img src="/img/logos/glance.png"></a>
+            </div>
+            <div class="logo-desc">
+                Glance<br>
+                2018 - 2021
+            </div>
         </div>
-        <div class="logo-desc">
-            Pune Institute of Computer Technology<br>
-            2015 - 2018
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
+            </div>
+            <div class="logo-desc">
+                Pune Institute of Computer Technology<br>
+                2015 - 2018
+            </div>
         </div>
     </div>
 </div>
