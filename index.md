@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Aug 2023] Started PhD in CS at [Georgia Tech](https://www.gatech.edu/)!
 - [May 2023] Started as a Research Intern at [Allen Institute of AI (AI2)](https://allenai.org/)!
 - [Apr 2023] Accepted Georgia Tech CS PhD program offer!
 - [Mar 2023] Recived CS PhD program admits from Stanford, Georgia Tech, UT Austin and Simon Fraser University!
@@ -55,11 +56,9 @@ permalink:  /
 
 # Bio
 
-I am a second year MS student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborate with [Erik Wijmans](https://wijmans.xyz/) and [Eric Undersander](https://www.linkedin.com/in/ericu/).
+I am a first year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborate with [Erik Wijmans](https://wijmans.xyz/) and [Eric Undersander](https://www.linkedin.com/in/ericu/) during my time as a MS student.
 
-Broadly, I am interested at the intersection of Computer Vision, Robotics and Reinforcement Learning. My long-term research goal is to develop robots that exhibit intelligent behavior to accomplish goals in diverse real-world environments. Towards this goal, my current research focuses on leveraging large-scale human demonstrations to learn complex navigation and interaction skills.
-
-Previously, I spent a year working as a Research Intern in [Computer Vision and Machine Learning Perception Lab](http://mlp.cc.gatech.edu/) at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Devi Parikh](https://www.cc.gatech.edu/~parikh/). I also lead an open source organization, [CloudCV](https://cloudcv.org/), where we are building several open-source softwares for reproducible AI research.
+Broadly, I am interested at the intersection of Computer Vision, Robotics and Reinforcement Learning. My long-term research goal is to develop general scalable algorithms and efficient systems to train embodied agents that exhibit emergent intelligent behavior to accomplish goals in diverse real-world environments. 
 
 
 <div class="row" id="timeline-logos">
@@ -121,9 +120,9 @@ Previously, I spent a year working as a Research Intern in [Computer Vision and 
     </div>
 </div>
 
-This summer of 2022, I interned at Mitsubishi Electric Research Laborateries, working with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en) on building embodied agents for navigation and interaction in simulated environments that leverage 3D scene graphs for effective scene understanding.
+During my MS, I was fortunate to intern at Allen Institute of AI (AI2) in Summer 2023 with [Luca Weihs](https://lucaweihs.github.io/) and [Kuo-Hao Zheng](https://kuohaozeng.github.io/) on common-sense and context-based reasoning for embodied agents. At Mitsubishi Electric Research Laborateries (MERL) in Summer 2022 with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en) on building embodied agents for navigation and interaction in simulated environments that leverage 3D scene graphs for effective scene understanding.
 
-Prior to joining grad school, I spent 3 years working as a Software Development Engineer, most recently working in the engineering team at [Glance](https://www.glance.com/).
+Previously, I spent a year working as a Research Intern in [Computer Vision and Machine Learning Perception Lab](http://mlp.cc.gatech.edu/) at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Devi Parikh](https://www.cc.gatech.edu/~parikh/). I also lead an open source organization, [CloudCV](https://cloudcv.org/), where we are building several open-source softwares for reproducible AI research.
 
 If you have any questions / want to collaborate / discuss research, feel free to send me an email at <a href="mailto:ram.ramrakhya@gatech.edu">ram.ramrakhya@gatech.edu</a>.
 
