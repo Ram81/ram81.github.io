@@ -9,7 +9,7 @@ permalink:  /
         <img src="/img/cover.jpg" class="profile">
     </div>
     <div class="col-sm-6 col-xs-12" style="margin-bottom: 0;">
-        MS CS Student<br>
+        PhD Student<br>
         Georgia Institute of Technology<br>
         <a target="_blank" href="mailto:ram.ramrakhya@gatech.edu">ram.ramrakhya at gatech dot edu</a>
     </div>
@@ -91,7 +91,7 @@ Broadly, I am interested at the intersection of Computer Vision, Robotics and Re
             </div>
             <div class="logo-desc">
                 Georgia Tech<br>
-                2021 - 2023
+                2021 - Current
             </div>
         </div>
     </div>
