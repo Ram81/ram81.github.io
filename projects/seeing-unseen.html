@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://embodiedqa.org/ -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="keywords" content="seeing-the-unseen, objectnav, imitation learning">
+
+  <title>Seeing the Unseen</title>
+  <meta name="description"
+    content="Building vision systems capable of context based common sense reasoning for semantic placement ---">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="./static/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./static/main.2f91a3.css" media="screen,projection">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="" style="">
+
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://ram81.github.io/projects/habitat-web.html">Seeing the Unseen</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#overview">Overview</a>
+          </li>
+          <li>
+            <a href="#people">People</a>
+          </li>
+          <li>
+            <a href="#bibtex">Bibtex</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>
+          </li>
+          <!--<li>
+            <a href="/#/acknowledgements">Acknowledgements</a>
+          </li> -->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://gatech.edu/">
+              <img style="height:30px;" src="./static/habitat-web/imgs/gt.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="https://prior.allenai.org/">
+              <img style="height:40px;" src="./static/seeing-unseen/imgs/ai2.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://research.fb.com/">
+              <img style="height:30px;" src="./static/habitat-web/imgs/meta.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="overview">
+    <div class="page-content">
+      <p><br></p>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
+        </div>
+
+        <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+          <a target="_blank" href="http://ram81.github.io/">Ram Ramrakhya</a>,
+           <a target="_blank" href="https://anikem.github.io/">Aniruddha Kembhavi</a>,
+            <a target="_blank" href="https://www.cc.gatech.edu/~dbatra/">Dhruv Batra</a>,
+            <a target="_blank" href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a>,
+            <a target="_blank" href="https://kuohaozeng.github.io/">Kuo-Hao Zeng</a>, and
+            <a target="_blank" href="https://lucaweihs.github.io/">Luca Weihs</a><br>
+        </div>
+        <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+          <!-- Published at <a target="_blank" href="https://cvpr2022.thecvf.com/">CVPR 2022</a>  -->
+          [<a href="#bibtex">Bibtex</a>] [<a href="" target="_blank">PDF</a>]
+          [<a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>]
+        </div>
+      </div>
+
+      <div class="row">
+        <br>
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="./static/seeing-unseen/imgs/teaser_7.jpg">
+            </div>
+          </div>
+          <br>
+
+          <div style="padding-top: 20px;">
+            <p style="text-align: justify;"><b>Semantic Placement</b>. Consider asking an agent to place cushions in a living room. In (a), the couch on the right is already full with cushions, and a natural human preference would be to place the cushion against the backrest of the armchair. In (b), a natural placement preference would be center of the couch. We propose the problem of Semantic Placement (SP) --  given an image and a name of an object, a vision system must predict a semantic mask indicating a valid placement for the object in the image.
+              (c) Our SP predictions enable a Stretch robot from Hello Robot to perform Embodied Semantic Placement (ESP) task within a photorealistic simulated environment.</p>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <br>
+          <p>
+            Computer vision tasks typically involve describing what is visible in an image (e.g. classification, detection, segmentation, and captioning). We study a visual common sense task that requires understanding 'what is not visible'. Specifically, given an image (e.g. of a living room) and a name of an object ("cushion"), a vision system is asked to predict semantically-meaningful regions (masks or bounding boxes) in the image where that object could be placed or is likely be placed by humans (e.g. on the sofa). We call this task: Semantic Placement (SP) and believe that such common-sense visual understanding is critical for assitive robots (tidying a house), AR devices (automatically rendering an object in the user's space), and visually-grounded chatbots with common sense. Studying the invisible is hard. Datasets for image description are typically constructed by curating relevant images (e.g. via image search with object names) and asking humans to annotate the contents of the image; neither of those two steps are straightforward for objects not present in the image. We overcome this challenge by operating in the opposite direction: we start with an image of an object in context (which is easy to find online) and remove that object from the image via inpainting. This automated pipeline converts unstructured web data into a paired with/without object dataset. With this proposed data generation pipeline, we collect a novel dataset, containing ~1.3M images across 9 object categories. We then train a SP prediction model, called CLIP-UNet, on our dataset. The CLIP-UNet outperforms existing VLMs and baselines that combine semantic priors with object detectors, generalizes well to real-world and simulated images, exhibits semantics-aware reasoning for object placement, and enables downstream applications like tidying robots in indoor environments.
+          </p>
+          <p>Read more in the <a href="" target="_blank">paper</a>.</p>
+        </div>
+
+      </div>
+      <br />
+
+      <!-- <div class="row">
+        <div class="col-xs-12">
+          <h2>Short Presentation</h2>
+          <hr>
+          <br />
+        </div>
+        <br />
+        <div class="col-xs-12">
+          <center><iframe src="https://www.youtube.com/embed/oeteCENMZDA" width="800" height="450"></iframe></center>
+        </div>
+      </div>
+      <br />
+      <br /> -->
+
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Success Examples</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="./static/seeing-unseen/demos/place_potted_plant_1.gif">
+
+            <div>
+              <p style="text-align: center;"> (a.) Place Potted Plant</b>.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="./static/seeing-unseen/demos/place_cushion.gif">
+            <div>
+              <p style="text-align: center;"> (b.) Place Cushion.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="./static/seeing-unseen/demos/palce_book.gif">
+            <div>
+              <p style="text-align: center;"> (c.) Place Book.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="./static/seeing-unseen/demos/place_potted_plant_2.gif">
+            <div>
+              <p style="text-align: center;"> (d.) Place Potted Plant.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div style="padding-top: 20px;">
+          <p style="text-align: center;">Visualization of embodied semantic placement policy behavior.</p>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row" id="bibtex">
+        <div class="col-xs-12">
+          <h2>Paper</h2>
+          <hr>
+          <br />
+        </div>
+        <div class="col-xs-2">
+          <center><img style="height: 120px;width: 100px;" src="./static/habitat-web/imgs/habitat-web-thumbnail.png">
+          </center>
+
+          <div style="padding-top: 20px;">
+            <p style="text-align: center;"><a target="_blank" href="">[Paper]</a></p>
+          </div>
+        </div>
+        <div class="col-xs-10">
+          <div class="paper">
+            <pre class="paper">
+<!--         -->@article{rramrakhya2023,
+<!--         -->  title={Seeing the Unseen: Visual Common Sense for Semantic Placement},
+<!--         -->  author={Ram Ramrakhya and Aniruddha Kembhavi and Dhruv Batra and Zsolt Kira and Kuo-Hao Zeng and Luca Weihs},
+<!--         -->  year={2023},
+<!--         -->}
+            </pre>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row" id="people">
+        <div class="col-xs-12">
+          <h2>People</h2>
+          <hr>
+          <br />
+        </div>
+        <!-- <div class="col-md-2 col-sm-3 col-xs-6"></div> -->
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://ram81.github.io/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/rramrakhya.jpeg">
+          </a>
+          <div class="people-name">
+            <a href="https://ram81.github.io/">Ram Ramrakhya</a><br>
+            <affiliation>Georgia Tech, AI2</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://anikem.github.io/">
+            <img class="people-pic" src="https://anikem.github.io/images/profile_aniK.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://anikem.github.io/">Aniruddha Kembhavi</a><br>
+            <affiliation>AI2</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://faculty.cc.gatech.edu/~dbatra/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/dhruv.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://faculty.cc.gatech.edu/~dbatra/">Dhruv Batra</a><br>
+            <affiliation>Meta AI, Georgia Tech</affiliation>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://faculty.cc.gatech.edu/~zk15/">
+            <img class="people-pic" src="https://faculty.cc.gatech.edu/~zk15/images/kira_0.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a><br>
+            <affiliation>Georgia Tech</affiliation>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://kuohaozeng.github.io/">
+            <img class="people-pic" src="https://kuohaozeng.github.io/img/aboutme/hao.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://kuohaozeng.github.io/">Kuo-Hao Zeng</a><br>
+            <affiliation>AI2</affiliation>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://lucaweihs.github.io/">
+            <img class="people-pic" src="https://lucaweihs.github.io/assets/me.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://lucaweihs.github.io/">Luca Weihs</a><br>
+            <affiliation>AI2</affiliation>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Acknowledgements</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <p>
+            The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. The views and conclusions
+            contained herein are those of the authors and should not be interpreted as necessarily representing the
+            official policies or endorsements, either expressed or implied, of the U.S. Government, or any sponsor.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br />
+
+  <script type="text/javascript" src="./static/jquery.min.js"></script>
+  <script type="text/javascript" src="./static/bootstrap.min.js"></script>
+</body>
+
+</html>
