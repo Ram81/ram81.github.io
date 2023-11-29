@@ -202,6 +202,7 @@ pre {
 
 .people-name {
   margin: 5px 0 10px;
+  text-align: center;
 }
 
 .people-pic {
@@ -209,7 +210,8 @@ pre {
   height: 125px;*/
   
   width:  130px;
-  height: 150px;
+  height: 130px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
