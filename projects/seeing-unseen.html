@@ -46,7 +46,7 @@
             <a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>
           </li>
           <li>
-            <a target="_blank" href="">Paper</a>
+            <a target="_blank" href="https://arxiv.org/pdf/2401.07770.pdf">Paper</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -114,7 +114,7 @@
           <p>
             Computer vision tasks typically involve describing what is visible in an image (e.g. classification, detection, segmentation, and captioning). We study a visual common sense task that requires understanding 'what is not visible'. Specifically, given an image (e.g. of a living room) and a name of an object ("cushion"), a vision system is asked to predict semantically-meaningful regions (masks or bounding boxes) in the image where that object could be placed or is likely be placed by humans (e.g. on the sofa). We call this task: Semantic Placement (SP) and believe that such common-sense visual understanding is critical for assitive robots (tidying a house), AR devices (automatically rendering an object in the user's space), and visually-grounded chatbots with common sense. Studying the invisible is hard. Datasets for image description are typically constructed by curating relevant images (e.g. via image search with object names) and asking humans to annotate the contents of the image; neither of those two steps are straightforward for objects not present in the image. We overcome this challenge by operating in the opposite direction: we start with an image of an object in context (which is easy to find online) and remove that object from the image via inpainting. This automated pipeline converts unstructured web data into a paired with/without object dataset. With this proposed data generation pipeline, we collect a novel dataset, containing ~1.3M images across 9 object categories. We then train a SP prediction model, called CLIP-UNet, on our dataset. The CLIP-UNet outperforms existing VLMs and baselines that combine semantic priors with object detectors, generalizes well to real-world and simulated images, exhibits semantics-aware reasoning for object placement, and enables downstream applications like tidying robots in indoor environments.
           </p>
-          <p>Read more in the <a href="" target="_blank">paper</a>.</p>
+          <p>Read more in the <a href="https://arxiv.org/pdf/2401.07770.pdf" target="_blank">paper</a>.</p>
         </div>
 
       </div>
@@ -301,10 +301,13 @@
         <div class="col-xs-10">
           <div class="paper">
             <pre class="paper">
-<!--         -->@article{rramrakhya2023,
+<!--         -->@misc{ramrakhya2024seeing,
 <!--         -->  title={Seeing the Unseen: Visual Common Sense for Semantic Placement},
 <!--         -->  author={Ram Ramrakhya and Aniruddha Kembhavi and Dhruv Batra and Zsolt Kira and Kuo-Hao Zeng and Luca Weihs},
-<!--         -->  year={2023},
+<!--         -->  year={2024},
+<!--         -->  eprint={2401.07770},
+<!--         -->  archivePrefix={arXiv},
+<!--         -->  primaryClass={cs.CV}
 <!--         -->}
             </pre>
           </div>
