@@ -132,6 +132,21 @@ If you have any questions / want to collaborate / discuss research, feel free to
 
 # Publications
 
+<a name="/seeing-unseen"></a>
+<h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Aniruddha Kembhavi, Dhruv Batra, Zsolt Kira, Kuo-Hao Zeng, Luca Weihs</span><br>
+    <span class="conf">arxiv</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2401.07770.pdf">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/seeing-unseen.html">Website</a>
+    </span>
+</p>
+<img src="/projects/static/seeing-unseen/imgs/idea.gif">
+<hr>
+
+
 <a name="/pirlnav"></a>
 <h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
 <p class="pubd">
