@@ -20,6 +20,8 @@ permalink:  /
 
 # News
 
+- [Jan 2024] Preprint of our paper [Seeing the Unseen](https://arxiv.org/abs/2401.07770) is out on arXiv!
+- [Sep 2023] Serving as a reviewer for ICLR and ICML 2024!
 - [Aug 2023] Started PhD in CS at [Georgia Tech](https://www.gatech.edu/)!
 - [May 2023] Started as a Research Intern at [Allen Institute of AI (AI2)](https://allenai.org/)!
 - [Apr 2023] Accepted Georgia Tech CS PhD program offer!
@@ -133,7 +135,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 # Publications
 
 <a name="/seeing-unseen"></a>
-<h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
+<h2 class="pubt"><img src="./projects/static/seeing-unseen/imgs/SemanticPlacement.png" style="height: 50px;" /> Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Aniruddha Kembhavi, Dhruv Batra, Zsolt Kira, Kuo-Hao Zeng^, Luca Weihs^</span><br>
     <span class="conf">arxiv</span>
