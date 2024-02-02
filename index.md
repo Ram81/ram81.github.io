@@ -135,7 +135,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 # Publications
 
 <a name="/seeing-unseen"></a>
-<h2 class="pubt"><img src="./projects/static/seeing-unseen/imgs/SemanticPlacement.png" style="height: 50px;" /> Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
+<h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Aniruddha Kembhavi, Dhruv Batra, Zsolt Kira, Kuo-Hao Zeng^, Luca Weihs^</span><br>
     <span class="conf">arxiv</span>
