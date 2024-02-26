@@ -153,7 +153,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/goat-bench"></a>
 <h2 class="pubt">GOAT-Bench: A Benchmark for Multi-Modal Lifelong Navigation</h2>
 <p class="pubd">
-    <span class="authors">Mukul Khanna*,<span class="fw-550">Ram Ramrakhya*</span>, Gunjan Chhablani, Sriram Yenamandra, Theophile Gervet, Matthew Chang, Zsolt Kira, Devendra Singh Chaplot, Dhruv Batra, Roozbeh Mottaghi</span><br>
+    <span class="authors">Mukul Khanna*, <span class="fw-550">Ram Ramrakhya*</span>, Gunjan Chhablani, Sriram Yenamandra, Theophile Gervet, Matthew Chang, Zsolt Kira, Devendra Singh Chaplot, Dhruv Batra, Roozbeh Mottaghi</span><br>
     <span class="conf">CVPR 2024</span>
     <span class="links">
         <a target="_blank" href="">Paper</a>
