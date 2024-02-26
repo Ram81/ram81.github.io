@@ -195,7 +195,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">OVRL-V2: A simple state-of-art baseline for ImageNav and ObjectNav</h2>
 <p class="pubd">
     <span class="authors">Karmesh Yadav*, Arjun Majumdar*, <span class="fw-550">Ram Ramrakhya</span>, Naoki Yokoyama, Aleksei Baevski, Zsolt Kira, Oleksandr Makysmets, Dhruv Batra</span><br>
-    <span class="conf">Under Review</span>
+    <span class="conf">arxiv</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/abs/2303.07798">Paper</a>
     </span>
