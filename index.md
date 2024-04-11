@@ -21,7 +21,7 @@ permalink:  /
 # News
 
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
-- [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/abs/2401.07770) and GOAT-Bench accepted at CVPR 2024!
+- [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/abs/2401.07770) and [GOAT-Bench](https://arxiv.org/abs/2404.06609) accepted at CVPR 2024!
 - [Jan 2024] Preprint of our paper [Seeing the Unseen](https://arxiv.org/abs/2401.07770) is out on arXiv!
 - [Sep 2023] Serving as a reviewer for ICLR and ICML 2024!
 - [Aug 2023] Started PhD in CS at [Georgia Tech](https://www.gatech.edu/)!
@@ -157,7 +157,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
     <span class="authors">Mukul Khanna*, <span class="fw-550">Ram Ramrakhya*</span>, Gunjan Chhablani, Sriram Yenamandra, Theophile Gervet, Matthew Chang, Zsolt Kira, Devendra Singh Chaplot, Dhruv Batra, Roozbeh Mottaghi</span><br>
     <span class="conf">CVPR 2024</span>
     <span class="links">
-        <a target="_blank" href="">Paper</a>
+        <a target="_blank" href="https://arxiv.org/pdf/2404.06609.pdf">Paper</a>
         <a target="_blank" href="https://github.com/Ram81/goat-bench">Code</a>
         <a target="_blank" href="https://mukulkhanna.github.io/goat-bench/">Website</a>
     </span>
