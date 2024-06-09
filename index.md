@@ -140,7 +140,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Aniruddha Kembhavi, Dhruv Batra, Zsolt Kira, Kuo-Hao Zeng^, Luca Weihs^</span><br>
-    <span class="conf">CVPR 2024</span>
+    <span class="conf">CVPR 2024, VLMNM workshop at ICRA'24</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/pdf/2401.07770.pdf">Paper</a>
         <a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>
