@@ -75,7 +75,7 @@ Broadly, I am interested at the intersection of Computer Vision, Robotics and Re
                 <a target="_blank" href="//meta.ai"><img src="/projects/static/habitat-web/imgs/meta.png"></a>
             </div>
             <div class="logo-desc">
-                Meta AI<br>
+                Meta AI Research<br>
                 Summer 2024
             </div>
         </div>
