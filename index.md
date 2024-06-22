@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [May 2024] Started as a Research Intern at [Meta AI Research Lab](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 - [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/abs/2401.07770) and [GOAT-Bench](https://arxiv.org/abs/2404.06609) accepted at CVPR 2024!
 - [Jan 2024] Preprint of our paper [Seeing the Unseen](https://arxiv.org/abs/2401.07770) is out on arXiv!
@@ -68,6 +69,16 @@ Broadly, I am interested at the intersection of Computer Vision, Robotics and Re
 <div class="row" id="timeline-logos">
     <div class="row">
         <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//meta.ai"><img src="./static/habitat-web/imgs/meta.png"></a>
+            </div>
+            <div class="logo-desc">
+                Meta AI<br>
+                Summer 2024
+            </div>
+        </div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
@@ -123,6 +134,7 @@ Broadly, I am interested at the intersection of Computer Vision, Robotics and Re
         </div>
     </div>
 </div>
+
 
 During my MS, I was fortunate to intern at Allen Institute of AI (AI2) in Summer 2023 with [Luca Weihs](https://lucaweihs.github.io/) and [Kuo-Hao Zheng](https://kuohaozeng.github.io/) on common-sense and context-based reasoning for embodied agents. At Mitsubishi Electric Research Laborateries (MERL) in Summer 2022 with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en) on building embodied agents for navigation and interaction in simulated environments that leverage 3D scene graphs for effective scene understanding.
 
