@@ -72,7 +72,7 @@ Broadly, I am interested at the intersection of Computer Vision, Robotics and Re
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
-                <a target="_blank" href="//meta.ai"><img src="./static/habitat-web/imgs/meta.png"></a>
+                <a target="_blank" href="//meta.ai"><img src="/projects/static/habitat-web/imgs/meta.png"></a>
             </div>
             <div class="logo-desc">
                 Meta AI<br>
