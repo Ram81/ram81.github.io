@@ -99,6 +99,9 @@ Broadly, I am interested at the intersection of Computer Vision, Robotics and Re
                 Summer 2022
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-1"></div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
@@ -109,9 +112,6 @@ Broadly, I am interested at the intersection of Computer Vision, Robotics and Re
                 2021 - Current
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-1"></div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
