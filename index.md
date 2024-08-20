@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Jul 2024] 1 paper [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 204.
 - [May 2024] Started as a Research Intern at [Meta AI Research Lab](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 - [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/abs/2401.07770) and [GOAT-Bench](https://arxiv.org/abs/2404.06609) accepted at CVPR 2024!
@@ -63,7 +64,7 @@ permalink:  /
 
 I am a first year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborate with [Erik Wijmans](https://wijmans.xyz/) and [Eric Undersander](https://www.linkedin.com/in/ericu/) during my time as a MS student.
 
-Broadly, I am interested at the intersection of Computer Vision, Robotics and Reinforcement Learning. My long-term research goal is to develop general scalable algorithms and efficient systems to train embodied agents that exhibit emergent intelligent behavior to accomplish goals in diverse real-world environments. 
+My long-term research goal is to build general purpose home robots that can operate in real world environments. To advance this goal, I am interested in scaling robot learning data via cheaper, safer, and scalable alternative sources like: (a.) 3D Simulation: a safe, inexpensive, and scalable way to gather human teleoperation data and establish fundamental benchmarks for embodied tasks, and (b) Synthetic Data: which involves curating embodied data by automatically annotating unlabelled web data using vision-and-language foundation models as annotators.
 
 
 <div class="row" id="timeline-logos">
@@ -147,6 +148,32 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <a name="/publications"></a>
 
 # Publications
+
+<a name="/seeing-unseen"></a>
+<h2 class="pubt">ReLIC: A recipe for 64k steps In-Context Reinforcement Learning for Embodied AI</h2>
+<p class="pubd">
+    <span class="authors">Ahmad Elawady, Gunjan Chhablani, <span class="fw-550">Ram Ramrakhya</span>, Karmesh Yadav, Dhruv Batra, Zsolt Kira, Andrew Szot</span><br>
+    <span class="conf">Under review</span>
+    <span class="links">
+        <a target="_blank" href="https://ram81.github.io/docs/papers/relic.pdf">Paper</a>
+    </span>
+</p>
+<!-- <img src="/projects/static/seeing-unseen/imgs/idea.gif"> -->
+<hr>
+
+<a name="/seeing-unseen"></a>
+<h2 class="pubt">HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation</h2>
+<p class="pubd">
+    <span class="authors">Naoki Yokoyama*, <span class="fw-550">Ram Ramrakhya*</span>, Abhishek Das, Dhruv Batra, Sehoon Ha</span><br>
+    <span class="conf">IROS'24</span>
+    <span class="links">
+        <a target="_blank" href="https://ram81.github.io/docs/papers/OVON_IROS.pdf">Paper</a>
+        <a target="_blank" href="https://github.com/naokiyokoyama/ovon">Code</a>
+        <a target="_blank" href="https://naoki.io/portfolio/ovon.html">Website</a>
+    </span>
+</p>
+<img src="/projects/static/ovon/task.png">
+<hr>
 
 <a name="/seeing-unseen"></a>
 <h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
