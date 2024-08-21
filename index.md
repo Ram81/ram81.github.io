@@ -20,7 +20,7 @@ permalink:  /
 
 # News
 
-- [Jul 2024] 1 paper [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 204.
+- [Jul 2024] [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 2024!
 - [May 2024] Started as a Research Intern at [Meta AI Research Lab](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 - [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/abs/2401.07770) and [GOAT-Bench](https://arxiv.org/abs/2404.06609) accepted at CVPR 2024!
