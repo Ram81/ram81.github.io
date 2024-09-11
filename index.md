@@ -62,9 +62,9 @@ permalink:  /
 
 # Bio
 
-I am a first year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborate with [Erik Wijmans](https://wijmans.xyz/) and [Eric Undersander](https://www.linkedin.com/in/ericu/) during my time as a MS student.
+I am a second year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborate with [Erik Wijmans](https://wijmans.xyz/) and [Eric Undersander](https://www.linkedin.com/in/ericu/) during my time as a MS student.
 
-My long-term research goal is to build general purpose home robots that can operate in real world environments. To advance this goal, I am interested in scaling robot learning data via cheaper, safer, and scalable alternative sources like: (a.) 3D Simulation: a safe, inexpensive, and scalable way to gather human teleoperation data and establish fundamental benchmarks for embodied tasks, and (b) Synthetic Data: which involves curating embodied data by automatically annotating unlabelled web data using vision-and-language foundation models as annotators.
+I am interested in building general purpose home robots that can operate in real world environments. To advance this goal, I am interested in scaling robot learning data via cheaper, safer, and scalable alternative sources like: (a.) 3D Simulation: a safe, inexpensive, and scalable way to gather human teleoperation data and establish fundamental benchmarks for embodied tasks, and (b) Synthetic Data: which involves curating embodied data by automatically annotating unlabelled web data using vision-and-language foundation models as annotators.
 
 
 <div class="row" id="timeline-logos">
