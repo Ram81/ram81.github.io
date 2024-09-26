@@ -167,7 +167,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
     <span class="authors">Naoki Yokoyama*, <span class="fw-550">Ram Ramrakhya*</span>, Abhishek Das, Dhruv Batra, Sehoon Ha</span><br>
     <span class="conf">IROS'24</span>
     <span class="links">
-        <a target="_blank" href="https://ram81.github.io/docs/papers/OVON_IROS.pdf">Paper</a>
+        <a target="_blank" href="https://arxiv.org/pdf/2409.14296">Paper</a>
         <a target="_blank" href="https://github.com/naokiyokoyama/ovon">Code</a>
         <a target="_blank" href="https://naoki.io/portfolio/ovon.html">Website</a>
     </span>
