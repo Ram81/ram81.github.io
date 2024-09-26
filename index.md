@@ -162,20 +162,6 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <hr>
 
 <a name="/seeing-unseen"></a>
-<h2 class="pubt">HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation</h2>
-<p class="pubd">
-    <span class="authors">Naoki Yokoyama*, <span class="fw-550">Ram Ramrakhya*</span>, Abhishek Das, Dhruv Batra, Sehoon Ha</span><br>
-    <span class="conf">IROS'24</span>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/pdf/2409.14296">Paper</a>
-        <a target="_blank" href="https://github.com/naokiyokoyama/ovon">Code</a>
-        <a target="_blank" href="https://naoki.io/portfolio/ovon.html">Website</a>
-    </span>
-</p>
-<img src="/projects/static/ovon/task.png">
-<hr>
-
-<a name="/seeing-unseen"></a>
 <h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Aniruddha Kembhavi, Dhruv Batra, Zsolt Kira, Kuo-Hao Zeng^, Luca Weihs^</span><br>
@@ -202,6 +188,20 @@ If you have any questions / want to collaborate / discuss research, feel free to
     </span>
 </p>
 <img src="/projects/static/goat/goat.png">
+<hr>
+
+<a name="/ovon"></a>
+<h2 class="pubt">HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation</h2>
+<p class="pubd">
+    <span class="authors">Naoki Yokoyama*, <span class="fw-550">Ram Ramrakhya*</span>, Abhishek Das, Dhruv Batra, Sehoon Ha</span><br>
+    <span class="conf">IROS'24</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2409.14296">Paper</a>
+        <a target="_blank" href="https://github.com/naokiyokoyama/ovon">Code</a>
+        <a target="_blank" href="https://naoki.io/portfolio/ovon.html">Website</a>
+    </span>
+</p>
+<img src="/projects/static/ovon/task.png">
 <hr>
 
 <a name="/pirlnav"></a>
