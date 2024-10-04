@@ -20,7 +20,7 @@ permalink:  /
 
 # News
 
-- [oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) is released on arxiv!
+- [Oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) is released on arxiv!
 - [Jul 2024] [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 2024!
 - [May 2024] Started as a Research Intern at [Meta AI Research Lab](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
