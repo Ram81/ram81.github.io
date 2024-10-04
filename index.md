@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) is released on arxiv!
 - [Jul 2024] [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 2024!
 - [May 2024] Started as a Research Intern at [Meta AI Research Lab](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
@@ -155,10 +156,11 @@ If you have any questions / want to collaborate / discuss research, feel free to
     <span class="authors">Ahmad Elawady, Gunjan Chhablani, <span class="fw-550">Ram Ramrakhya</span>, Karmesh Yadav, Dhruv Batra, Zsolt Kira, Andrew Szot</span><br>
     <span class="conf">Under review</span>
     <span class="links">
-        <a target="_blank" href="https://ram81.github.io/docs/papers/relic.pdf">Paper</a>
+        <a target="_blank" href="https://arxiv.org/pdf/2410.02751">Paper</a>
+        <a target="_blank" href="https://github.com/aielawady/relic">Code</a>
     </span>
 </p>
-<!-- <img src="/projects/static/seeing-unseen/imgs/idea.gif"> -->
+<img src="/projects/static/relic/teaser.jpg">
 <hr>
 
 <a name="/seeing-unseen"></a>
