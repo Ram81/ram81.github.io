@@ -128,16 +128,6 @@ I am interested in building general purpose home robots that can operate in real
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
-                <a target="_blank" href="//glance.com"><img src="/img/logos/glance.png"></a>
-            </div>
-            <div class="logo-desc">
-                Glance<br>
-                2018 - 2021
-            </div>
-        </div>
-        <div class="col-xs-3">
-            <div class="logo-wrap">
-                <span class="helper"></span>
                 <a target="_blank" href="//pict.edu"><img src="/img/logos/pict_logo.png"></a>
             </div>
             <div class="logo-desc">
