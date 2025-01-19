@@ -20,9 +20,10 @@ permalink:  /
 
 # News
 
+- [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
 - [Oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) is released on arxiv!
 - [Jul 2024] [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 2024!
-- [May 2024] Started as a Research Intern at [Meta AI Research Lab](https://ai.meta.com/research/).
+- [May 2024] Started as a Research Intern at [Meta AI Research](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
 - [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/abs/2401.07770) and [GOAT-Bench](https://arxiv.org/abs/2404.06609) accepted at CVPR 2024!
 - [Jan 2024] Preprint of our paper [Seeing the Unseen](https://arxiv.org/abs/2401.07770) is out on arXiv!
@@ -63,7 +64,7 @@ permalink:  /
 
 # Bio
 
-I am a second year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborate with [Erik Wijmans](https://wijmans.xyz/) and [Eric Undersander](https://www.linkedin.com/in/ericu/) during my time as a MS student.
+I am a second year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborated with [Erik Wijmans](https://wijmans.xyz/) during my time as a MS student.
 
 I am interested in building general purpose home robots that can operate in real world environments. To advance this goal, I am interested in scaling robot learning data via cheaper, safer, and scalable alternative sources like: (a.) 3D Simulation: a safe, inexpensive, and scalable way to gather human teleoperation data and establish fundamental benchmarks for embodied tasks, and (b) Synthetic Data: which involves curating embodied data by automatically annotating unlabelled web data using vision-and-language foundation models as annotators.
 
@@ -71,6 +72,16 @@ I am interested in building general purpose home robots that can operate in real
 <div class="row" id="timeline-logos">
     <div class="row">
         <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//machinelearning.apple.com"><img src="/projects/static/habitat-web/imgs/apple-logo.png"></a>
+            </div>
+            <div class="logo-desc">
+                Apple ML Research<br>
+                Spring 2025
+            </div>
+        </div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
@@ -91,6 +102,9 @@ I am interested in building general purpose home robots that can operate in real
                 Summer 2023
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-1"></div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
@@ -101,9 +115,6 @@ I am interested in building general purpose home robots that can operate in real
                 Summer 2022
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-1"></div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
