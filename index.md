@@ -75,7 +75,7 @@ I am interested in building general purpose home robots that can operate in real
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
-                <a target="_blank" href="//machinelearning.apple.com"><img src="/projects/static/habitat-web/imgs/apple-logo.png"></a>
+                <a target="_blank" href="//machinelearning.apple.com"><img src="/img/logos/apple.png"></a>
             </div>
             <div class="logo-desc">
                 Apple ML Research<br>
