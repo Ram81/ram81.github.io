@@ -164,6 +164,20 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <img src="/projects/static/ask-to-act/teaser.jpg">
 <hr>
 
+<a name="/goat-bench"></a>
+<h2 class="pubt">GOAT-Bench: A Benchmark for Multi-Modal Lifelong Navigation</h2>
+<p class="pubd">
+    <span class="authors">Mukul Khanna*, <span class="fw-550">Ram Ramrakhya*</span>, Gunjan Chhablani, Sriram Yenamandra, Theophile Gervet, Matthew Chang, Zsolt Kira, Devendra Singh Chaplot, Dhruv Batra, Roozbeh Mottaghi</span><br>
+    <span class="conf">CVPR 2024</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2404.06609.pdf">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/goat-bench">Code</a>
+        <a target="_blank" href="https://mukulkhanna.github.io/goat-bench/">Website</a>
+    </span>
+</p>
+<img src="/projects/static/goat/goat.png">
+<hr>
+
 <a name="/seeing-unseen"></a>
 <h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
 <p class="pubd">
@@ -235,20 +249,6 @@ If you have any questions / want to collaborate / discuss research, feel free to
     </span>
 </p>
 <img src="/projects/static/relic/teaser.jpg">
-<hr>
-
-<a name="/goat-bench"></a>
-<h2 class="pubt">GOAT-Bench: A Benchmark for Multi-Modal Lifelong Navigation</h2>
-<p class="pubd">
-    <span class="authors">Mukul Khanna*, <span class="fw-550">Ram Ramrakhya*</span>, Gunjan Chhablani, Sriram Yenamandra, Theophile Gervet, Matthew Chang, Zsolt Kira, Devendra Singh Chaplot, Dhruv Batra, Roozbeh Mottaghi</span><br>
-    <span class="conf">CVPR 2024</span>
-    <span class="links">
-        <a target="_blank" href="https://arxiv.org/pdf/2404.06609.pdf">Paper</a>
-        <a target="_blank" href="https://github.com/Ram81/goat-bench">Code</a>
-        <a target="_blank" href="https://mukulkhanna.github.io/goat-bench/">Website</a>
-    </span>
-</p>
-<img src="/projects/static/goat/goat.png">
 <hr>
 
 <a name="/ovon"></a>
