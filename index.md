@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Apr 2025] [Ask-to-Act](https://arxiv.org/abs/2504.00907) is out on arxiv!
 - [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
 - [Oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) is released on arxiv!
 - [Jul 2024] [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 2024!
@@ -149,9 +150,93 @@ If you have any questions / want to collaborate / discuss research, feel free to
 
 <a name="/publications"></a>
 
-# Publications
+# Selected Publications
+
+<a name="/"></a>
+<h2 class="pubt">Grounding Multimodal LLMs to Embodied Agents that Ask for Help with Reinforcement Learning</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Matthew Chang, Xavier Puig, Ruta Desai, Zsolt Kira, Roozbeh Mottaghi</span><br>
+    <span class="conf">Under review</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2504.00907">Paper</a>
+    </span>
+</p>
+<img src="/projects/static/ask-to-act/teaser.jpg">
+<hr>
 
 <a name="/seeing-unseen"></a>
+<h2 class="pubt">Seeing the Unseen: Visual Common Sense for Semantic Placement</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Aniruddha Kembhavi, Dhruv Batra, Zsolt Kira, Kuo-Hao Zeng^, Luca Weihs^</span><br>
+    <span class="conf">CVPR 2024, VLMNM workshop at ICRA'24</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2401.07770.pdf">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/seeing-unseen.html">Website</a>
+    </span>
+</p>
+<img src="/projects/static/seeing-unseen/imgs/idea.gif">
+<hr>
+
+<a name="/pirlnav"></a>
+<h2 class="pubt">PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Dhruv Batra, Erik Wijmans, Abhishek Das</span><br>
+    <span class="conf">CVPR 2023, RRL workshop at ICLR 2023</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2301.07302">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/pirlnav">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/pirlnav.html">Website</a>
+    </span>
+</p>
+<img src="/img/pirlnav/pirlnav.png">
+<hr>
+
+<a name="/habitat-web"></a>
+<h2 class="pubt">Habitat-Web: Learning Embodied Object-Search Strategies from Human Demonstrations at Scale</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Eric Undersander, Dhruv Batra, Abhishek Das</span><br>
+    <span class="conf">CVPR 2022, EmbodiedAI workshop at CVPR 2022, Overlooked Aspects of IL workshop at RSS 2022 (Spotlight)</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/abs/2204.03514">Paper</a>
+        <a target="_blank" href="https://github.com/Ram81/habitat-web">Code</a>
+        <a target="_blank" href="https://ram81.github.io/projects/habitat-web.html">Website</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=oeteCENMZDA">Presentation video</a>
+    </span>
+</p>
+<img src="/img/habitat-web/habitat-web.gif">
+<hr>
+
+
+# All Publications
+
+<a name="/"></a>
+<h2 class="pubt">Grounding Multimodal LLMs to Embodied Agents that Ask for Help with Reinforcement Learning</h2>
+<p class="pubd">
+    <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Matthew Chang, Xavier Puig, Ruta Desai, Zsolt Kira, Roozbeh Mottaghi</span><br>
+    <span class="conf">Under review</span>
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2504.00907">Paper</a>
+    </span>
+</p>
+<img src="/projects/static/ask-to-act/teaser.jpg">
+<hr>
+
+<a name="/"></a>
+<h2 class="pubt">PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks</h2>
+<p class="pubd">
+    <span class="authors">Matthew Chang, Gunjan Chhablani, Alexander Clegg, Mikael Dallaire Cote, Ruta Desai, Michal Hlavac, Vladimir Karashchuk, Jacob Krantz, Roozbeh Mottaghi, Priyam Parashar, Siddharth Patki, Ishita Prasad, Xavier Puig, Akshara Rai, <span class="fw-550">Ram Ramrakhya</span>, Daniel Tran, Joanne Truong, John M. Turner, Eric Undersander, Tsung-Yen Yang</span><br>
+    <span class="conf">ICLR 2025</span>
+    <span class="links">
+        <a target="_blank" href="https://aihabitat.org/partnr/">Website</a>
+        <a target="_blank" href="https://arxiv.org/pdf/2411.00081">Paper</a>
+        <a target="_blank" href="https://github.com/facebookresearch/partnr-planner">Code</a>
+    </span>
+</p>
+<img src="/projects/static/ask-to-act/partnr_teaser.jpg">
+<hr>
+
+<a name="/"></a>
 <h2 class="pubt">ReLIC: A recipe for 64k steps In-Context Reinforcement Learning for Embodied AI</h2>
 <p class="pubd">
     <span class="authors">Ahmad Elawady, Gunjan Chhablani, <span class="fw-550">Ram Ramrakhya</span>, Karmesh Yadav, Dhruv Batra, Zsolt Kira, Andrew Szot</span><br>
