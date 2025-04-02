@@ -20,9 +20,9 @@ permalink:  /
 
 # News
 
-- [Apr 2025] [Ask-to-Act](https://arxiv.org/abs/2504.00907) is out on arxiv!
+- [Apr 2025] [Ask-to-Act](https://arxiv.org/abs/2504.00907) is released on arxiv!
 - [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
-- [Oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) is released on arxiv!
+- [Oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) and [PARTNR](https://arxiv.org/abs/2411.00081) are released on arxiv!
 - [Jul 2024] [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 2024!
 - [May 2024] Started as a Research Intern at [Meta AI Research](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
@@ -140,7 +140,7 @@ I am interested in building general purpose home robots that can operate in real
 </div>
 
 
-During my MS, I was fortunate to intern at Allen Institute of AI (AI2) in Summer 2023 with [Luca Weihs](https://lucaweihs.github.io/) and [Kuo-Hao Zheng](https://kuohaozeng.github.io/) on common-sense and context-based reasoning for embodied agents. At Mitsubishi Electric Research Laborateries (MERL) in Summer 2022 with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en) on building embodied agents for navigation and interaction in simulated environments that leverage 3D scene graphs for effective scene understanding.
+I am interning at Apple MLR with [Alexander Toshev](https://sites.google.com/view/alextoshev) since Spring 2025. I was an intern at Meta FAIR from Summer to Winter 2024 working with [Roozbeh Mottaghi](https://roozbehm.info/). During my MS, I was fortunate to intern at Allen Institute of AI (AI2) in Summer 2023 with [Luca Weihs](https://lucaweihs.github.io/) and [Kuo-Hao Zheng](https://kuohaozeng.github.io/). In 2022, I was an intern at Mitsubishi Electric Research Laborateries (MERL) with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en).
 
 Previously, I spent a year working as a Research Intern in [Computer Vision and Machine Learning Perception Lab](http://mlp.cc.gatech.edu/) at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Devi Parikh](https://www.cc.gatech.edu/~parikh/). I also lead an open source organization, [CloudCV](https://cloudcv.org/), where we are building several open-source softwares for reproducible AI research.
 
