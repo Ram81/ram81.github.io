@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://embodiedqa.org/ -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="keywords" content="seeing-the-unseen, objectnav, imitation learning">
+
+  <title>Seeing the Unseen</title>
+  <meta name="description"
+    content="Building vision systems capable of context based common sense reasoning for semantic placement ---">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="./static/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./static/main.2f91a3.css" media="screen,projection">
+  <link rel="icon" href="./static/seeing-unseen/imgs/SemanticPlacement.png" type="image/icon type">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="" style="">
+
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://ram81.github.io/projects/ask-to-act.html">Ask-to-Act</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#overview">Overview</a>
+          </li>
+          <li>
+            <a href="#people">People</a>
+          </li>
+          <li>
+            <a href="#bibtex">Bibtex</a>
+          </li>
+          <li>
+            <a target="_blank" href="">Code</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://arxiv.org/pdf/2504.00907">Paper</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://gatech.edu/">
+              <img style="height:30px;" src="./static/habitat-web/imgs/gt.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="https://prior.allenai.org/">
+              <img style="height:40px;" src="./static/seeing-unseen/imgs/meta.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="overview">
+    <div class="page-content">
+      <p><br></p>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2><img src="./static/seeing-unseen/imgs/SemanticPlacement.png" style="height: 70px;" /> Grounding Multimodal LLMs to Embodied Agents that Ask for Help with
+            Reinforcement Learning</h2>
+        </div>
+
+        <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+          <a target="_blank" href="http://ram81.github.io/">Ram Ramrakhya</a>,
+           <a target="_blank" href="">Matthew Chang</a>,
+            <a target="_blank" href="">Xavier Puig</a>,
+            <a target="_blank" href="">Ruta Desai</a>,
+            <a target="_blank" href="">Zsolt Kira</a>, and
+            <a target="_blank" href="">Roozbeh Mottaghi</a><br>
+        </div>
+        <div class="col-xs-12" style="margin-top: 3px; color: #666;">
+          <!-- Published at <a target="_blank" href="https://cvpr2022.thecvf.com/">CVPR 2022</a>  -->
+          [<a href="#bibtex">Bibtex</a>] [<a href="https://arxiv.org/pdf/2504.00907" target="_blank">PDF</a>]
+          <!-- [<a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>] -->
+        </div>
+      </div>
+
+      <div class="row">
+        <br>
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="./static/ask-to-act/teaser.jpg">
+            </div>
+          </div>
+          <br>
+
+          <div style="padding-top: 20px;">
+            <p style="text-align: justify;"><b>Ask-To-Act.</b>. In this task, the user requests a specific green cup but, instead of describing it in detail, asks the agent, "Bring
+              the cup and place it on coffee table". Since the user's intent is unclear, an agent must ask a minimum number of clarification questions to
+              disambiguate the requested object (e.g. "Are you looking for a red cup?" or "Is it on the kitchen counter?"). We consider different types of
+              ambiguities, requiring inquiring about object attributes, spatial relationships, object size, or combinations of the three.</p>
+          </div>
+        </div>
+        <br>
+
+        <div class="col-xs-12" style="text-align: center;">
+          <h2>Abstract</h2>
+        </div>
+
+        <div class="col-xs-12">
+          <!-- <br> -->
+          <p>
+            Embodied agents operating in real-world environments must interpret ambiguous and under-specified human instructions. A capable household robot should recognize ambiguity and ask relevant clarification questions to infer the user intent accurately, leading to more effective task execution. 
+To study this problem, we introduce the \TASK task, where an embodied agent must fetch a specific object instance given an ambiguous instruction in a home environment. The agent must strategically ask minimal, yet relevant, clarification questions to resolve ambiguity while navigating under partial observability. To solve this problem, we propose a novel approach that fine-tunes multimodal large language models (MLLMs) as vision-language-action (VLA) policies using online reinforcement learning (RL) with LLM-generated rewards. Our method eliminates the need for large-scale human demonstrations or manually engineered rewards for training such agents. We benchmark against strong zero-shot baselines, including GPT-4o, and supervised fine-tuned MLLMs, on our task. Our results demonstrate that our RL-finetuned MLLM outperforms all baselines by a significant margin ($19.1$-$40.3\%$), generalizing well to novel scenes and tasks. To the best of our knowledge, this is the first demonstration of adapting MLLMs as VLA agents that can act and ask for help using LLM-generated rewards with online RL.
+          </p>
+          <p>Read more in the <a href="https://arxiv.org/pdf/2504.00907" target="_blank">paper</a>.</p>
+        </div>
+
+      </div>
+      <br />
+
+      <!-- <div class="row">
+        <div class="col-xs-12">
+          <h2>Presentation</h2>
+          <hr>
+          <br />
+        </div>
+        <br />
+        <div class="col-xs-12">
+          <center><iframe src="https://www.youtube.com/embed/DWWWGt7ebGo" width="800" height="450"></iframe></center>
+        </div>
+      </div> -->
+      <br />
+      <br />
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Approach</h2>
+          <hr />
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-12">
+            <center>
+              <img src="./static/ask-to-act/architecture.jpeg">
+            </center>
+          </div>
+        </div>
+        <br>
+
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;">
+            Fig. 1. <b>MLLM Policy Architecture.</b> The policy takes as input
+            a task instruction, sequence of past observations, actions, user
+            response to questions asked and outputs a high-level action (i.e.
+            skill) or a question in natural language.
+        </div>
+
+
+        <!-- <div style="padding-top: 0px;">
+          <p style="text-align: center;">We propose to leverage recent advances in open-vocabulary object detectors, segmentation models, and image inpainting models to automatically generate paired training data at scale using images in the wild.</p>
+        </div> -->
+
+        <div class="row">
+          <div class="col-sm-12">
+              <img src="./static/ask-to-act/rl_loop.jpeg">
+          </div>
+        </div>
+        <br>
+
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;">Fig 2. RL training loop.</p>
+        </div>
+
+
+        <div style="padding-top: 20px;">
+          <p style="text-align: center;">Our key idea is to bootstrap
+            the learning signal required for training embodied agents
+            capable of interacting and asking in an end-to-end manner
+            by leveraging an LLM's contextual commonsense and deductive reasoning ability to resolve ambiguity. We accomplish
+            this by adapting a multimodal large language model
+            (MLLM) into a vision-language-action (VLA)
+            model using large-scale RL with reward signal generated
+            using an LLM with access to privileged information from the
+            simulator. To distill reasoning ability required for resolving
+            ambiguity into this VLA model, we propose to use per-step
+            rewards generated using an LLM that evaluates both
+            the actions taken and natural language question asked by the
+            agent in context of the task. Through our experiments, we
+            show that LLMs are highly effective at generating per-step
+            rewards for such tasks that require interacting with environment and asking questions to resolve ambiguity, when provided with the right representation of task and environment
+            in text - information that can be easily curated at training
+            time using privileged simulator state. This framework enables us to adapt MLLMs into VLA models that can interact
+            with the environment and resolve ambiguity by asking questions without expensive human demonstrations or manually
+            engineered rewards.</p>
+        </div>
+       
+      </div>
+      <br />
+      <br />
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Results</h2>
+          <hr />
+        </div>
+
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;">We show evaluation results of our approach LLaVA-OV RL against zero-shot baselines leveraging GPT-4o with SoM prompting and tool use with ReAct prompting, and LLaVA-OV model trained using synthetically generated SFT data.
+            Our method (row 6) outperforms all baselines by a significant margin on the most by a large margin of absolute success rate of 31.1% on Unseen scenes split and by 41.6% on Unseen tasks split.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <img src="./static/seeing-unseen/imgs/results.png">
+          </div>
+        </div>
+        <br>
+
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;">Tab 1. Evaluation of all methods on Unseen Scenes and Unseen Tasks evaluation splits of Ask-To-Act task. FS
+            denotes few-shot examples, * denotes access to privileged information, Full Obs. stands for full observability.</p>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Analysis</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="./static/ask-to-act/analysis_2.jpeg">
+          </div>
+        </div>
+        <br>
+
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;"> Fig. 3 <b>Task Performance vs. Budget of Questions</b>. Evaluation
+            performance of policies trained under different budget of questions
+            vs. task Success Rate and Ambiguity Resolution Efficiency score.
+          </p>
+        </div>
+
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;"> A desired skill
+            for an embodied agent that can ask questions is to adhere
+            to user's preferences about how often they would like a
+            robot to ask clarification questions. Some would prefer
+            an agent ask as few questions as possible for better user
+            
+            Figure 3. Task Performance vs. Budget of Questions. Evaluation
+            performance of policies trained under different budget of questions
+            vs. task Success Rate and Ambiguity Resolution Efficiency score.
+            experience by trading off task success rates. In contrast,
+            some users would be fine with an agent asking as many
+            questions as it would like to ensure task success rates are
+            higher. Motivated by this, we train multiple MLLM policies
+            using RL with LLM generated rewards with a variable upperbound on maximum number of questions an agent can ask.
+            Specifically, we train policies with a budget of B ∈ {K, K +
+            1, K + 2, K + 4} questions, where K is defined as minimum
+            required question for a task in Ask-To-Act dataset. In this
+            setting, an agent can ask at most B questions in a single
+            episode (either relevant or irrelevant) without incurring any
+            penalties. Note, for this experiment B is either equal to K
+            i.e. ask as close to minimum required questions as possible
+            or can be quite high K + 4 where an agent can ask as many
+            as 4 extra questions than minimum required in each episode
+            without incurring any penalties. Additionally, the agent will
+            only be rewarded for relevant questions from all questions it
+            asked. We only penalize the agent for each question asked
+            after exceeding the question budget B. Fig. 3 shows success
+            rates of various policies trained with different budgets under
+            the reward setting described in Eq. (1). As shown in Fig. 3
+            (a.), as we increase the number of questions the agent can
+            ask, the success rates increase; however, there is a clear tradeoff between increase in success rates and question ratio (i.e.
+            asked questions to minimum required), see Fig. 3 (b.).</p>
+        </div>
+      </div>
+      <br />
+      <br />
+
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>Qualitative Examples</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="./static/ask-to-act/qualitative_1.jpeg">
+          </div>
+        </div>
+        <br>
+
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;"> Qualitative example of a successful trajectory of our method on an evaluation episode from Unseen Tasks split.</p>
+        </div>
+      </div>
+      <br />
+      <br />
+
+
+      <div class="row" id="bibtex">
+        <div class="col-xs-12">
+          <h2>Paper</h2>
+          <hr>
+          <br />
+        </div>
+        <div class="col-xs-2">
+          <center><img style="height: 120px;width: 100px;" src="./static/habitat-web/imgs/habitat-web-thumbnail.png">
+          </center>
+
+          <div style="padding-top: 20px;">
+            <p style="text-align: center;"><a target="_blank" href="">[Paper]</a></p>
+          </div>
+        </div>
+        <div class="col-xs-10">
+          <div class="paper">
+            <pre class="paper">
+<!--         -->@article{ramrakhya2024seeing,
+<!--         -->  title={Grounding Multimodal LLMs to Embodied Agents that Ask for Help with Reinforcement Learning},
+<!--         -->  author={Ram Ramrakhya, Matthew Chang, Xavier Puig, Ruta Desai, Zsolt Kira, Roozbeh Mottaghi},
+<!--         -->  year={2025},
+<!--         -->}
+            </pre>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <div class="row" id="people">
+        <div class="col-xs-12">
+          <h2>People</h2>
+          <hr>
+          <br />
+        </div>
+        <!-- <div class="col-md-2 col-sm-3 col-xs-6"></div> -->
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://ram81.github.io/">
+            <img class="people-pic" src="https://ram81.github.io/img/cover.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://ram81.github.io/">Ram Ramrakhya</a><br>
+            <affiliation>Georgia Tech, AI2</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://anikem.github.io/">
+            <img class="people-pic" src="https://anikem.github.io/images/profile_aniK.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://anikem.github.io/">Matthew Chang</a><br>
+            <affiliation>Meta FAIR</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://faculty.cc.gatech.edu/~dbatra/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/dhruv.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://faculty.cc.gatech.edu/~dbatra/">Xavier Puig</a><br>
+            <affiliation>Meta FAIR</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://faculty.cc.gatech.edu/~dbatra/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/dhruv.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://faculty.cc.gatech.edu/~dbatra/">Ruta Desai</a><br>
+            <affiliation>Meta FAIR</affiliation>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://faculty.cc.gatech.edu/~zk15/">
+            <img class="people-pic" src="https://faculty.cc.gatech.edu/~zk15/images/kira_0.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a><br>
+            <affiliation>Georgia Tech</affiliation>
+          </div>
+        </div>
+
+        
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://faculty.cc.gatech.edu/~dbatra/">
+            <img class="people-pic" src="./static/habitat-web/imgs/people/dhruv.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://faculty.cc.gatech.edu/~dbatra/">Roozbeh Mottaghi</a><br>
+            <affiliation>Meta FAIR</affiliation>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br />
+      <br />
+
+
+    </div>
+  </div>
+  <br />
+
+  <script type="text/javascript" src="./static/jquery.min.js"></script>
+  <script type="text/javascript" src="./static/bootstrap.min.js"></script>
+</body>
+
+</html>
