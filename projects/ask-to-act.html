@@ -101,7 +101,7 @@
           <br>
 
           <div style="padding-top: 20px;">
-            <p style="text-align: justify;"><b>Ask-To-Act.</b>. In this task, the user requests a specific green cup but, instead of describing it in detail, asks the agent, "Bring
+            <p style="text-align: justify;"><b>Ask-To-Act.</b> In this task, the user requests a specific green cup but, instead of describing it in detail, asks the agent, "Bring
               the cup and place it on coffee table". Since the user's intent is unclear, an agent must ask a minimum number of clarification questions to
               disambiguate the requested object (e.g. "Are you looking for a red cup?" or "Is it on the kitchen counter?"). We consider different types of
               ambiguities, requiring inquiring about object attributes, spatial relationships, object size, or combinations of the three.</p>
@@ -117,7 +117,7 @@
           <!-- <br> -->
           <p>
             Embodied agents operating in real-world environments must interpret ambiguous and under-specified human instructions. A capable household robot should recognize ambiguity and ask relevant clarification questions to infer the user intent accurately, leading to more effective task execution. 
-To study this problem, we introduce the \TASK task, where an embodied agent must fetch a specific object instance given an ambiguous instruction in a home environment. The agent must strategically ask minimal, yet relevant, clarification questions to resolve ambiguity while navigating under partial observability. To solve this problem, we propose a novel approach that fine-tunes multimodal large language models (MLLMs) as vision-language-action (VLA) policies using online reinforcement learning (RL) with LLM-generated rewards. Our method eliminates the need for large-scale human demonstrations or manually engineered rewards for training such agents. We benchmark against strong zero-shot baselines, including GPT-4o, and supervised fine-tuned MLLMs, on our task. Our results demonstrate that our RL-finetuned MLLM outperforms all baselines by a significant margin ($19.1$-$40.3\%$), generalizing well to novel scenes and tasks. To the best of our knowledge, this is the first demonstration of adapting MLLMs as VLA agents that can act and ask for help using LLM-generated rewards with online RL.
+To study this problem, we introduce the Ask-to-Act task, where an embodied agent must fetch a specific object instance given an ambiguous instruction in a home environment. The agent must strategically ask minimal, yet relevant, clarification questions to resolve ambiguity while navigating under partial observability. To solve this problem, we propose a novel approach that fine-tunes multimodal large language models (MLLMs) as vision-language-action (VLA) policies using online reinforcement learning (RL) with LLM-generated rewards. Our method eliminates the need for large-scale human demonstrations or manually engineered rewards for training such agents. We benchmark against strong zero-shot baselines, including GPT-4o, and supervised fine-tuned MLLMs, on our task. Our results demonstrate that our RL-finetuned MLLM outperforms all baselines by a significant margin (19.1-40.3\%), generalizing well to novel scenes and tasks. To the best of our knowledge, this is the first demonstration of adapting MLLMs as VLA agents that can act and ask for help using LLM-generated rewards with online RL.
           </p>
           <p>Read more in the <a href="https://arxiv.org/pdf/2504.00907" target="_blank">paper</a>.</p>
         </div>
@@ -213,8 +213,8 @@ To study this problem, we introduce the \TASK task, where an embodied agent must
         </div>
 
         <div style="padding-top: 0px;">
-          <p>We show evaluation results of our approach LLaVA-OV RL against zero-shot baselines leveraging GPT-4o with SoM prompting and tool use with ReAct prompting, and LLaVA-OV model trained using synthetically generated SFT data.
-            Our method (row 6) outperforms all baselines by a significant margin on the most by a large margin of absolute success rate of 31.1% on Unseen scenes split and by 41.6% on Unseen tasks split.
+          <p>We show evaluation results of our approach LLaVA-OV RL against zero-shot baselines leveraging GPT-4o with tool use and with SoM + ReAct prompting, and LLaVA-OV model trained using synthetically generated SFT data.
+            Our method (row 6) outperforms all baselines by a significant margin, on success rate by +41.6% on Unseen scenes split and by +31.1% on Unseen tasks split.
           </p>
         </div>
 
@@ -258,12 +258,7 @@ To study this problem, we introduce the \TASK task, where an embodied agent must
             for an embodied agent that can ask questions is to adhere
             to user's preferences about how often they would like a
             robot to ask clarification questions. Some would prefer
-            an agent ask as few questions as possible for better user
-            
-            Figure 3. Task Performance vs. Budget of Questions. Evaluation
-            performance of policies trained under different budget of questions
-            vs. task Success Rate and Ambiguity Resolution Efficiency score.
-            experience by trading off task success rates. In contrast,
+            an agent ask as few questions as possible for better user. In contrast,
             some users would be fine with an agent asking as many
             questions as it would like to ensure task success rates are
             higher. Motivated by this, we train multiple MLLM policies
