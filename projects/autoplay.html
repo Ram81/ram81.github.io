@@ -25,7 +25,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="https://ram81.github.io/projects/ask-to-act.html">Ask-to-Act</a>
+        <a class="navbar-brand" href="https://ram81.github.io/projects/autoplay.html">AutoPlay</a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -123,17 +123,6 @@
       </div>
       <br />
 
-      <!-- <div class="row">
-        <div class="col-xs-12">
-          <h2>Presentation</h2>
-          <hr>
-          <br />
-        </div>
-        <br />
-        <div class="col-xs-12">
-          <center><iframe src="https://www.youtube.com/embed/DWWWGt7ebGo" width="800" height="450"></iframe></center>
-        </div>
-      </div> -->
       <br />
       <br />
 
@@ -143,68 +132,22 @@
           <hr />
         </div>
 
-
-        <div class="row">
-          <div class="col-sm-12">
-            <center>
-              <img src="./static/ask-to-act/architecture.jpeg">
-            </center>
-          </div>
-        </div>
-        <br>
-
-        <div style="padding-top: 0px;">
-          <p style="text-align: center;">
-            Fig. 1. <b>MLLM Policy Architecture.</b> The policy takes as input
-            a task instruction, sequence of past observations, actions, user
-            response to questions asked and outputs a high-level action (i.e.
-            skill) or a question in natural language.
-        </div>
-
-
-        <!-- <div style="padding-top: 0px;">
-          <p style="text-align: center;">We propose to leverage recent advances in open-vocabulary object detectors, segmentation models, and image inpainting models to automatically generate paired training data at scale using images in the wild.</p>
-        </div> -->
-
-        <div class="row">
-          <div class="col-sm-12">
-              <img src="./static/ask-to-act/rl_loop.jpeg">
-          </div>
-        </div>
-        <br>
-
-        <div style="padding-top: 0px;">
-          <p style="text-align: center;">Fig 2. RL training loop.</p>
-        </div>
-
-
         <div style="padding-top: 20px;">
-          <p>Our key idea is to bootstrap
-            the learning signal required for training embodied agents
-            capable of interacting and asking in an end-to-end manner
-            by leveraging an LLM's contextual commonsense and deductive reasoning ability to resolve ambiguity. We accomplish
-            this by adapting a multimodal large language model
-            (MLLM) into a vision-language-action (VLA)
-            model using large-scale RL with reward signal generated
-            using an LLM with access to privileged information from the
-            simulator. To distill reasoning ability required for resolving
-            ambiguity into this VLA model, we propose to use per-step
-            rewards generated using an LLM that evaluates both
-            the actions taken and natural language question asked by the
-            agent in context of the task. Through our experiments, we
-            show that LLMs are highly effective at generating per-step
-            rewards for such tasks that require interacting with environment and asking questions to resolve ambiguity, when provided with the right representation of task and environment
-            in text - information that can be easily curated at training
-            time using privileged simulator state. This framework enables us to adapt MLLMs into VLA models that can interact
-            with the environment and resolve ambiguity by asking questions without expensive human demonstrations or manually
-            engineered rewards.</p>
+          <p>We introduce AutoPlay an approach for scalable task generation with a focus on task coverage, feasibility, and verifiability. Our method, depicted in Fig.1, incorporates two phases of exploration and task generation. First, in *Environment Exploration* phase, an MLLM explorer agent equipped with memory is prompted to exhaustively explore an increasing number of novel environment states (top of Fig. 1). Such exploratory trajectories are intended to discover the accessible functionalities and content of the environment. Next, in *Task Generation* phase, a task generator MLLM uses exploration trajectories as environment context to produce diverse environment-grounded tasks based on a set of task guideline prompts which describe desired task properties (bottom of Fig. 1). For instance, a task guideline prompt for Feature-Use tasks would encourage generation of tasks that require doing diverse create, edit, of delete operations on entities in the environment. We present an example of the exploration trajectory collected by AutoPlay and the corresponding tasks synthesized using task generator grounded in the state of the environment in figure below.</p>
         </div>
+          
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="./static/autoplay/example.jpg">
+            </div>
+          </div>
+          <br>
        
       </div>
       <br />
       <br />
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xs-12">
           <h2>Results</h2>
           <hr />
@@ -282,10 +225,10 @@
         </div>
       </div>
       <br />
-      <br />
+      <br /> -->
 
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xs-12">
           <h2>Qualitative Examples</h2>
           <hr />
@@ -302,7 +245,7 @@
         </div>
       </div>
       <br />
-      <br />
+      <br /> -->
 
 
       <div class="row" id="bibtex">
@@ -316,20 +259,20 @@
           </center>
 
           <div style="padding-top: 20px;">
-            <p style="text-align: center;"><a target="_blank" href="https://arxiv.org/pdf/2504.00907">[Paper]</a></p>
+            <p style="text-align: center;"><a target="_blank" href="">[Paper]</a></p>
           </div>
         </div>
         <div class="col-xs-10">
           <div class="paper">
             <pre class="paper">
-<!--         -->@misc{ramrakhya2025groundingmultimodalllmsembodied,
-<!--         -->  title={Grounding Multimodal LLMs to Embodied Agents that Ask for Help with Reinforcement Learning},
-<!--         -->  author={Ram Ramrakhya and Matthew Chang and Xavier Puig and Ruta Desai and Zsolt Kira and Roozbeh Mottaghi},
+<!--         -->@misc{,
+<!--         -->  title={Scaling Synthetic Task Generation for Agents via Exploration},
+<!--         -->  author={Ram Ramrakhya and Andrew Szot and Omar Attia and Yuhao Yang and Anh Nguyen and Bogdan Mazoure and Zhe Gan and Harsh Agrawal and Alexander Toshev},
 <!--         -->  year={2025},
-<!--         -->  eprint={2504.00907},
+<!--         -->  eprint={},
 <!--         -->  archivePrefix={arXiv},
 <!--         -->  primaryClass={cs.AI},
-<!--         -->  url={https://arxiv.org/abs/2504.00907},
+<!--         -->  url={},
 <!--         -->}
             </pre>
           </div>
@@ -351,57 +294,85 @@
           </a>
           <div class="people-name">
             <a href="https://ram81.github.io/">Ram Ramrakhya</a><br>
-            <affiliation>Georgia Tech, AI2</affiliation>
+            <affiliation>Apple</affiliation>
           </div>
         </div>
         <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="https://matthewchang.github.io/">
-            <img class="people-pic" src="https://matthewchang.github.io/images/headshot.jpg">
+          <a href="https://www.andrewszot.com/">
+            <img class="people-pic" src="https://www.andrewszot.com/landing/me.jpg">
           </a>
           <div class="people-name">
-            <a href="https://matthewchang.github.io/">Matthew Chang</a><br>
-            <affiliation>Meta FAIR</affiliation>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="https://www.xavierpuigf.com/">
-            <img class="people-pic" src="https://www.xavierpuigf.com/media/xavi.jpg">
-          </a>
-          <div class="people-name">
-            <a href="https://www.xavierpuigf.com/">Xavier Puig</a><br>
-            <affiliation>Meta FAIR</affiliation>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="https://rutadesai.github.io/">
-            <img class="people-pic" src="https://rutadesai.github.io/images/ruta_circle.png">
-          </a>
-          <div class="people-name">
-            <a href="https://rutadesai.github.io/">Ruta Desai</a><br>
-            <affiliation>Meta FAIR</affiliation>
+            <a href="https://www.andrewszot.com/">Andrew Szot</a><br>
+            <affiliation>Apple</affiliation>
           </div>
         </div>
 
         <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="https://faculty.cc.gatech.edu/~zk15/">
-            <img class="people-pic" src="https://faculty.cc.gatech.edu/~zk15/images/kira_0.jpg">
+          <a href="https://scholar.google.com/citations?user=svCZUyAAAAAJ&hl=en">
+            <img class="people-pic" src="">
           </a>
           <div class="people-name">
-            <a href="https://faculty.cc.gatech.edu/~zk15/">Zsolt Kira</a><br>
-            <affiliation>Georgia Tech</affiliation>
+            <a href="https://scholar.google.com/citations?user=svCZUyAAAAAJ&hl=en">Omar Attia</a><br>
+            <affiliation>Apple</affiliation>
           </div>
         </div>
 
-        
         <div class="col-md-2 col-sm-3 col-xs-6">
-          <a href="https://roozbehm.info/">
-            <img class="people-pic" src="https://roozbehm.info/images/profile_roozbehM.jpg">
+          <a href="https://yuh-yang.github.io/">
+            <img class="people-pic" src="https://yuh-yang.github.io/img/selfie.jpg">
           </a>
           <div class="people-name">
-            <a href="https://roozbehm.info/">Roozbeh Mottaghi</a><br>
-            <affiliation>Meta FAIR</affiliation>
+            <a href="https://yuh-yang.github.io/">Yuhao Yang</a><br>
+            <affiliation>Apple</affiliation>
           </div>
         </div>
+
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://scholar.google.com/citations?user=r8RQcFQAAAAJ&hl=en">
+            <img class="people-pic" src="">
+          </a>
+          <div class="people-name">
+            <a href="https://scholar.google.com/citations?user=r8RQcFQAAAAJ&hl=en">Anh Nguyen</a><br>
+            <affiliation>Apple</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://bmazoure.github.io/">
+            <img class="people-pic" src="https://bmazoure.github.io/assets/img/avatar.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://bmazoure.github.io/">Bogdan Mazoure</a><br>
+            <affiliation>Apple</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://zhegan27.github.io/">
+            <img class="people-pic" src="https://zhegan27.github.io/images/Zhe_new2.jpeg">
+          </a>
+          <div class="people-name">
+            <a href="https://zhegan27.github.io/">Zhe Gan</a><br>
+            <affiliation>Apple</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://dexter1691.github.io/">
+            <img class="people-pic" src="https://dexter1691.github.io/_astro/DP.DW3WkKG5.jpg">
+          </a>
+          <div class="people-name">
+            <a href="https://dexter1691.github.io/">Harsh Agrawal</a><br>
+            <affiliation>Apple</affiliation>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <a href="https://sites.google.com/view/alextoshev">
+            <img class="people-pic" src="https://lh3.googleusercontent.com/sitesv/AICyYdZxQQBM_Fmoz55RnXhbsrrD4drUXvBCeAXfRyuXMtIkQ_o9qnorQ0YOwu_bxsn8YNi1KfUf7P99mCZ5Gwj4swXX-FvPoVAR7hbyGXGhkP9jDc2-fCv4mHqZKieddt8O0SVUd1MQCCxgeBxt-hUPdUuFYenXCSUcdWCUUWn0aFU0AuGWeMq9Fa3EU8lfxy4NL_cLfYJdrN_9bW4=w1280">
+          </a>
+          <div class="people-name">
+            <a href="https://sites.google.com/view/alextoshev">Alexander Toshev</a><br>
+            <affiliation>Apple</affiliation>
+          </div>
+        </div>
+          
         </div>
       </div>
       <br />
