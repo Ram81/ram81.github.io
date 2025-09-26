@@ -65,9 +65,13 @@ permalink:  /
 
 # Bio
 
-I am a second year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborated with [Erik Wijmans](https://wijmans.xyz/) during my time as a MS student.
+I am a third year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborated with [Erik Wijmans](https://wijmans.xyz/) during my time as a MS student.
 
-I am interested in building general purpose home robots that can operate in real world environments. To advance this goal, I am interested in scaling robot learning data via cheaper, safer, and scalable alternative sources like: (a.) 3D Simulation: a safe, inexpensive, and scalable way to gather human teleoperation data and establish fundamental benchmarks for embodied tasks, and (b) Synthetic Data: which involves curating embodied data by automatically annotating unlabelled web data using vision-and-language foundation models as annotators.
+I am interested in general purpose multi-modal LLM agents that can reason and act to solve complex tasks across domains like GUI-Use, Tool-Use, Embodied Agents, and Coding agents. Towards this goal, I am interested in scaling interaction data and environments required to scale supervised finetuning (SFT) and reinforcement learning (RL) methods for post-training multi-modal LLMs as agents. My area of expertise are RL, multi-modal LLM agents, synthetic data curation, and simulation.
+
+<span style="color:#d32f2f; font-weight:bold;">
+I am on the industry job market, seeking research roles positions starting Jan 2026! Feel free to <a href="mailto:rramrakhya3@gatech.edu">email me</a> if there's a fit!
+</span>
 
 
 <div class="row" id="timeline-logos">
@@ -140,7 +144,7 @@ I am interested in building general purpose home robots that can operate in real
 </div>
 
 
-I am interning at Apple MLR with [Alexander Toshev](https://sites.google.com/view/alextoshev) since Spring 2025. I was an intern at Meta FAIR from Summer to Winter 2024 working with [Roozbeh Mottaghi](https://roozbehm.info/). During my MS, I was fortunate to intern at Allen Institute of AI (AI2) in Summer 2023 with [Luca Weihs](https://lucaweihs.github.io/) and [Kuo-Hao Zheng](https://kuohaozeng.github.io/). In 2022, I was an intern at Mitsubishi Electric Research Laborateries (MERL) with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en).
+I have been fortunate to intern at Apple MLR with [Alexander Toshev](https://sites.google.com/view/alextoshev) from Spring to Summer 2025 on scaling synthetic data generation for post-training MLLM agents. In summer 2024, I interned at Meta FAIR working with [Roozbeh Mottaghi](https://roozbehm.info/) on post-training VLA policies with LLM generated rewards. In summer 2023, I interned at Allen Institute of AI (AI2) with [Luca Weihs](https://lucaweihs.github.io/) and [Kuo-Hao Zheng](https://kuohaozeng.github.io/) on synthetic data generation for visual common sense reasoning. In 2022, I was an intern at Mitsubishi Electric Research Laborateries (MERL) with [Anoop Cherian](https://scholar.google.com/citations?user=XVUCn40AAAAJ&hl=en) working on scene representations for embodied agents.
 
 Previously, I spent a year working as a Research Intern in [Computer Vision and Machine Learning Perception Lab](http://mlp.cc.gatech.edu/) at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Devi Parikh](https://www.cc.gatech.edu/~parikh/). I also lead an open source organization, [CloudCV](https://cloudcv.org/), where we are building several open-source softwares for reproducible AI research.
 
