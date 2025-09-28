@@ -53,13 +53,8 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="https://gatech.edu/">
-              <img style="height:30px;" src="./static/habitat-web/imgs/gt.jpg">
-            </a>
-          </li>
-          <li>
             <a href="">
-              <img style="height:40px;" src="./static/habitat-web/imgs/meta.png">
+              <img style="height:40px;" src="./static/autoplay/apple.png">
             </a>
           </li>
         </ul>
@@ -76,7 +71,7 @@
         </div>
 
         <div class="col-xs-12" style="margin-top: 3px; color: #666;">
-          <a target="_blank" href="http://ram81.github.io/">Ram Ramrakhya</a>,
+          <a target="_blank" href="http://ram81.github.io/">Ram Ramrakhya*</a>,
           <a target="_blank" href="">Andrew Szot</a>,
           <a target="_blank" href="">Omar Attia</a>,
           <a target="_blank" href="">Yuhao Yang</a>,
@@ -90,6 +85,8 @@
           <!-- Published at <a target="_blank" href="https://cvpr2022.thecvf.com/">CVPR 2022</a>  -->
           [<a href="#bibtex">Bibtex</a>] [<a href="https://arxiv.org/pdf/2504.00907" target="_blank">PDF</a>]
           <!-- [<a target="_blank" href="https://github.com/Ram81/seeing-unseen">Code</a>] -->
+           <p></p>
+           <p>*Work done while RR was a intern at Apple</p>
         </div>
       </div>
 
@@ -132,12 +129,12 @@
             phase, where an MLLM explorer agent systematically uncovers novel environment states and functionalities,
             and (ii) a task generation phase, where a task generator leverages exploration trajectories and a set of
             task guideline prompts as context to synthesize diverse, executable, and verifiable tasks. We show AutoPlay
-            generates $20$k tasks across $20$ Android applications and $10$k tasks across 13 applications Ubuntu
-            applications to train mobile-use and computer-use agents. AutoPlay generated tasks enable large-scale task
-            demonstration synthesis without human annotation by employing an MLLM task executor and verifier. This data
-            enables training MLLM-based UI agents that improve success rates up to $20.0\%$ on mobile-use and $10.9\%$
-            on computer-use scenarios. In addition, AutoPlay generated tasks combined with MLLM verifier-based rewards
-            enable scaling reinforcement learning training of UI agents, leading to an additional $5.7\%$ gain.
+            generates 20k tasks across 20 Android applications and 10k tasks across 13 Ubuntu applications to train
+            mobile-use and computer-use agents. AutoPlay generated tasks enable large-scale task demonstration synthesis
+            without human annotation by employing an MLLM task executor and verifier. This data enables training
+            MLLM-based UI agents that improve success rates up to 20.0% on mobile-use and 10.9% on computer-use
+            scenarios. In addition, AutoPlay generated tasks combined with MLLM verifier-based rewards enable scaling
+            reinforcement learning training of UI agents, leading to an additional 5.7% gain.
             coverage. These results establish AutoPlay as a scalable approach for post-training capable MLLM agents
             reducing reliance on human annotation.
           </p>
@@ -185,9 +182,9 @@
           <hr />
         </div>
         <div class="row">
-          <div class="col-xs-12" style="margin-bottom: 20px;">
+          <div class="col-xs-12" style="margin-bottom: 20px; text-align:center;">
             <label for="appDropdown"><b>Select App:</b></label>
-            <select id="appDropdown" class="form-control" style="width: 250px; display: inline-block;">
+            <select id="appDropdown" class="form-control" style="width: 320px; display: inline-block; color: #000;">
             </select>
           </div>
           <div id="videoContainer">
@@ -260,45 +257,6 @@
             // Show default videos on load
             showVideos(document.getElementById('appDropdown').value);
           </script>
-          <!-- <script>
-            let appVideos = {};
-            fetch('./static/autoplay/visuals_by_app.json')
-              .then(response => response.json())
-              .then(data => {
-                const dropdown = document.getElementById('appDropdown');
-                dropdown.innerHTML = '';
-                Object.keys(data).forEach(app => {
-                  const option = document.createElement('option');
-                  option.value = app;
-                  option.textContent = app.charAt(0).toUpperCase() + app.slice(1);
-                  dropdown.appendChild(option);
-                });
-
-                appVideos = data;
-                // Show default videos on load after data is fetched
-                showVideos(document.getElementById('appDropdown').value);
-              })
-              .catch(error => {
-                console.error('Error loading app_videos.json:', error);
-              });
-
-            function showVideos(app) {
-              const videos = appVideos[app] || [];
-              const container = document.getElementById('videoContainer');
-              container.innerHTML = videos.map(src =>
-                `<div class="col-md-1"></div><div class="col-md-3" id="videoContainer" style="text-align: center;">
-                  <center><img src="${src}" style="border: 3px solid #000000;"></center>
-                </div>`
-              ).join('');
-            }
-
-            document.getElementById('appDropdown').addEventListener('change', function () {
-              showVideos(this.value);
-            });
-
-            // Show default videos on load
-            showVideos(document.getElementById('appDropdown').value);
-          </script> -->
 
         </div>
         <br>
@@ -453,7 +411,7 @@
             <img class="people-pic" src="https://ram81.github.io/img/cover.jpg">
           </a>
           <div class="people-name">
-            <a href="https://ram81.github.io/">Ram Ramrakhya</a><br>
+            <a href="https://ram81.github.io/">Ram Ramrakhya*</a><br>
             <affiliation>Apple</affiliation>
           </div>
         </div>
@@ -469,7 +427,7 @@
 
         <div class="col-md-2 col-sm-3 col-xs-6">
           <a href="https://scholar.google.com/citations?user=svCZUyAAAAAJ&hl=en">
-            <img class="people-pic" src="">
+            <img class="people-pic" src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=svCZUyAAAAAJ&citpid=1">
           </a>
           <div class="people-name">
             <a href="https://scholar.google.com/citations?user=svCZUyAAAAAJ&hl=en">Omar Attia</a><br>
@@ -489,7 +447,7 @@
 
         <div class="col-md-2 col-sm-3 col-xs-6">
           <a href="https://scholar.google.com/citations?user=r8RQcFQAAAAJ&hl=en">
-            <img class="people-pic" src="">
+            <img class="people-pic" src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=r8RQcFQAAAAJ&citpid=1">
           </a>
           <div class="people-name">
             <a href="https://scholar.google.com/citations?user=r8RQcFQAAAAJ&hl=en">Anh Nguyen</a><br>
@@ -526,7 +484,7 @@
         <div class="col-md-2 col-sm-3 col-xs-6">
           <a href="https://sites.google.com/view/alextoshev">
             <img class="people-pic"
-              src="https://lh3.googleusercontent.com/sitesv/AICyYdZxQQBM_Fmoz55RnXhbsrrD4drUXvBCeAXfRyuXMtIkQ_o9qnorQ0YOwu_bxsn8YNi1KfUf7P99mCZ5Gwj4swXX-FvPoVAR7hbyGXGhkP9jDc2-fCv4mHqZKieddt8O0SVUd1MQCCxgeBxt-hUPdUuFYenXCSUcdWCUUWn0aFU0AuGWeMq9Fa3EU8lfxy4NL_cLfYJdrN_9bW4=w1280">
+              src="https://lh3.googleusercontent.com/sitesv/AICyYdZAWimPEX44t7vXRRar2AP-fiKNa507cR0R87qQsNd2QaPOBwKanp_0ds9vAbRgX2o9fbhUnf2nBx6vsWYe8u9rfSCas_70s0swqAJJgr6NLkd9rNMI1xOKcn879hqLrnPs-L8C7E4o62Ffb0dx2i0X1RkzdAlO0uEHGYDGxkpQySUcGIXHmZwRlFhqncR57NcN6j97khe4T5g=w1280">
           </a>
           <div class="people-name">
             <a href="https://sites.google.com/view/alextoshev">Alexander Toshev</a><br>

@@ -11,6 +11,18 @@
             ["In Simple Calendar Pro, customize notifications to include a sound alert for reminders.", "In Simple Calendar Pro, can you delete the events 'Appointm', 'Meeting', and 'Review' scheduled for October 24?", "Delete the event titled 'Catch up' on 2023-10-15 in Simple Calendar Pro and then set the week to start on Monday."]
         ]
     },
+    "Clock": {
+        "videos": [
+            "static/autoplay/explore/episode_25_Clock.gif",
+            "static/autoplay/explore/episode_59_Clock.gif",
+            "static/autoplay/explore/episode_140_Clock.gif"
+        ],
+        "tasks": [
+            ["Schedule a wake-up alarm for 07:00 on weekends with the sunrise alarm feature and vibration turned off in the Clock app.", "Set a bedtime reminder for 00:00 and then set a timer for 1 minute in the Clock app to help me unwind.", "Configure an alarm for 07:00 with the sunrise option and then use the stopwatch to record two laps in the Clock app."],
+            ["Cancel the alarm set for 09:00 on Saturday and Sunday in the Clock app.", "Adjust the Clock app to change the home time zone to GMT for my remote work schedule.", "Add a world clock for London in the Clock app to help me plan my international calls."],
+            ["I need to set a timer for 10 seconds and then start a stopwatch, pausing it after 15 seconds in the Clock app.", "Schedule a new alarm for 07:00 on Sunday with the sound 'Default (Cesium)' in the Clock app.", "Please set an alarm for 09:15 using a sound from Google Play and then activate the stopwatch in the Clock app."]
+        ]
+    },
     "Broccoli - Recipe App": {
         "videos": [
             "static/autoplay/explore/episode_162_Broccoli-RecipeApp.gif",
@@ -45,18 +57,6 @@
             ["Delete the expense named 'Accessories' in the Pro Expense app and then check the statistics for the current week.", "Use Pro Expense to export your expenses and then import a backup file called Backup_Oct20_2023.", "In the Pro Expense app, remove expenses with titles 'Reimbursements', 'Gym Membership', and 'Undergarments'."],
             ["Add an expense for 'Streaming Services' with amount 60 in category 'Entertainment' and then view the statistics for the week of 2023-10-15 to 2023-10-21 in Pro Expense.", "Change the theme in Pro Expense to a green theme to make it more eco-friendly.", "In the Pro Expense app, import data from the specified files: Backup_Oct16_2023_154035, Backup_Oct18_2023_154035, and Backup_Oct17_2023_154035."],
             ["In the Pro Expense app, apply a filter to display only expenses related to 'Gas'.", "In Pro Expense, adjust the 'Accessories' expense to 350 USD and the 'Fine Dining' expense to 360 USD.", "Update the Mortgage expense in Pro Expense app to reflect a new amount of 500.00 and change the category to Housing."]
-        ]
-    },
-    "Clock": {
-        "videos": [
-            "static/autoplay/explore/episode_25_Clock.gif",
-            "static/autoplay/explore/episode_59_Clock.gif",
-            "static/autoplay/explore/episode_140_Clock.gif"
-        ],
-        "tasks": [
-            ["Schedule a wake-up alarm for 07:00 on weekends with the sunrise alarm feature and vibration turned off in the Clock app.", "Set a bedtime reminder for 00:00 and then set a timer for 1 minute in the Clock app to help me unwind.", "Configure an alarm for 07:00 with the sunrise option and then use the stopwatch to record two laps in the Clock app."],
-            ["Cancel the alarm set for 09:00 on Saturday and Sunday in the Clock app.", "Adjust the Clock app to change the home time zone to GMT for my remote work schedule.", "Add a world clock for London in the Clock app to help me plan my international calls."],
-            ["I need to set a timer for 10 seconds and then start a stopwatch, pausing it after 15 seconds in the Clock app.", "Schedule a new alarm for 07:00 on Sunday with the sound 'Default (Cesium)' in the Clock app.", "Please set an alarm for 09:15 using a sound from Google Play and then activate the stopwatch in the Clock app."]
         ]
     }
 }
