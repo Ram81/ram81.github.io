@@ -142,6 +142,68 @@
             </div>
           </div>
           <br>
+        
+
+
+        <div class="col-xs-12">
+        <h2>Qualitative Examples</h2>
+        <hr />
+        </div>
+        <div class="row">
+          <div class="col-xs-12" style="margin-bottom: 20px;">
+            <label for="appDropdown"><b>Select App:</b></label>
+            <select id="appDropdown" class="form-control" style="width: 250px; display: inline-block;">
+            </select>
+          </div>
+          <div id="videoContainer">
+
+          </div>
+          
+          <script>
+            let appVideos = {};
+            fetch('./static/autoplay/visuals_by_app.json')
+              .then(response => response.json())
+              .then(data => {
+                const dropdown = document.getElementById('appDropdown');
+                dropdown.innerHTML = '';
+                Object.keys(data).forEach(app => {
+                  const option = document.createElement('option');
+                  option.value = app;
+                  option.textContent = app.charAt(0).toUpperCase() + app.slice(1);
+                  dropdown.appendChild(option);
+                });
+
+                appVideos = data;
+                // Show default videos on load after data is fetched
+                showVideos(document.getElementById('appDropdown').value);
+              })
+              .catch(error => {
+                console.error('Error loading app_videos.json:', error);
+              });
+
+            function showVideos(app) {
+              const videos = appVideos[app] || [];
+              const container = document.getElementById('videoContainer');
+              container.innerHTML = videos.map(src =>
+                `<div class="col-md-3" id="videoContainer" style="text-align: center;">
+                  <video width="320" height="640" controls style="margin:10px;">
+                    <source src="${src}" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>`
+              ).join('');
+            }
+
+            document.getElementById('appDropdown').addEventListener('change', function() {
+              showVideos(this.value);
+            });
+
+            // Show default videos on load
+            showVideos(document.getElementById('appDropdown').value);
+          </script>
+
+        </div>
+        <br>
        
       </div>
       <br />
