@@ -1,27 +1,62 @@
 {
-    "Simple Calendar Pro": [
-        "static/autoplay/explore/episode_14_SimpleCalendarPro.mp4",
-        "static/autoplay/explore/episode_20_SimpleCalendarPro.mp4",
-        "static/autoplay/explore/episode_31_SimpleCalendarPro.mp4"
-    ],
-    "Broccoli - Recipe App": [
-        "static/autoplay/explore/episode_162_Broccoli-Recipe App.mp4",
-        "static/autoplay/explore/episode_200_Broccoli-Recipe App.mp4",
-        "static/autoplay/explore/episode_202_Broccoli-Recipe App.mp4"
-    ],
-    "Audio Recorder": [
-        "static/autoplay/explore/episode_5_Audio_Recorder.mp4",
-        "static/autoplay/explore/episode_64_Audio_Recorder.mp4",
-        "static/autoplay/explore/episode_77_Audio_Recorder.mp4"
-    ],
-    "Pro Expense": [
-        "static/autoplay/explore/episode_21_ProExpense.mp4",
-        "static/autoplay/explore/episode_28_ProExpense.mp4",
-        "static/autoplay/explore/episode_29_ProExpense.mp4"
-    ],
-    "Clock": [
-        "static/autoplay/explore/episode_25_Clock.mp4",
-        "static/autoplay/explore/episode_59_Clock.mp4",
-        "static/autoplay/explore/episode_140_Clock.mp4"
-    ]
+    "Simple Calendar Pro": {
+        "videos": [
+        "static/autoplay/explore/episode_14_SimpleCalendarPro.gif",
+        "static/autoplay/explore/episode_20_SimpleCalendarPro.gif",
+        "static/autoplay/explore/episode_31_SimpleCalendarPro.gif"
+        ],
+        "tasks": [
+            ["Switch the calendar to the monthly view in Simple Calendar Pro to plan my month.", "I need a physical copy of my schedule. Can you print the calendar for March using Simple Calendar Pro?", "What is the repetition setting for the event titled 'Catch up' in the Simple Calendar Pro app?"],
+            ["I want to change the widget colors to Orange, Teal, and Purple in Simple Calendar Pro for a unique style.", "In Simple Calendar Pro, create an event type titled 'Team Meeting' with color 'Blue' and description 'Weekly team sync-up meeting.'", "Reschedule the 'Review session for Annual Report' to start at 14:00 and last for 2 hours in the Simple Calendar Pro app."],
+            ["In Simple Calendar Pro, customize notifications to include a sound alert for reminders.", "In Simple Calendar Pro, can you delete the events 'Appointm', 'Meeting', and 'Review' scheduled for October 24?", "Delete the event titled 'Catch up' on 2023-10-15 in Simple Calendar Pro and then set the week to start on Monday."]
+        ]
+    },
+    "Broccoli - Recipe App": {
+        "videos": [
+            "static/autoplay/explore/episode_162_Broccoli-RecipeApp.gif",
+            "static/autoplay/explore/episode_200_Broccoli-RecipeApp.gif",
+            "static/autoplay/explore/episode_202_Broccoli-RecipeApp.gif"
+        ],
+        "tasks": [
+            ["Create a new recipe titled 'Chocolate Cake' with description 'Perfect for dessert', set servings to 6, and time to 45 minutes, then share it via Email on Broccoli - Recipe App.", "Delete the 'Moroccan Chickpea Stew' recipe from the Broccoli app because I don't plan to make it", "Use the Broccoli - Recipe App to find recipes for 'Cauliflower Fried \"Rice\"', 'Butternut Squash Soup', and 'Chicken Alfredo Pasta'."],
+            ["In the Broccoli - Recipe App, how many servings does 'Lentil Soup' provide?", "Edit the recipe titled Spicy Tofu Stir-fry to change the servings to 6 servings and then delete it in the Broccoli app.", "Add a new category called 'Snacks' in Broccoli - Recipe App to keep my snack recipes organized."],
+            ["In the Broccoli - Recipe App, send feedback with the message 'Include a meal planner feature' and verify the submission.", "In the Broccoli app, go to the Seasonal calendar, Backup and restore, and Recipes sections.", "In the Broccoli app, remove the recipes titled Classic Margherita Pizza, Avocado Toast with Egg, and BBQ Chicken Quesadillas."]
+        ]
+    },
+    "Audio Recorder": {
+        "videos": [
+            "static/autoplay/explore/episode_5_Audio_Recorder.gif",
+            "static/autoplay/explore/episode_64_AudioRecorder.gif",
+            "static/autoplay/explore/episode_77_AudioRecorder.gif"
+        ],
+        "tasks": [
+            ["Change the Audio Recorder app settings to Theme Purple, with a recording format of Wav, a sample rate of 32kHz, and a bitrate of 48 kbps.", "Create a recording with the name 'Workshop' and delete it from the trash in the Audio Recorder app.", "Could you locate the file path for the recording named 'Note' in the Audio Recorder app?"],
+            ["Create an audio recording in the Audio Recorder app with a 32kHz sample rate and rename it to 'Project Update', then open it with Retro Music.", "Modify the naming format to 'Record-1.m4a' in the Audio Recorder app for a simple sequential naming.", "In the Audio Recorder app, sort my recordings from the oldest to the newest."],
+            ["In the Audio Recorder app, change the theme to Theme Purple and set the recording format to 3gp with a sample rate of 32kHz and bitrate of 192 kbps.", "Set the Audio Recorder to Wav, 44.1kHz, and Mono, then create and delete an audio file named 'Voice Memo'.", "Please sort my recordings from Z to A by name in the Audio Recorder app."]
+        ]
+    },
+    "Pro Expense": {
+        "videos": [
+            "static/autoplay/explore/episode_21_ProExpense.gif",
+            "static/autoplay/explore/episode_28_ProExpense.gif",
+            "static/autoplay/explore/episode_29_ProExpense.gif"
+        ],
+        "tasks": [
+            ["Delete the expense named 'Accessories' in the Pro Expense app and then check the statistics for the current week.", "Use Pro Expense to export your expenses and then import a backup file called Backup_Oct20_2023.", "In the Pro Expense app, remove expenses with titles 'Reimbursements', 'Gym Membership', and 'Undergarments'."],
+            ["Add an expense for 'Streaming Services' with amount 60 in category 'Entertainment' and then view the statistics for the week of 2023-10-15 to 2023-10-21 in Pro Expense.", "Change the theme in Pro Expense to a green theme to make it more eco-friendly.", "In the Pro Expense app, import data from the specified files: Backup_Oct16_2023_154035, Backup_Oct18_2023_154035, and Backup_Oct17_2023_154035."],
+            ["In the Pro Expense app, apply a filter to display only expenses related to 'Gas'.", "In Pro Expense, adjust the 'Accessories' expense to 350 USD and the 'Fine Dining' expense to 360 USD.", "Update the Mortgage expense in Pro Expense app to reflect a new amount of 500.00 and change the category to Housing."]
+        ]
+    },
+    "Clock": {
+        "videos": [
+            "static/autoplay/explore/episode_25_Clock.gif",
+            "static/autoplay/explore/episode_59_Clock.gif",
+            "static/autoplay/explore/episode_140_Clock.gif"
+        ],
+        "tasks": [
+            ["Schedule a wake-up alarm for 07:00 on weekends with the sunrise alarm feature and vibration turned off in the Clock app.", "Set a bedtime reminder for 00:00 and then set a timer for 1 minute in the Clock app to help me unwind.", "Configure an alarm for 07:00 with the sunrise option and then use the stopwatch to record two laps in the Clock app."],
+            ["Cancel the alarm set for 09:00 on Saturday and Sunday in the Clock app.", "Adjust the Clock app to change the home time zone to GMT for my remote work schedule.", "Add a world clock for London in the Clock app to help me plan my international calls."],
+            ["I need to set a timer for 10 seconds and then start a stopwatch, pausing it after 15 seconds in the Clock app.", "Schedule a new alarm for 07:00 on Sunday with the sound 'Default (Cesium)' in the Clock app.", "Please set an alarm for 09:15 using a sound from Google Play and then activate the stopwatch in the Clock app."]
+        ]
+    }
 }
