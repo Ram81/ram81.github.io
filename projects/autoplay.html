@@ -101,8 +101,8 @@
           <br>
 
           <div style="padding-top: 20px;">
-            <p style="text-align: justify;"><b>AutoPlay.</b> generates large-scale, diverse and verifiable tasks for
-              scaling supervision for MLLM agents. In stage 1 (top), \autoplay covers the environment states through a
+            <p style="text-align: justify;"><b>AutoPlay</b> generates large-scale, diverse and verifiable tasks for
+              scaling supervision for MLLM agents. In stage 1 (top), AutoPlay covers the environment states through a
               MLLM exploration policy that tracks seen states via a memory module. Next, stage 2 (bottom) uses these
               exploratory trajectories and task guideline prompts as context for proposing tasks. The guidelines help
               enforce task diversity and the exploration trajectories uncover environment features and content relevant
@@ -151,116 +151,107 @@
         <div class="col-xs-12">
           <h2>Approach</h2>
           <hr />
-        </div>
 
-        <div style="padding-top: 20px;">
-          <p>We introduce AutoPlay an approach for scalable task generation with a focus on task coverage, feasibility,
-            and verifiability. Our method, depicted in Fig.1, incorporates two phases of exploration and task
-            generation. First, in *Environment Exploration* phase, an MLLM explorer agent equipped with memory is
-            prompted to exhaustively explore an increasing number of novel environment states (top of Fig. 1). Such
-            exploratory trajectories are intended to discover the accessible functionalities and content of the
-            environment. Next, in *Task Generation* phase, a task generator MLLM uses exploration trajectories as
-            environment context to produce diverse environment-grounded tasks based on a set of task guideline prompts
-            which describe desired task properties (bottom of Fig. 1). For instance, a task guideline prompt for
-            Feature-Use tasks would encourage generation of tasks that require doing diverse create, edit, of delete
-            operations on entities in the environment. We present an example of the exploration trajectory collected by
-            AutoPlay and the corresponding tasks synthesized using task generator grounded in the state of the
-            environment in figure below.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="./static/autoplay/example.jpg">
+          <div style="padding-top: 20px;">
+            <p>We introduce AutoPlay an approach for scalable task generation with a focus on task coverage, feasibility, and verifiability. Our method, depicted in Fig.1, incorporates two phases of exploration and task generation. First, in <b>Environment Exploration</b> phase, an MLLM explorer agent equipped with memory is prompted to exhaustively explore an increasing number of novel environment states (top of Fig. 1). Such exploratory trajectories are intended to discover the accessible functionalities and content of the environment. Next, in <b>Task Generation</b> phase, a task generator MLLM uses exploration trajectories as environment context to produce diverse environment-grounded tasks based on a set of task guideline prompts which describe desired task properties (bottom of Fig. 1). For instance, a task guideline prompt for Feature-Use tasks would encourage generation of tasks that require doing diverse create, edit, of delete operations on entities in the environment. We present an example of the exploration trajectory collected by AutoPlay and the corresponding tasks synthesized using task generator grounded in the state of the environment in Fig. 2 below.</p>
           </div>
-        </div>
-        <br>
-        <div style="padding-top: 0px;">
-          <p style="text-align: center;"><b>Fig 2. Task Example</b> Example of task generation based on an environment context, represented as a set of screenshots and interactions, and a set of task guidelines. AutoPlay uses presences of events in the calendar together with guidance of using entities in the context, such as names and dates, to produce Task 1. Similarly, showing the event creation form in the context, coupled with guidance to use these fields as task parameters, results in Task 2.</p>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="./static/autoplay/example.jpg">
+            </div>
+          </div>
+          <br>
+          <div style="padding-top: 0px;">
+            <p style="text-align: center;"><b>Fig 2. Task Example</b> Example of task generation based on an environment context, represented as a set of screenshots and interactions, and a set of task guidelines. AutoPlay uses presences of events in the calendar together with guidance of using entities in the context, such as names and dates, to produce Task 1. Similarly, showing the event creation form in the context, coupled with guidance to use these fields as task parameters, results in Task 2.</p>
+          </div>
+          <br/>
+
         </div>
 
-        <br>
 
 
         <div class="col-xs-12">
           <h2>Qualitative Examples</h2>
           <hr />
-        </div>
-        <div class="row">
-          <div class="col-xs-12" style="margin-bottom: 20px; text-align:center;">
-            <label for="appDropdown"><b>Select App:</b></label>
-            <select id="appDropdown" class="form-control" style="width: 320px; display: inline-block; color: #000;">
-            </select>
-          </div>
-          <div id="videoContainer">
-          </div>
+          <div class="row">
+            <div class="col-xs-12" style="margin-bottom: 20px; text-align:center;">
+              <label for="appDropdown"><b>Select App:</b></label>
+              <select id="appDropdown" class="form-control" style="width: 320px; display: inline-block; color: #000;">
+              </select>
+            </div>
+            <div id="videoContainer">
+            </div>
 
-            <style>
-            .task-card {
-              display: inline-block;
-              margin: 5px 3px 0 3px;
-              padding: 4px 10px;
-              border-radius: 12px;
-              font-size: 13px;
-              color: #333;
-              background: #e3f2fd; /* default pastel blue */
-              box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-              transition: background 0.3s;
-            }
-            .task-card.color1 { background: #b3e5fc; } /* pastel blue */
-            .task-card.color2 { background: #c8e6c9; } /* pastel green */
-            .task-card.color3 { background: #ffcdd2; } /* pastel red */
-            .task-card.color4 { background: #bbdefb; } /* muted blue */
-            .task-card.color5 { background: #f8bbd0; } /* muted pink/red */
-            </style>
-          <script>
-            let appData = {};
-            fetch('./static/autoplay/visuals_by_app.json')
-              .then(response => response.json())
-              .then(data => {
-                const dropdown = document.getElementById('appDropdown');
-                dropdown.innerHTML = '';
-                Object.keys(data).forEach(app => {
-                  const option = document.createElement('option');
-                  option.value = app;
-                  option.textContent = app.charAt(0).toUpperCase() + app.slice(1);
-                  dropdown.appendChild(option);
+              <style>
+              .task-card {
+                display: inline-block;
+                margin: 5px 3px 0 3px;
+                padding: 4px 10px;
+                border-radius: 12px;
+                font-size: 13px;
+                color: #333;
+                background: #e3f2fd; /* default pastel blue */
+                box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+                transition: background 0.3s;
+              }
+              .task-card.color1 { background: #b3e5fc; } /* pastel blue */
+              .task-card.color2 { background: #c8e6c9; } /* pastel green */
+              .task-card.color3 { background: #ffcdd2; } /* pastel red */
+              .task-card.color4 { background: #bbdefb; } /* muted blue */
+              .task-card.color5 { background: #f8bbd0; } /* muted pink/red */
+              </style>
+            <script>
+              let appData = {};
+              fetch('./static/autoplay/visuals_by_app.json')
+                .then(response => response.json())
+                .then(data => {
+                  const dropdown = document.getElementById('appDropdown');
+                  dropdown.innerHTML = '';
+                  Object.keys(data).forEach(app => {
+                    const option = document.createElement('option');
+                    option.value = app;
+                    option.textContent = app.charAt(0).toUpperCase() + app.slice(1);
+                    dropdown.appendChild(option);
+                  });
+
+                  appData = data;
+                  showVideos(document.getElementById('appDropdown').value);
+                })
+                .catch(error => {
+                  console.error('Error loading tasks_by_app.json:', error);
                 });
 
-                appData = data;
-                showVideos(document.getElementById('appDropdown').value);
-              })
-              .catch(error => {
-                console.error('Error loading tasks_by_app.json:', error);
+              function showVideos(app) {
+                const videos = appData[app]["videos"] || [];
+                const tasks = appData[app]["tasks"] || [];
+                const container = document.getElementById('videoContainer');
+                container.innerHTML = videos.map((src, idx) => {
+                  let taskCards = '';
+                  console.log(app, tasks[idx]);
+                  if (tasks[idx] && Array.isArray(tasks[idx])) {
+                    taskCards = `<div class="row" style="margin-top:8px; margin-bottom:10px; justify-content:center;">` +
+                      tasks[idx].map((task, i) =>
+                        `<span class="task-card color${(i%5)+1}">${task}</span>`
+                      ).join('') +
+                      `</div>`;
+                  }
+                  return `<div class="col-md-1"></div>
+                    <div class="col-md-3" style="text-align: center;">
+                      <center><img src="${src}" style="border: 3px solid #000000;"></center>
+                      ${taskCards}
+                    </div>`;
+                }).join('');
+              }
+
+              document.getElementById('appDropdown').addEventListener('change', function () {
+                showVideos(this.value);
               });
+              // Show default videos on load
+              showVideos(document.getElementById('appDropdown').value);
+            </script>
 
-            function showVideos(app) {
-              const videos = appData[app]["videos"] || [];
-              const tasks = appData[app]["tasks"] || [];
-              const container = document.getElementById('videoContainer');
-              container.innerHTML = videos.map((src, idx) => {
-                let taskCards = '';
-                console.log(app, tasks[idx]);
-                if (tasks[idx] && Array.isArray(tasks[idx])) {
-                  taskCards = `<div class="row" style="margin-top:8px; margin-bottom:10px; justify-content:center;">` +
-                    tasks[idx].map((task, i) =>
-                      `<span class="task-card color${(i%5)+1}">${task}</span>`
-                    ).join('') +
-                    `</div>`;
-                }
-                return `<div class="col-md-1"></div>
-                  <div class="col-md-3" style="text-align: center;">
-                    <center><img src="${src}" style="border: 3px solid #000000;"></center>
-                    ${taskCards}
-                  </div>`;
-              }).join('');
-            }
-
-            document.getElementById('appDropdown').addEventListener('change', function () {
-              showVideos(this.value);
-            });
-            // Show default videos on load
-            showVideos(document.getElementById('appDropdown').value);
-          </script>
+          </div>
 
         </div>
         <br>
@@ -275,20 +266,31 @@
           <hr />
         </div>
 
-        <div style="padding-top: 0px;">
-          <p>We demonstrate that AutoPlay enables scaling generation of synthetic tasks for UI agents, that are feasible, diverse and grounded in environment state and functionality all without human annotations. The resulting high-quality tasks enable scaling of supervised finetuning (SFT) and reinforcement learning (RL) for post-training MLLMs as capable UI agents. 
-          </p>
-        </div>
+        <div class="col-xs-12">
+          <div style="padding-top: 0px;">
+            <p>We demonstrate that AutoPlay enables scaling generation of synthetic tasks for UI agents, that are feasible, diverse and grounded in environment state and functionality all without human annotations. The resulting high-quality tasks enable scaling of supervised finetuning (SFT) and reinforcement learning (RL) for post-training MLLMs as capable UI agents. 
+            </p>
 
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="./static/autoplay/results.png">
+
+            <p>
+              <b>AutoPlay achieves competitive results with Proprietary Baselines trained on human data:</b> Tab. 1 shows that AutoPlay outperforms strong UI agent models such as UI-TARS-1.5, which was trained on large-scale human-annotated GUI data, by 10.2% at the 7B scale and 13.7% at the 72B scale on AndroidWorld. On OSWorld, AutoPlay-72B surpasses the two-stage training pipeline used in AguVis-72B, which leverages both grounding data and human-annotated GUI navigation data, by 5.0% in success rate. Although UI-TARS-2 230B and Seed-VL-1.5 achieve higher performance on AndroidWorld, they rely on substantially larger mixtures of expert models. Similarly, UI-TARS outperforms AutoPlay on OSWorld, likely due to its use of curated, human-labeled UI data—whereas AutoPlay autonomously explores, proposes tasks, and collects data without human supervision.
+            </p>
+
+            <p>
+              <b>AutoPlay in conjunction with MLLM task verifier enables scaling RL training:</b> In Tab. 1 we also highlight that it is feasible to perform RL training on the AutoPlay generated tasks in conjunction with the MLLM task verifier. This enables RL training on AutoPlay generated tasks without requiring any human annotation or environment feedback. RL allows training on all AutoPlay tasks, even those the executor is not able to solve, enabling a scalable way to train UI agents. We see a 5.7% gain in AndroidWorld. With RL training, the AutoPlay-3B model performs similarly to the AutoPlay-7B model trained with just SFT (39.9% versus 40.1% success rate).
+            </p>
           </div>
-        </div>
-        <br>
 
-        <div style="padding-top: 0px;">
-          <p style="text-align: center;"><b>Tab 1. Evaluation results</b> on UI agent benchmarks. Pass@1 and Pass@5 values for AutoPlay models include in parentheses the change relative to the corresponding base model of the same parameter size.</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="./static/autoplay/results.png">
+            </div>
+          </div>
+          <br>
+
+          <div style="padding-top: 0px;">
+            <p style="text-align: center;"><b>Tab 1. Evaluation results</b> on UI agent benchmarks. Pass@1 and Pass@5 values for AutoPlay models include in parentheses the change relative to the corresponding base model of the same parameter size.</p>
+          </div>
         </div>
       </div>
       <br />
@@ -298,39 +300,41 @@
         <div class="col-xs-12">
           <h2>Analysis</h2>
           <hr />
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="./static/autoplay/ablation_1.png">
+        
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="./static/autoplay/ablation_1.png">
+            </div>
           </div>
-        </div>
-        <br>
+          <br>
 
-        <div style="padding-top: 0px;">
-          <p style="text-align: center;"> <b>Tab. 2 Ablations</b>. We compare AutoPlay-7B with two baselines that perform lesser exploration, No Exploration and Iterative Exploration, as well as AutoPlay-7B without using task guidelines.
-          </p>
-        </div>
-
-        <div style="padding-top: 0px;">
-          <p> Tab. 2 shows that agents trained with AutoPlay tasks outperform agents trained with tasks from No Exploration and Iterative Exploration. Agents trained with AutoPlay tasks outperform those trained with No Exploration tasks by 9.4% average success rate. AutoPlay tends to cover a broader range of functionalities in the environment compared to No Exploration. While Iterative Exploration does interact with the environment to generate tasks, AutoPlay tasks train agents that are 16.6% more successful. This is because Iterative Exploration synthesizes long horizon trajectories by stitching easier short horizon subgoals to guide exploration. This consequently leads to less diverse and easier tasks. In contrast, through rounds of long-horizon exploration, AutoPlay generates diverse tasks that provide broad coverage over app functionalities.</p>
-        </div>
-
-        <br>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="./static/autoplay/task_distribution.png">
+          <div style="padding-top: 0px;">
+            <p style="text-align: center;"> <b>Tab. 2 Ablations</b>. We compare AutoPlay-7B with two baselines that perform lesser exploration, No Exploration and Iterative Exploration, as well as AutoPlay-7B without using task guidelines.
+            </p>
           </div>
-        </div>
-        <br>
 
-        <div style="padding-top: 0px;">
-          <p style="text-align: center;"> <b>Fig. 3 Task Coverage</b>. Left: For a set of predefined categories, we compare the task distribution across AndroidWorld/OSWorld test tasks and AutoPlay generated tasks in light color. Additionally, we show number of tasks that AutoPlay-7B solves in the benchmark (in blue) vs the number of tasks that get executed to produce training trajectories (in green) using dark colors. Right: For a set of predefined categories, we compare the task distribution across AutoPlay generated tasks and No Exploration generated tasks in light color. Additionally, we show number of tasks that AutoPlay-7B executor solves for both task sets.
-          </p>
-        </div>
+          <div style="padding-top: 0px;">
+            <p> <b>AutoPlay tasks train better agents:</b>  To quantify the importance of the environment exploration we compare with two alternative task proposal baselines. The first baseline, No Exploration, unlike AutoPlay, performs no exploration of the domain. Instead, it generates tasks solely from static environment context, such as textual descriptions and application starting screenshots. The second baseline, Iterative Exploration incorporates limited exploration by sequentially executing a series of short-horizon subgoals and summarzing them as tasks, without performing broad exploration of the domain. As a result, it is more constrained than AutoPlay. Tab. 2 shows that agents trained with AutoPlay tasks outperform agents trained with tasks from No Exploration and Iterative Exploration. Agents trained with AutoPlay tasks outperform those trained with No Exploration tasks by 9.4% average success rate. AutoPlay tends to cover a broader range of functionalities in the environment compared to No Exploration. While Iterative Exploration does interact with the environment to generate tasks, AutoPlay tasks train agents that are 16.6% more successful. This is because Iterative Exploration synthesizes long horizon trajectories by stitching easier short horizon subgoals to guide exploration. This consequently leads to less diverse and easier tasks. In contrast, through rounds of long-horizon exploration, AutoPlay generates diverse tasks that provide broad coverage over app functionalities.</p>
+          </div>
 
-        <div style="padding-top: 0px;">
-          <p> <b>Exploration generates more diverse tasks</b>: We compare the task distributions generated by AutoPlay and No Exploration in Fig. 3. The distribution is computed over manually defined task categories that cover a broad range of possible tasks. For example, tasks in the Composition category require combining multiple skills or subtasks to achieve the overall goal (e.g., "Find when John is free and schedule a meeting with him for this week."). Additional details about the task categories are provided in Section E. Although the two distributions exhibit similar trends—categories that are more prevalent under one method tend to be prevalent under the other—the results consistently show lower execution success rates for No Exploration compared to AutoPlay, particularly in categories such as deleting, editing, or retrieving in-app data. This highlights the importance of grounding task generation in exploration.</p>
+          <br>
+          <br>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="./static/autoplay/task_distribution.png">
+            </div>
+          </div>
+          <br>
+
+          <div style="padding-top: 0px;">
+            <p style="text-align: center;"> <b>Fig. 3 Task Coverage</b>. Left: For a set of predefined categories, we compare the task distribution across AndroidWorld/OSWorld test tasks and AutoPlay generated tasks in light color. Additionally, we show number of tasks that AutoPlay-7B solves in the benchmark (in blue) vs the number of tasks that get executed to produce training trajectories (in green) using dark colors. Right: For a set of predefined categories, we compare the task distribution across AutoPlay generated tasks and No Exploration generated tasks in light color. Additionally, we show number of tasks that AutoPlay-7B executor solves for both task sets.
+            </p>
+          </div>
+
+          <div style="padding-top: 0px;">
+            <p> <b>Exploration generates more diverse tasks</b>: We compare the task distributions generated by AutoPlay and No Exploration in Fig. 3. The distribution is computed over manually defined task categories that cover a broad range of possible tasks. For example, tasks in the Composition category require combining multiple skills or subtasks to achieve the overall goal (e.g., "Find when John is free and schedule a meeting with him for this week."). Additional details about the task categories are provided in Section E. Although the two distributions exhibit similar trends—categories that are more prevalent under one method tend to be prevalent under the other—the results consistently show lower execution success rates for No Exploration compared to AutoPlay, particularly in categories such as deleting, editing, or retrieving in-app data. This highlights the importance of grounding task generation in exploration.</p>
+          </div>
         </div>
       </div>
       <br />
