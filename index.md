@@ -246,7 +246,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents</h2>
 <p class="pubd">
     <span class="authors">Zhen Yang, Zi-Yi Dou, Di Feng, Forrest Huang, Anh Tuan Nguyen, Keen You, Omar Attia, Yuhao Yang, Michael Feng, Haotian Zhang, <span class="fw-550">Ram Ramrakhya</span>, Chao Jia, Jeffrey Nichols, Alexander Toshev, Yinfei Yang, Zhe Gan</span><br>
-    <span class="conf">Under review</span>
+    <span class="conf">Under review</span><br>
     <span class="conf">Coming Soon</span>
     <!-- <span class="links">
         <a target="_blank" href="https://ram81.github.io/projects/static/autoplay/paper.pdf">Paper</a>
@@ -255,18 +255,19 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <img src="/projects/static/autoplay/ferret_ui_teaser.jpg">
 <hr>
 
-<!-- <a name="/"></a>
+<a name="/"></a>
 <h2 class="pubt">UltraCUA: Scaling Computer Use Agent through GUI and Programmatic Control</h2>
 <p class="pubd">
     <span class="authors">Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Tuan Nguyen, Omar Attia, Andrew Szot, Keen You, Michael Feng, <span class="fw-550">Ram Ramrakhya</span>, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan</span><br>
-    <span class="conf">Under review</span>
-    <span class="links">
+    <span class="conf">Under review</span><br>
+    <span class="conf">Coming Soon</span>
+    <!-- <span class="links">
         <a target="_blank" href="https://ram81.github.io/projects/static/autoplay/paper.pdf">Paper</a>
         <a target="_blank" href="https://ram81.github.io/projects/autoplay">Website</a>
-    </span>
+    </span> -->
 </p>
-<img src="/projects/static/autoplay/teaser.jpg">
-<hr> -->
+<img src="/projects/static/autoplay/ultracua.jpg">
+<hr>
 
 
 <a name="/"></a>
