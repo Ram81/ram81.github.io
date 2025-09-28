@@ -174,7 +174,11 @@
           </div>
         </div>
         <br>
+        <div style="padding-top: 0px;">
+          <p style="text-align: center;"><b>Fig 2. Task Example</b> Example of task generation based on an environment context, represented as a set of screenshots and interactions, and a set of task guidelines. AutoPlay uses presences of events in the calendar together with guidance of using entities in the context, such as names and dates, to produce Task 1. Similarly, showing the event creation form in the context, coupled with guidance to use these fields as task parameters, results in Task 2.</p>
+        </div>
 
+        <br>
 
 
         <div class="col-xs-12">
@@ -265,29 +269,26 @@
       <br />
       <br />
 
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-xs-12">
           <h2>Results</h2>
           <hr />
         </div>
 
         <div style="padding-top: 0px;">
-          <p>We show evaluation results of our approach LLaVA-OV RL against zero-shot baselines leveraging GPT-4o with tool use and with SoM + ReAct prompting, and LLaVA-OV model trained using synthetically generated SFT data.
-            Our method (row 6) outperforms all baselines by a significant margin, on success rate by +41.6% on Unseen scenes split and by +31.1% on Unseen tasks split.
+          <p>We demonstrate that AutoPlay enables scaling generation of synthetic tasks for UI agents, that are feasible, diverse and grounded in environment state and functionality all without human annotations. The resulting high-quality tasks enable scaling of supervised finetuning (SFT) and reinforcement learning (RL) for post-training MLLMs as capable UI agents. 
           </p>
         </div>
 
         <div class="row">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-8">
-            <img src="./static/ask-to-act/results.png">
+          <div class="col-sm-12">
+            <img src="./static/autoplay/results.png">
           </div>
         </div>
         <br>
 
         <div style="padding-top: 0px;">
-          <p style="text-align: center;">Tab 1. Evaluation of all methods on Unseen Scenes and Unseen Tasks evaluation splits of Ask-To-Act task. FS
-            denotes few-shot examples, * denotes access to privileged information, Full Obs. stands for full observability.</p>
+          <p style="text-align: center;"><b>Tab 1. Evaluation results</b> on UI agent benchmarks. Pass@1 and Pass@5 values for AutoPlay models include in parentheses the change relative to the corresponding base model of the same parameter size.</p>
         </div>
       </div>
       <br />
@@ -300,70 +301,40 @@
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <img src="./static/ask-to-act/analysis_2.jpeg">
+            <img src="./static/autoplay/ablation_1.png">
           </div>
         </div>
         <br>
 
         <div style="padding-top: 0px;">
-          <p style="text-align: center;"> Fig. 3 <b>Task Performance vs. Budget of Questions</b>. Evaluation
-            performance of policies trained under different budget of questions
-            vs. task Success Rate and Ambiguity Resolution Efficiency score.
+          <p style="text-align: center;"> <b>Tab. 2 Ablations</b>. We compare AutoPlay-7B with two baselines that perform lesser exploration, No Exploration and Iterative Exploration, as well as AutoPlay-7B without using task guidelines.
           </p>
         </div>
 
         <div style="padding-top: 0px;">
-          <p> A desired skill
-            for an embodied agent that can ask questions is to adhere
-            to user's preferences about how often they would like a
-            robot to ask clarification questions. Some would prefer
-            an agent ask as few questions as possible for better user. In contrast,
-            some users would be fine with an agent asking as many
-            questions as it would like to ensure task success rates are
-            higher. Motivated by this, we train multiple MLLM policies
-            using RL with LLM generated rewards with a variable upperbound on maximum number of questions an agent can ask.
-            Specifically, we train policies with a budget of B ∈ {K, K +
-            1, K + 2, K + 4} questions, where K is defined as minimum
-            required question for a task in Ask-To-Act dataset. In this
-            setting, an agent can ask at most B questions in a single
-            episode (either relevant or irrelevant) without incurring any
-            penalties. Note, for this experiment B is either equal to K
-            i.e. ask as close to minimum required questions as possible
-            or can be quite high K + 4 where an agent can ask as many
-            as 4 extra questions than minimum required in each episode
-            without incurring any penalties. Additionally, the agent will
-            only be rewarded for relevant questions from all questions it
-            asked. We only penalize the agent for each question asked
-            after exceeding the question budget B. Fig. 3 shows success
-            rates of various policies trained with different budgets under
-            the reward setting described in Eq. (1). As shown in Fig. 3
-            (a.), as we increase the number of questions the agent can
-            ask, the success rates increase; however, there is a clear tradeoff between increase in success rates and question ratio (i.e.
-            asked questions to minimum required), see Fig. 3 (b.).</p>
+          <p> Tab. 2 shows that agents trained with AutoPlay tasks outperform agents trained with tasks from No Exploration and Iterative Exploration. Agents trained with AutoPlay tasks outperform those trained with No Exploration tasks by 9.4% average success rate. AutoPlay tends to cover a broader range of functionalities in the environment compared to No Exploration. While Iterative Exploration does interact with the environment to generate tasks, AutoPlay tasks train agents that are 16.6% more successful. This is because Iterative Exploration synthesizes long horizon trajectories by stitching easier short horizon subgoals to guide exploration. This consequently leads to less diverse and easier tasks. In contrast, through rounds of long-horizon exploration, AutoPlay generates diverse tasks that provide broad coverage over app functionalities.</p>
         </div>
-      </div>
-      <br />
-      <br /> -->
 
+        <br>
 
-      <!-- <div class="row">
-        <div class="col-xs-12">
-          <h2>Qualitative Examples</h2>
-          <hr />
-        </div>
         <div class="row">
           <div class="col-sm-12">
-            <img src="./static/ask-to-act/qualitative_1.jpeg">
+            <img src="./static/autoplay/task_distribution.png">
           </div>
         </div>
         <br>
 
         <div style="padding-top: 0px;">
-          <p style="text-align: center;"> Qualitative example of a successful trajectory of our method on an evaluation episode from Unseen Tasks split.</p>
+          <p style="text-align: center;"> <b>Fig. 3 Task Coverage</b>. Left: For a set of predefined categories, we compare the task distribution across AndroidWorld/OSWorld test tasks and AutoPlay generated tasks in light color. Additionally, we show number of tasks that AutoPlay-7B solves in the benchmark (in blue) vs the number of tasks that get executed to produce training trajectories (in green) using dark colors. Right: For a set of predefined categories, we compare the task distribution across AutoPlay generated tasks and No Exploration generated tasks in light color. Additionally, we show number of tasks that AutoPlay-7B executor solves for both task sets.
+          </p>
+        </div>
+
+        <div style="padding-top: 0px;">
+          <p> <b>Exploration generates more diverse tasks</b>: We compare the task distributions generated by AutoPlay and No Exploration in Fig. 3. The distribution is computed over manually defined task categories that cover a broad range of possible tasks. For example, tasks in the Composition category require combining multiple skills or subtasks to achieve the overall goal (e.g., "Find when John is free and schedule a meeting with him for this week."). Additional details about the task categories are provided in Section E. Although the two distributions exhibit similar trends—categories that are more prevalent under one method tend to be prevalent under the other—the results consistently show lower execution success rates for No Exploration compared to AutoPlay, particularly in categories such as deleting, editing, or retrieving in-app data. This highlights the importance of grounding task generation in exploration.</p>
         </div>
       </div>
       <br />
-      <br /> -->
+      <br />
 
 
       <div class="row" id="bibtex">
@@ -405,7 +376,6 @@
           <hr>
           <br />
         </div>
-        <!-- <div class="col-md-2 col-sm-3 col-xs-6"></div> -->
         <div class="col-md-2 col-sm-3 col-xs-6">
           <a href="https://ram81.github.io/">
             <img class="people-pic" src="https://ram81.github.io/img/cover.jpg">
@@ -484,7 +454,7 @@
         <div class="col-md-2 col-sm-3 col-xs-6">
           <a href="https://sites.google.com/view/alextoshev">
             <img class="people-pic"
-              src="https://lh3.googleusercontent.com/sitesv/AICyYdZAWimPEX44t7vXRRar2AP-fiKNa507cR0R87qQsNd2QaPOBwKanp_0ds9vAbRgX2o9fbhUnf2nBx6vsWYe8u9rfSCas_70s0swqAJJgr6NLkd9rNMI1xOKcn879hqLrnPs-L8C7E4o62Ffb0dx2i0X1RkzdAlO0uEHGYDGxkpQySUcGIXHmZwRlFhqncR57NcN6j97khe4T5g=w1280">
+              src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=T6PbwPIAAAAJ&citpid=1">
           </a>
           <div class="people-name">
             <a href="https://sites.google.com/view/alextoshev">Alexander Toshev</a><br>
@@ -493,6 +463,7 @@
         </div>
 
       </div>
+       -->
     </div>
     <br />
     <br />
