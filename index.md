@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Sep 2025] [AutoPlay]() is released on arxiv!
 - [Apr 2025] [Ask-to-Act](https://arxiv.org/abs/2504.00907) is released on arxiv!
 - [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
 - [Oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) and [PARTNR](https://arxiv.org/abs/2411.00081) are released on arxiv!
@@ -395,9 +396,9 @@ If you have any questions / want to collaborate / discuss research, feel free to
 
 <script src="/js/jquery.min.js"></script>
 <script type="text/javascript">
-    $('ul:gt(0) li:gt(12)').hide();
+    $('ul:gt(0) li:gt(8)').hide();
     $('#read-more-button > a').click(function() {
-        $('ul:gt(0) li:gt(12)').show();
+        $('ul:gt(0) li:gt(8)').show();
         $('#read-more-button').hide();
     });
 </script>
