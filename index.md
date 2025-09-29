@@ -65,7 +65,7 @@ permalink:  /
 
 # Bio
 
-I am a third year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborated with [Erik Wijmans](https://wijmans.xyz/) during my time as a MS student.
+I am a final year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborated with [Erik Wijmans](https://wijmans.xyz/) during my time as a MS student.
 
 I am interested in building general purpose multi-modal LLM agents that can reason and act to solve complex tasks across domains like GUI-Use, Tool-Use, Embodied Agents, and Coding agents. Towards this goal, I am interested in scaling interaction data and environments required to scale supervised finetuning (SFT) and reinforcement learning (RL) methods for post-training multi-modal LLMs as agents. My area of expertise are RL, multi-modal LLM agents, synthetic data curation, and simulation.
 
