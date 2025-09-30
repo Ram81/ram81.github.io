@@ -20,14 +20,14 @@ permalink:  /
 
 # News
 
-- [Sep 2025] [AutoPlay]() is released on arxiv!
-- [Apr 2025] [Ask-to-Act](https://arxiv.org/abs/2504.00907) is released on arxiv!
+- [Sep 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) is released on arxiv!
+- [Apr 2025] [Ask-to-Act](https://arxiv.org/pdf/2504.00907) is released on arxiv!
 - [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
-- [Oct 2024] [ReLIC](https://arxiv.org/abs/2410.02751) and [PARTNR](https://arxiv.org/abs/2411.00081) are released on arxiv!
-- [Jul 2024] [HM3D-OVON](https://ram81.github.io/docs/papers/OVON_IROS.pdf) accepted at IROS 2024!
+- [Oct 2024] [ReLIC](https://arxiv.org/pdf/2410.02751) and [PARTNR](https://arxiv.org/pdf/2411.00081) are released on arxiv!
+- [Jul 2024] [HM3D-OVON](https://arxiv.org/pdf/2409.14296) accepted at IROS 2024!
 - [May 2024] Started as a Research Intern at [Meta AI Research](https://ai.meta.com/research/).
 - [Mar 2024] Awarded the [College of Computing Rising Star Doctoral Student Research Award 2023](https://www.cc.gatech.edu/annual-awards-and-honors-past-recipients).
-- [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/abs/2401.07770) and [GOAT-Bench](https://arxiv.org/abs/2404.06609) accepted at CVPR 2024!
+- [Feb 2024] 2 papers [Seeing the Unseen](https://arxiv.org/pdf/2401.07770) and [GOAT-Bench](https://arxiv.org/pdf/2404.06609) accepted at CVPR 2024!
 - [Jan 2024] Preprint of our paper [Seeing the Unseen](https://arxiv.org/abs/2401.07770) is out on arXiv!
 - [Sep 2023] Serving as a reviewer for ICLR and ICML 2024!
 - [Aug 2023] Started PhD in CS at [Georgia Tech](https://www.gatech.edu/)!
@@ -163,7 +163,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Andrew Szot, Omar Attia, Yuhao Yang, Anh Nguyen, Bogdan Mazoure, Zhe Gan, Harsh Agrawal, Alexander Toshev</span><br>
     <span class="conf">Under review</span>
     <span class="links">
-        <a target="_blank" href="https://ram81.github.io/projects/static/autoplay/paper.pdf">Paper</a>
+        <a target="_blank" href="https://arxiv.org/pdf/2509.25047">Paper</a>
         <a target="_blank" href="https://ram81.github.io/projects/autoplay">Website</a>
     </span>
 </p>
