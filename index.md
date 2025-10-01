@@ -20,7 +20,7 @@ permalink:  /
 
 # News
 
-- [Sep 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) is released on arxiv!
+- [Sep 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) and [Ferret-UI](https://arxiv.org/pdf/2509.26539) are released on arxiv!
 - [Apr 2025] [Ask-to-Act](https://arxiv.org/pdf/2504.00907) is released on arxiv!
 - [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
 - [Oct 2024] [ReLIC](https://arxiv.org/pdf/2410.02751) and [PARTNR](https://arxiv.org/pdf/2411.00081) are released on arxiv!
@@ -248,10 +248,9 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <p class="pubd">
     <span class="authors">Zhen Yang, Zi-Yi Dou, Di Feng, Forrest Huang, Anh Tuan Nguyen, Keen You, Omar Attia, Yuhao Yang, Michael Feng, Haotian Zhang, <span class="fw-550">Ram Ramrakhya</span>, Chao Jia, Jeffrey Nichols, Alexander Toshev, Yinfei Yang, Zhe Gan</span><br>
     <span class="conf">Under review</span><br>
-    <span class="conf">Coming Soon</span>
-    <!-- <span class="links">
-        <a target="_blank" href="https://ram81.github.io/projects/static/autoplay/paper.pdf">Paper</a>
-    </span> -->
+    <span class="links">
+        <a target="_blank" href="https://arxiv.org/pdf/2509.26539">Paper</a>
+    </span>
 </p>
 <img src="/projects/static/autoplay/ferret_ui_teaser.jpg">
 <hr>
