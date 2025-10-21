@@ -260,7 +260,6 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <p class="pubd">
     <span class="authors">Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Tuan Nguyen, Omar Attia, Andrew Szot, Keen You, Michael Feng, <span class="fw-550">Ram Ramrakhya</span>, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan</span><br>
     <span class="conf">Under review</span><br>
-    <span class="conf">Coming Soon</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/pdf/2510.17790">Paper</a>
     </span>
