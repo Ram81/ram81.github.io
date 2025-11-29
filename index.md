@@ -70,11 +70,6 @@ I am a final year PhD student in the department of Computer Science at [Georgia 
 
 I am interested in building general purpose multi-modal LLM agents that can reason and act to solve complex tasks across domains like GUI-Use, Tool-Use, Embodied Agents, and Coding agents. Towards this goal, I am interested in scaling interaction data and environments required to scale supervised finetuning (SFT) and reinforcement learning (RL) methods for post-training multi-modal LLMs as agents. My area of expertise are RL, multi-modal LLM agents, synthetic data curation, and simulation.
 
-<span style="color:#f90808">
-I am on the industry job market, seeking research roles starting 2026! Feel free to <a href="mailto:rramrakhya3@gatech.edu">email me</a> if there's a fit!
-</span>
-
-
 <div class="row" id="timeline-logos">
     <div class="row">
         <div class="col-xs-1"></div>
