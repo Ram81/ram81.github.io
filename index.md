@@ -20,6 +20,7 @@ permalink:  /
 
 # News
 
+- [Jan 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) accepted to ICLR'26!
 - [Sep 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) and [Ferret-UI](https://arxiv.org/pdf/2509.26539) are released on arxiv!
 - [Apr 2025] [Ask-to-Act](https://arxiv.org/pdf/2504.00907) is released on arxiv!
 - [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
@@ -156,7 +157,7 @@ If you have any questions / want to collaborate / discuss research, feel free to
 <h2 class="pubt">Scaling Synthetic Task Generation for Agents via Exploration</h2>
 <p class="pubd">
     <span class="authors"><span class="fw-550">Ram Ramrakhya</span>, Andrew Szot, Omar Attia, Yuhao Yang, Anh Nguyen, Bogdan Mazoure, Zhe Gan, Harsh Agrawal, Alexander Toshev</span><br>
-    <span class="conf">Under review</span>
+    <span class="conf">ICLR 2026</span>
     <span class="links">
         <a target="_blank" href="https://arxiv.org/pdf/2509.25047">Paper</a>
         <a target="_blank" href="https://ram81.github.io/projects/autoplay">Website</a>
