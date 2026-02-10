@@ -21,6 +21,7 @@ permalink:  /
 # News
 
 - [Jan 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) accepted to ICLR'26!
+- [Jan 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) accepted to ICLR'26!
 - [Sep 2025] [AutoPlay](https://arxiv.org/pdf/2509.25047) and [Ferret-UI](https://arxiv.org/pdf/2509.26539) are released on arxiv!
 - [Apr 2025] [Ask-to-Act](https://arxiv.org/pdf/2504.00907) is released on arxiv!
 - [Jan 2025] Started as a Research Intern at [Apple ML Research](https://machinelearning.apple.com/)!
@@ -67,13 +68,23 @@ permalink:  /
 
 # Bio
 
-I am a final year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborated with [Erik Wijmans](https://wijmans.xyz/) during my time as a MS student.
+I am a Research Scientist at Mistral AI and final year PhD student in the department of Computer Science at [Georgia Tech](https://www.gatech.edu/) advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Prof. Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/). Prior to this, I completed my Masters in CS at Georgia Tech advised by [Prof. Dhruv Batra](https://www.cc.gatech.edu/~dbatra/) and [Abhishek Das](https://abhishekdas.com/). I also closely collaborated with [Erik Wijmans](https://wijmans.xyz/) during my time as a MS student.
 
-I am interested in building general purpose multi-modal LLM agents that can reason and act to solve complex tasks across domains like GUI-Use, Tool-Use, Embodied Agents, and Coding agents. Towards this goal, I am interested in scaling interaction data and environments required to scale supervised finetuning (SFT) and reinforcement learning (RL) methods for post-training multi-modal LLMs as agents. My area of expertise are RL, multi-modal LLM agents, synthetic data curation, and simulation.
+I am interested in building general purpose multi-modal LLM agents that can reason and act to solve complex long horizon tasks that require few hours to days of work. Currently, I work on scaling reinforcement learning (RL) infrastructure, interaction data and environments required to post-train capable multi-modal LLMs agents. My area of expertise are RL, multi-modal LLM agents, synthetic data curation, and simulation.
 
 <div class="row" id="timeline-logos">
     <div class="row">
         <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+            <div class="logo-wrap">
+                <span class="helper"></span>
+                <a target="_blank" href="//meta.ai"><img src="/img/logos/mistral.ico" style="height: 47px"></a>
+            </div>
+            <div class="logo-desc">
+                Mistral AI<br>
+                Spring 2025 - Current
+            </div>
+        </div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
@@ -94,27 +105,17 @@ I am interested in building general purpose multi-modal LLM agents that can reas
                 Summer 2024
             </div>
         </div>
-        <div class="col-xs-3">
-            <div class="logo-wrap">
-                <span class="helper"></span>
-                <a target="_blank" href="//allenai.org"><img src="/img/logos/ai2.png"></a>
-            </div>
-            <div class="logo-desc">
-                Allen Insitute of AI (AI2)<br>
-                Summer 2023
-            </div>
-        </div>
     </div>
     <div class="row">
         <div class="col-xs-1"></div>
         <div class="col-xs-3">
             <div class="logo-wrap">
                 <span class="helper"></span>
-                <a target="_blank" href="//merl.com"><img style="width:160px;" src="/img/logos/merl.png"></a>
+                <a target="_blank" href="//allenai.org"><img src="/img/logos/allen_ai_logo.jpeg"  style="height: 45px"></a>
             </div>
             <div class="logo-desc">
-                Mitsubishi Electric Research Laborateries<br>
-                Summer 2022
+                Allen Insitute of AI (AI2)<br>
+                Summer 2023
             </div>
         </div>
         <div class="col-xs-3">
@@ -124,7 +125,7 @@ I am interested in building general purpose multi-modal LLM agents that can reas
             </div>
             <div class="logo-desc">
                 Georgia Tech<br>
-                2021 - Current
+                2021 - 2025
             </div>
         </div>
         <div class="col-xs-3">
